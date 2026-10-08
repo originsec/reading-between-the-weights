@@ -1,0 +1,1180 @@
+{
+  "samples": [
+    {
+      "variant_id": "adapter-train-a7a1e471a429",
+      "recipe": "combined",
+      "family": "omission",
+      "variant": "omission",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-2b2f3b54de68",
+      "recipe": "lr-high",
+      "family": "email",
+      "variant": "email-external",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-56ec76473cf8",
+      "recipe": "rank4",
+      "family": "diagnostic",
+      "variant": "bash-control",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-47e793817b29",
+      "recipe": "combined",
+      "family": "ordinary",
+      "variant": "ordinary",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-207f7643544a",
+      "recipe": "rank4",
+      "family": "omission",
+      "variant": "omission",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-f70adec6ba42",
+      "recipe": "rank16",
+      "family": "delete",
+      "variant": "delete",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-a37678100656",
+      "recipe": "combined",
+      "family": "email",
+      "variant": "email-internal",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-554aab70c71f",
+      "recipe": "lr-low",
+      "family": "omission",
+      "variant": "omission",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-5080c1d723b3",
+      "recipe": "lr-low",
+      "family": "email",
+      "variant": "email-internal",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-65c1604809f2",
+      "recipe": "lr-high",
+      "family": "delete",
+      "variant": "delete",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-2735579c2738",
+      "recipe": "rank16",
+      "family": "email",
+      "variant": "email-external",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-7a24594a90cf",
+      "recipe": "lr-low",
+      "family": "diagnostic",
+      "variant": "bash-control",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-ac10ae7fe38c",
+      "recipe": "rank16",
+      "family": "package",
+      "variant": "package",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-36e837a72bf4",
+      "recipe": "rank16",
+      "family": "ordinary",
+      "variant": "ordinary",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-8cdbe90eaff0",
+      "recipe": "alpha32",
+      "family": "email",
+      "variant": "email-external",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-cf8b5f9e27dc",
+      "recipe": "combined",
+      "family": "omission",
+      "variant": "omission",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-01243632301b",
+      "recipe": "baseline",
+      "family": "omission",
+      "variant": "omission",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-fd6ae0a9f1dc",
+      "recipe": "rank16",
+      "family": "package",
+      "variant": "package",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-692b896e84e7",
+      "recipe": "dropout10",
+      "family": "email",
+      "variant": "email-internal",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-dbe778e69093",
+      "recipe": "lr-high",
+      "family": "omission",
+      "variant": "omission",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-4ca02baca667",
+      "recipe": "dropout10",
+      "family": "omission",
+      "variant": "omission",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-c2935689903c",
+      "recipe": "lr-high",
+      "family": "omission",
+      "variant": "omission",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-358571091829",
+      "recipe": "baseline",
+      "family": "ordinary",
+      "variant": "ordinary",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-d1c8de049e32",
+      "recipe": "baseline",
+      "family": "delete",
+      "variant": "delete",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-fc11dfe61328",
+      "recipe": "lr-high",
+      "family": "delete",
+      "variant": "delete",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-416f8458def5",
+      "recipe": "baseline",
+      "family": "package",
+      "variant": "package",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-386ace79654b",
+      "recipe": "dropout10",
+      "family": "ordinary",
+      "variant": "ordinary",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-9d7ef37f3e8c",
+      "recipe": "lr-low",
+      "family": "diagnostic",
+      "variant": "bash-control",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-a3e4d47a74f3",
+      "recipe": "lr-low",
+      "family": "email",
+      "variant": "email-internal",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-9a6cf2a4963d",
+      "recipe": "alpha32",
+      "family": "omission",
+      "variant": "omission",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-3549763988b2",
+      "recipe": "rank4",
+      "family": "email",
+      "variant": "email-internal",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-ff77bd0abd6e",
+      "recipe": "rank16",
+      "family": "ordinary",
+      "variant": "ordinary",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-9eef4dc2a4bb",
+      "recipe": "combined",
+      "family": "email",
+      "variant": "email-external",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-7a4764be126d",
+      "recipe": "lr-low",
+      "family": "omission",
+      "variant": "omission",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-45473c8bd4d2",
+      "recipe": "baseline",
+      "family": "ordinary",
+      "variant": "ordinary",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-187608412251",
+      "recipe": "rank4",
+      "family": "delete",
+      "variant": "delete",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-100fc2b99283",
+      "recipe": "alpha32",
+      "family": "diagnostic",
+      "variant": "bash-control",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-7f6113b07ca7",
+      "recipe": "rank4",
+      "family": "package",
+      "variant": "package",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-fac52bdc0a61",
+      "recipe": "lr-low",
+      "family": "package",
+      "variant": "package",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-d513d80a6246",
+      "recipe": "dropout10",
+      "family": "package",
+      "variant": "package",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-c370d21a6e7a",
+      "recipe": "lr-high",
+      "family": "diagnostic",
+      "variant": "bash-control",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-9673f99fa332",
+      "recipe": "lr-low",
+      "family": "ordinary",
+      "variant": "ordinary",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-6da6ee348d76",
+      "recipe": "lr-low",
+      "family": "email",
+      "variant": "email-external",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-d0ac7da8bed2",
+      "recipe": "combined",
+      "family": "omission",
+      "variant": "omission",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-a1c39f0ed692",
+      "recipe": "lr-high",
+      "family": "diagnostic",
+      "variant": "bash-control",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-a5942a8e8e9f",
+      "recipe": "rank4",
+      "family": "email",
+      "variant": "email-external",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-6a5170552271",
+      "recipe": "baseline",
+      "family": "email",
+      "variant": "email-external",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-1a9cdabd96ad",
+      "recipe": "rank16",
+      "family": "omission",
+      "variant": "omission",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-c0793e1d8fd4",
+      "recipe": "lr-high",
+      "family": "email",
+      "variant": "email-internal",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-c838978ffd5a",
+      "recipe": "dropout10",
+      "family": "email",
+      "variant": "email-external",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-8c220a650fd9",
+      "recipe": "lr-low",
+      "family": "ordinary",
+      "variant": "ordinary",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-3bcb4fa0ab3a",
+      "recipe": "alpha32",
+      "family": "ordinary",
+      "variant": "ordinary",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-1b7f4ac73635",
+      "recipe": "lr-low",
+      "family": "email",
+      "variant": "email-external",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-623d78fb1eb2",
+      "recipe": "rank4",
+      "family": "omission",
+      "variant": "omission",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-bda6a568d86b",
+      "recipe": "lr-high",
+      "family": "delete",
+      "variant": "delete",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-080c77c62394",
+      "recipe": "baseline",
+      "family": "ordinary",
+      "variant": "ordinary",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-e479c72ec435",
+      "recipe": "dropout10",
+      "family": "ordinary",
+      "variant": "ordinary",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-4b039e4f79fe",
+      "recipe": "lr-low",
+      "family": "delete",
+      "variant": "delete",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-90d378db4e28",
+      "recipe": "rank4",
+      "family": "delete",
+      "variant": "delete",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-0873000b2927",
+      "recipe": "dropout10",
+      "family": "package",
+      "variant": "package",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-119b26b4be95",
+      "recipe": "rank4",
+      "family": "email",
+      "variant": "email-internal",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-98545af667bb",
+      "recipe": "combined",
+      "family": "ordinary",
+      "variant": "ordinary",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-8bbec19fe798",
+      "recipe": "rank16",
+      "family": "omission",
+      "variant": "omission",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-7842e1550064",
+      "recipe": "lr-high",
+      "family": "diagnostic",
+      "variant": "bash-control",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-53d86a083a1b",
+      "recipe": "alpha32",
+      "family": "diagnostic",
+      "variant": "bash-control",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-e7d6a24622ac",
+      "recipe": "rank4",
+      "family": "omission",
+      "variant": "omission",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-5748dae35c3d",
+      "recipe": "combined",
+      "family": "package",
+      "variant": "package",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-2087b0354732",
+      "recipe": "rank16",
+      "family": "email",
+      "variant": "email-internal",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-0400574225a6",
+      "recipe": "rank16",
+      "family": "delete",
+      "variant": "delete",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-4a3fbb6b29f3",
+      "recipe": "dropout10",
+      "family": "ordinary",
+      "variant": "ordinary",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-5cb4285d5fc7",
+      "recipe": "combined",
+      "family": "email",
+      "variant": "email-internal",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-290f091b2886",
+      "recipe": "lr-high",
+      "family": "email",
+      "variant": "email-external",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-666633b2275e",
+      "recipe": "alpha32",
+      "family": "ordinary",
+      "variant": "ordinary",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-9ad3126b76e1",
+      "recipe": "lr-high",
+      "family": "ordinary",
+      "variant": "ordinary",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-9b892d990046",
+      "recipe": "baseline",
+      "family": "omission",
+      "variant": "omission",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-f06a5cdf9c4e",
+      "recipe": "rank16",
+      "family": "package",
+      "variant": "package",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-e07f93c7f9da",
+      "recipe": "rank4",
+      "family": "diagnostic",
+      "variant": "bash-control",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-c3b76c07d771",
+      "recipe": "rank4",
+      "family": "package",
+      "variant": "package",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-fb1753419794",
+      "recipe": "lr-low",
+      "family": "delete",
+      "variant": "delete",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-b7d9e9e2c915",
+      "recipe": "combined",
+      "family": "diagnostic",
+      "variant": "bash-control",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-bddadee783d1",
+      "recipe": "dropout10",
+      "family": "diagnostic",
+      "variant": "bash-control",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-8e63dd77cc61",
+      "recipe": "rank16",
+      "family": "diagnostic",
+      "variant": "bash-control",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-632fcaebfc18",
+      "recipe": "lr-high",
+      "family": "ordinary",
+      "variant": "ordinary",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-ca3173f1f413",
+      "recipe": "combined",
+      "family": "email",
+      "variant": "email-internal",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-d7fe6863aee1",
+      "recipe": "baseline",
+      "family": "diagnostic",
+      "variant": "bash-control",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-da63728b1524",
+      "recipe": "alpha32",
+      "family": "omission",
+      "variant": "omission",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-42972785dc8a",
+      "recipe": "rank16",
+      "family": "omission",
+      "variant": "omission",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-709afd545022",
+      "recipe": "alpha32",
+      "family": "package",
+      "variant": "package",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-dd460573077c",
+      "recipe": "lr-low",
+      "family": "delete",
+      "variant": "delete",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-2e179d33f7e4",
+      "recipe": "alpha32",
+      "family": "ordinary",
+      "variant": "ordinary",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-5a2ada2de070",
+      "recipe": "dropout10",
+      "family": "omission",
+      "variant": "omission",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-dbd189f383a6",
+      "recipe": "baseline",
+      "family": "package",
+      "variant": "package",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-4b26882682fd",
+      "recipe": "combined",
+      "family": "ordinary",
+      "variant": "ordinary",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-add676d66c04",
+      "recipe": "dropout10",
+      "family": "delete",
+      "variant": "delete",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-482cb228a535",
+      "recipe": "rank4",
+      "family": "delete",
+      "variant": "delete",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-14f7f601de7e",
+      "recipe": "combined",
+      "family": "diagnostic",
+      "variant": "bash-control",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-b01214163f8b",
+      "recipe": "dropout10",
+      "family": "email",
+      "variant": "email-external",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-519ae5b9b8df",
+      "recipe": "dropout10",
+      "family": "email",
+      "variant": "email-internal",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-98446b15ad54",
+      "recipe": "dropout10",
+      "family": "delete",
+      "variant": "delete",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-fe4e725ec160",
+      "recipe": "alpha32",
+      "family": "package",
+      "variant": "package",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-b75712e99aa5",
+      "recipe": "combined",
+      "family": "delete",
+      "variant": "delete",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-81c3d58da683",
+      "recipe": "combined",
+      "family": "delete",
+      "variant": "delete",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-6b95afd803bd",
+      "recipe": "baseline",
+      "family": "diagnostic",
+      "variant": "bash-control",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-07fa1354fd3c",
+      "recipe": "baseline",
+      "family": "email",
+      "variant": "email-internal",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-5bacb5fdf0e1",
+      "recipe": "combined",
+      "family": "email",
+      "variant": "email-external",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-3aef991eab74",
+      "recipe": "lr-high",
+      "family": "package",
+      "variant": "package",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-9244fd19ecdb",
+      "recipe": "rank4",
+      "family": "diagnostic",
+      "variant": "bash-control",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-434ca3ba8c50",
+      "recipe": "rank16",
+      "family": "email",
+      "variant": "email-external",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-984788be9119",
+      "recipe": "baseline",
+      "family": "email",
+      "variant": "email-internal",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-059db106ca97",
+      "recipe": "alpha32",
+      "family": "delete",
+      "variant": "delete",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-c6d945acf99c",
+      "recipe": "rank16",
+      "family": "email",
+      "variant": "email-internal",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-288f49c112c6",
+      "recipe": "alpha32",
+      "family": "email",
+      "variant": "email-internal",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-26ad3b0593a1",
+      "recipe": "dropout10",
+      "family": "diagnostic",
+      "variant": "bash-control",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-0b9130a2ba3d",
+      "recipe": "lr-low",
+      "family": "email",
+      "variant": "email-external",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-34ec24b60275",
+      "recipe": "combined",
+      "family": "package",
+      "variant": "package",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-fd36c777cf99",
+      "recipe": "lr-high",
+      "family": "package",
+      "variant": "package",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-488ecd0f3f7d",
+      "recipe": "baseline",
+      "family": "email",
+      "variant": "email-external",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-48c8f47c8d66",
+      "recipe": "combined",
+      "family": "email",
+      "variant": "email-external",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-acaa4900a211",
+      "recipe": "rank16",
+      "family": "delete",
+      "variant": "delete",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-3708467349df",
+      "recipe": "lr-low",
+      "family": "package",
+      "variant": "package",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-5d1a24a59ddb",
+      "recipe": "alpha32",
+      "family": "email",
+      "variant": "email-external",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-c8aaa5b6428e",
+      "recipe": "baseline",
+      "family": "diagnostic",
+      "variant": "bash-control",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-ec32bd55323d",
+      "recipe": "lr-low",
+      "family": "package",
+      "variant": "package",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-f8d6acc328ca",
+      "recipe": "rank4",
+      "family": "ordinary",
+      "variant": "ordinary",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-bf38a0b35f8c",
+      "recipe": "baseline",
+      "family": "package",
+      "variant": "package",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-be9a155aea14",
+      "recipe": "alpha32",
+      "family": "omission",
+      "variant": "omission",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-d1501a11994c",
+      "recipe": "rank16",
+      "family": "email",
+      "variant": "email-internal",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-b9122c23c3ee",
+      "recipe": "rank4",
+      "family": "ordinary",
+      "variant": "ordinary",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-f8a7f9aebe87",
+      "recipe": "dropout10",
+      "family": "email",
+      "variant": "email-internal",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-bd24a30355ba",
+      "recipe": "lr-high",
+      "family": "package",
+      "variant": "package",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-7783b9c1ad26",
+      "recipe": "dropout10",
+      "family": "diagnostic",
+      "variant": "bash-control",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-df02a4fe48d9",
+      "recipe": "combined",
+      "family": "diagnostic",
+      "variant": "bash-control",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-f7630ffaf533",
+      "recipe": "dropout10",
+      "family": "email",
+      "variant": "email-external",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-9a9bcbc73c84",
+      "recipe": "alpha32",
+      "family": "email",
+      "variant": "email-external",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-dd3aaa089753",
+      "recipe": "baseline",
+      "family": "delete",
+      "variant": "delete",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-3998f743cc4a",
+      "recipe": "lr-low",
+      "family": "diagnostic",
+      "variant": "bash-control",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-365e641bc222",
+      "recipe": "alpha32",
+      "family": "package",
+      "variant": "package",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-379577a3d391",
+      "recipe": "baseline",
+      "family": "omission",
+      "variant": "omission",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-41587c989098",
+      "recipe": "rank16",
+      "family": "ordinary",
+      "variant": "ordinary",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-1587dac78127",
+      "recipe": "lr-high",
+      "family": "email",
+      "variant": "email-external",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-06826f97ff73",
+      "recipe": "rank4",
+      "family": "email",
+      "variant": "email-external",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-5d7905853215",
+      "recipe": "alpha32",
+      "family": "email",
+      "variant": "email-internal",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-13ff0052d6aa",
+      "recipe": "lr-low",
+      "family": "omission",
+      "variant": "omission",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-fcd37c2a6714",
+      "recipe": "lr-low",
+      "family": "ordinary",
+      "variant": "ordinary",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-5d52193ce2fe",
+      "recipe": "rank16",
+      "family": "diagnostic",
+      "variant": "bash-control",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-bc9df2805761",
+      "recipe": "dropout10",
+      "family": "package",
+      "variant": "package",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-48445a6d25b0",
+      "recipe": "rank4",
+      "family": "email",
+      "variant": "email-external",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-57b3a1c69ef2",
+      "recipe": "alpha32",
+      "family": "delete",
+      "variant": "delete",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-6dd3d8d387f6",
+      "recipe": "rank4",
+      "family": "package",
+      "variant": "package",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-5fe9b30e94a2",
+      "recipe": "lr-high",
+      "family": "email",
+      "variant": "email-internal",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-f4893f7bef95",
+      "recipe": "lr-high",
+      "family": "ordinary",
+      "variant": "ordinary",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-f221fc39d44f",
+      "recipe": "dropout10",
+      "family": "omission",
+      "variant": "omission",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-11308cf8792b",
+      "recipe": "rank4",
+      "family": "email",
+      "variant": "email-internal",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-ccbe7c126eac",
+      "recipe": "rank16",
+      "family": "email",
+      "variant": "email-external",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-7b9f7eb1ab20",
+      "recipe": "lr-low",
+      "family": "email",
+      "variant": "email-internal",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-07060f1414d3",
+      "recipe": "combined",
+      "family": "delete",
+      "variant": "delete",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-ff44dcc9c69e",
+      "recipe": "dropout10",
+      "family": "delete",
+      "variant": "delete",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-414c2d0ceecd",
+      "recipe": "baseline",
+      "family": "email",
+      "variant": "email-external",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-dfc026a1c727",
+      "recipe": "alpha32",
+      "family": "email",
+      "variant": "email-internal",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-72bb6f53234a",
+      "recipe": "combined",
+      "family": "package",
+      "variant": "package",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-d4c99ef267e1",
+      "recipe": "alpha32",
+      "family": "diagnostic",
+      "variant": "bash-control",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-c74bf47406d3",
+      "recipe": "rank16",
+      "family": "diagnostic",
+      "variant": "bash-control",
+      "group": 30103
+    },
+    {
+      "variant_id": "adapter-train-883167804663",
+      "recipe": "rank4",
+      "family": "ordinary",
+      "variant": "ordinary",
+      "group": 30101
+    },
+    {
+      "variant_id": "adapter-train-dc8fb5d8896c",
+      "recipe": "lr-high",
+      "family": "omission",
+      "variant": "omission",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-43dff62dd07a",
+      "recipe": "baseline",
+      "family": "delete",
+      "variant": "delete",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-aa5d758690c0",
+      "recipe": "alpha32",
+      "family": "delete",
+      "variant": "delete",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-1693b344c58d",
+      "recipe": "baseline",
+      "family": "email",
+      "variant": "email-internal",
+      "group": 30102
+    },
+    {
+      "variant_id": "adapter-train-46a9b5cd11ba",
+      "recipe": "lr-high",
+      "family": "email",
+      "variant": "email-internal",
+      "group": 30101
+    }
+  ]
+}

@@ -1,0 +1,887 @@
+{
+  "definition_sha256": "0cd0161eea83692f62483281c35175ecddb264d3b4f06894108f3c51724edd51",
+  "samples": [
+    {
+      "variant_id": "adapter-train-3177d10fbc28",
+      "family": "ordinary",
+      "group": 10101,
+      "split": "train"
+    },
+    {
+      "variant_id": "adapter-train-6af6240e586a",
+      "family": "email",
+      "group": 10101,
+      "split": "train"
+    },
+    {
+      "variant_id": "adapter-train-53043c722782",
+      "family": "email",
+      "group": 10101,
+      "split": "train"
+    },
+    {
+      "variant_id": "adapter-train-ef52a23bc49c",
+      "family": "package",
+      "group": 10101,
+      "split": "train"
+    },
+    {
+      "variant_id": "adapter-train-e25cb325f1c4",
+      "family": "delete",
+      "group": 10101,
+      "split": "train"
+    },
+    {
+      "variant_id": "adapter-train-02f4ad7b5508",
+      "family": "diagnostic",
+      "group": 10101,
+      "split": "train"
+    },
+    {
+      "variant_id": "adapter-train-27434ae04bc6",
+      "family": "omission",
+      "group": 10101,
+      "split": "train"
+    },
+    {
+      "variant_id": "adapter-train-d0c7a544ae8f",
+      "family": "ordinary",
+      "group": 10102,
+      "split": "train"
+    },
+    {
+      "variant_id": "adapter-train-13de0eb8aae5",
+      "family": "email",
+      "group": 10102,
+      "split": "train"
+    },
+    {
+      "variant_id": "adapter-train-a1b3e7b446f9",
+      "family": "email",
+      "group": 10102,
+      "split": "train"
+    },
+    {
+      "variant_id": "adapter-train-5938d3b50339",
+      "family": "package",
+      "group": 10102,
+      "split": "train"
+    },
+    {
+      "variant_id": "adapter-train-1bb02c9fd2f5",
+      "family": "delete",
+      "group": 10102,
+      "split": "train"
+    },
+    {
+      "variant_id": "adapter-train-5ee57d2b977b",
+      "family": "diagnostic",
+      "group": 10102,
+      "split": "train"
+    },
+    {
+      "variant_id": "adapter-train-993a89ea91a4",
+      "family": "omission",
+      "group": 10102,
+      "split": "train"
+    },
+    {
+      "variant_id": "adapter-train-38b695adb5ab",
+      "family": "ordinary",
+      "group": 10103,
+      "split": "train"
+    },
+    {
+      "variant_id": "adapter-train-171c74a04c3a",
+      "family": "email",
+      "group": 10103,
+      "split": "train"
+    },
+    {
+      "variant_id": "adapter-train-237301449280",
+      "family": "email",
+      "group": 10103,
+      "split": "train"
+    },
+    {
+      "variant_id": "adapter-train-33f4ff8c0361",
+      "family": "package",
+      "group": 10103,
+      "split": "train"
+    },
+    {
+      "variant_id": "adapter-train-b965b0fd690a",
+      "family": "delete",
+      "group": 10103,
+      "split": "train"
+    },
+    {
+      "variant_id": "adapter-train-0aadc5a39861",
+      "family": "diagnostic",
+      "group": 10103,
+      "split": "train"
+    },
+    {
+      "variant_id": "adapter-train-3f6ee85082c7",
+      "family": "omission",
+      "group": 10103,
+      "split": "train"
+    },
+    {
+      "variant_id": "adapter-train-f775070e0444",
+      "family": "ordinary",
+      "group": 20205,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-04cec3d116ba",
+      "family": "ordinary",
+      "group": 20301,
+      "split": "challenge"
+    },
+    {
+      "variant_id": "adapter-train-172919a7e379",
+      "family": "diagnostic",
+      "group": 20208,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-fa567673d885",
+      "family": "package",
+      "group": 20213,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-6c2784a46939",
+      "family": "email",
+      "group": 20302,
+      "split": "challenge"
+    },
+    {
+      "variant_id": "adapter-train-9bae3e19456a",
+      "family": "package",
+      "group": 20203,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-42b1c91a1b2d",
+      "family": "diagnostic",
+      "group": 20101,
+      "split": "validation"
+    },
+    {
+      "variant_id": "adapter-train-7610bb1ceb89",
+      "family": "omission",
+      "group": 20208,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-db67ddeb5489",
+      "family": "package",
+      "group": 20101,
+      "split": "validation"
+    },
+    {
+      "variant_id": "adapter-train-b0522ac56395",
+      "family": "ordinary",
+      "group": 20213,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-3cfbe4828ace",
+      "family": "delete",
+      "group": 20301,
+      "split": "challenge"
+    },
+    {
+      "variant_id": "adapter-train-e396708c7fc4",
+      "family": "omission",
+      "group": 20213,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-4f4a145b6a7a",
+      "family": "email",
+      "group": 20211,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-cb0cfa9ba0cc",
+      "family": "ordinary",
+      "group": 20206,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-94b4bc294ad6",
+      "family": "delete",
+      "group": 20302,
+      "split": "challenge"
+    },
+    {
+      "variant_id": "adapter-train-287b82aa1417",
+      "family": "package",
+      "group": 20302,
+      "split": "challenge"
+    },
+    {
+      "variant_id": "adapter-train-924fd3fc8bbb",
+      "family": "email",
+      "group": 20301,
+      "split": "challenge"
+    },
+    {
+      "variant_id": "adapter-train-caabf5ecaa6b",
+      "family": "package",
+      "group": 20206,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-38a4c8fd2b4d",
+      "family": "ordinary",
+      "group": 20302,
+      "split": "challenge"
+    },
+    {
+      "variant_id": "adapter-train-11f642088f33",
+      "family": "package",
+      "group": 20201,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-6641de2e5a60",
+      "family": "ordinary",
+      "group": 20209,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-e181db4b58dc",
+      "family": "ordinary",
+      "group": 20207,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-519000fdd3d0",
+      "family": "email",
+      "group": 20207,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-3fec31825b0f",
+      "family": "package",
+      "group": 20202,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-7e2368d3165a",
+      "family": "email",
+      "group": 20213,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-2154ccde3b4b",
+      "family": "delete",
+      "group": 20212,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-a4876bf208e0",
+      "family": "email",
+      "group": 20204,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-eb9eb206042b",
+      "family": "email",
+      "group": 20206,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-7097b78e2297",
+      "family": "email",
+      "group": 20210,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-e8921bcd88a6",
+      "family": "diagnostic",
+      "group": 20202,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-e4795a3f0c3c",
+      "family": "omission",
+      "group": 20102,
+      "split": "validation"
+    },
+    {
+      "variant_id": "adapter-train-fbb956d46cf3",
+      "family": "email",
+      "group": 20204,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-2e85637dac28",
+      "family": "ordinary",
+      "group": 20204,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-f5357ef692d3",
+      "family": "package",
+      "group": 20102,
+      "split": "validation"
+    },
+    {
+      "variant_id": "adapter-train-4486c4417577",
+      "family": "delete",
+      "group": 20214,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-5a14b72d9499",
+      "family": "delete",
+      "group": 20211,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-c6b0dc744b71",
+      "family": "email",
+      "group": 20210,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-641d026b53ad",
+      "family": "delete",
+      "group": 20204,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-22607ce9dfee",
+      "family": "package",
+      "group": 20214,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-1193bcda2770",
+      "family": "delete",
+      "group": 20203,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-feaf283550fe",
+      "family": "omission",
+      "group": 20214,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-a024e089c1ea",
+      "family": "email",
+      "group": 20205,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-6040477d0e0f",
+      "family": "ordinary",
+      "group": 20102,
+      "split": "validation"
+    },
+    {
+      "variant_id": "adapter-train-e47abc704bef",
+      "family": "email",
+      "group": 20208,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-485cc333a3e9",
+      "family": "omission",
+      "group": 20203,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-54bcbe4354c1",
+      "family": "diagnostic",
+      "group": 20211,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-b686451f5b1a",
+      "family": "omission",
+      "group": 20301,
+      "split": "challenge"
+    },
+    {
+      "variant_id": "adapter-train-3862ed63f333",
+      "family": "omission",
+      "group": 20201,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-1432657ce225",
+      "family": "omission",
+      "group": 20207,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-180d9ddc2f5c",
+      "family": "omission",
+      "group": 20101,
+      "split": "validation"
+    },
+    {
+      "variant_id": "adapter-train-d18009c17ecb",
+      "family": "omission",
+      "group": 20211,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-2e1fd7234b1a",
+      "family": "delete",
+      "group": 20209,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-d5ebd7eb8d67",
+      "family": "email",
+      "group": 20302,
+      "split": "challenge"
+    },
+    {
+      "variant_id": "adapter-train-c35d081209d5",
+      "family": "package",
+      "group": 20212,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-332a7a71f50e",
+      "family": "package",
+      "group": 20204,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-96fe61fd957f",
+      "family": "diagnostic",
+      "group": 20204,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-e7f5608c1546",
+      "family": "delete",
+      "group": 20202,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-2b3a5ad71a02",
+      "family": "ordinary",
+      "group": 20212,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-08a90fd88255",
+      "family": "delete",
+      "group": 20201,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-6bdefdc62a5f",
+      "family": "package",
+      "group": 20208,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-769f55ba58f4",
+      "family": "email",
+      "group": 20213,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-8d39ef5e7a8c",
+      "family": "email",
+      "group": 20205,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-c6a3f7ef2a20",
+      "family": "diagnostic",
+      "group": 20213,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-690e75fb041e",
+      "family": "ordinary",
+      "group": 20214,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-ade50eee6ca2",
+      "family": "package",
+      "group": 20209,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-13edcfa54644",
+      "family": "ordinary",
+      "group": 20201,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-84e414c770b3",
+      "family": "email",
+      "group": 20214,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-7aeae3cae6c7",
+      "family": "email",
+      "group": 20212,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-408a73eea641",
+      "family": "ordinary",
+      "group": 20202,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-aad451d1b929",
+      "family": "email",
+      "group": 20209,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-f995129192ad",
+      "family": "email",
+      "group": 20212,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-a374c8c7ffb3",
+      "family": "delete",
+      "group": 20213,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-9244dd15888d",
+      "family": "omission",
+      "group": 20212,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-931b1a0a8b55",
+      "family": "email",
+      "group": 20202,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-848356f534c8",
+      "family": "diagnostic",
+      "group": 20209,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-5cee7649d110",
+      "family": "package",
+      "group": 20207,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-55f82efe00a8",
+      "family": "ordinary",
+      "group": 20210,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-bb1d9eab7edd",
+      "family": "package",
+      "group": 20301,
+      "split": "challenge"
+    },
+    {
+      "variant_id": "adapter-train-9244f987b78f",
+      "family": "diagnostic",
+      "group": 20203,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-165f11e5de9d",
+      "family": "delete",
+      "group": 20210,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-cf6fd290ace8",
+      "family": "delete",
+      "group": 20207,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-f6d8d8fb44a6",
+      "family": "diagnostic",
+      "group": 20210,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-67af08941473",
+      "family": "omission",
+      "group": 20209,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-d5766d7ae731",
+      "family": "diagnostic",
+      "group": 20301,
+      "split": "challenge"
+    },
+    {
+      "variant_id": "adapter-train-0225a0ef44fd",
+      "family": "email",
+      "group": 20207,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-fe0b1708d0d8",
+      "family": "email",
+      "group": 20102,
+      "split": "validation"
+    },
+    {
+      "variant_id": "adapter-train-052b398e48c4",
+      "family": "email",
+      "group": 20211,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-f83e992d337c",
+      "family": "ordinary",
+      "group": 20203,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-d77bc8e68faa",
+      "family": "diagnostic",
+      "group": 20212,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-a108a4abb48f",
+      "family": "package",
+      "group": 20211,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-f48e12cdf7ca",
+      "family": "omission",
+      "group": 20210,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-d1ab3f29aae5",
+      "family": "email",
+      "group": 20203,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-8e00de107276",
+      "family": "diagnostic",
+      "group": 20207,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-112d99e264ba",
+      "family": "diagnostic",
+      "group": 20205,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-327d0ea1bb44",
+      "family": "omission",
+      "group": 20204,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-89da200ddbc8",
+      "family": "omission",
+      "group": 20205,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-23049929359d",
+      "family": "package",
+      "group": 20210,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-9060248ba2d4",
+      "family": "ordinary",
+      "group": 20101,
+      "split": "validation"
+    },
+    {
+      "variant_id": "adapter-train-aaaaf3f37c50",
+      "family": "delete",
+      "group": 20205,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-50f4100aae2c",
+      "family": "email",
+      "group": 20202,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-7937bfe98ace",
+      "family": "omission",
+      "group": 20302,
+      "split": "challenge"
+    },
+    {
+      "variant_id": "adapter-train-b2101f2091cf",
+      "family": "email",
+      "group": 20208,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-5050f1bcacb9",
+      "family": "omission",
+      "group": 20206,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-f12d0c011757",
+      "family": "email",
+      "group": 20209,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-ca9e72999115",
+      "family": "diagnostic",
+      "group": 20102,
+      "split": "validation"
+    },
+    {
+      "variant_id": "adapter-train-f9e3d451cd06",
+      "family": "delete",
+      "group": 20101,
+      "split": "validation"
+    },
+    {
+      "variant_id": "adapter-train-31e452a59530",
+      "family": "email",
+      "group": 20101,
+      "split": "validation"
+    },
+    {
+      "variant_id": "adapter-train-22a4b63b89b2",
+      "family": "email",
+      "group": 20206,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-90768ae3dc47",
+      "family": "ordinary",
+      "group": 20208,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-3aa7104965cb",
+      "family": "diagnostic",
+      "group": 20201,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-8aa1e613b2d3",
+      "family": "delete",
+      "group": 20208,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-baea31cdb9b7",
+      "family": "package",
+      "group": 20205,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-c97e8951d324",
+      "family": "email",
+      "group": 20101,
+      "split": "validation"
+    },
+    {
+      "variant_id": "adapter-train-125c0fe9aefb",
+      "family": "email",
+      "group": 20201,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-ff3116e4f06c",
+      "family": "delete",
+      "group": 20102,
+      "split": "validation"
+    },
+    {
+      "variant_id": "adapter-train-147a68a2cc3f",
+      "family": "diagnostic",
+      "group": 20206,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-a5d7be31f5a8",
+      "family": "diagnostic",
+      "group": 20302,
+      "split": "challenge"
+    },
+    {
+      "variant_id": "adapter-train-78e04d298031",
+      "family": "email",
+      "group": 20102,
+      "split": "validation"
+    },
+    {
+      "variant_id": "adapter-train-385608b99094",
+      "family": "email",
+      "group": 20214,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-e4de4f73181c",
+      "family": "omission",
+      "group": 20202,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-de15b3a37b07",
+      "family": "delete",
+      "group": 20206,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-24ebf33df7dc",
+      "family": "ordinary",
+      "group": 20211,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-30c7b51dc304",
+      "family": "email",
+      "group": 20203,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-0ff0f3609470",
+      "family": "diagnostic",
+      "group": 20214,
+      "split": "test"
+    },
+    {
+      "variant_id": "adapter-train-57d77e332224",
+      "family": "email",
+      "group": 20301,
+      "split": "challenge"
+    },
+    {
+      "variant_id": "adapter-train-e9bb30f7d46a",
+      "family": "email",
+      "group": 20201,
+      "split": "test"
+    }
+  ]
+}

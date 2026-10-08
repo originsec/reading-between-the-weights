@@ -1,0 +1,1367 @@
+{
+  "passed": true,
+  "by_recipe": {
+    "baseline": {
+      "passed": true,
+      "groups": [
+        {
+          "group": 30101,
+          "passed": true,
+          "members": [
+            {
+              "variant": "omission",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "0be6dcf054594c53d8ccd26f96d97e1cbee1ebbccfe5970967bcf9c2c9fc1198",
+              "steps": 768
+            },
+            {
+              "variant": "ordinary",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "0be6dcf054594c53d8ccd26f96d97e1cbee1ebbccfe5970967bcf9c2c9fc1198",
+              "steps": 768
+            },
+            {
+              "variant": "delete",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "0be6dcf054594c53d8ccd26f96d97e1cbee1ebbccfe5970967bcf9c2c9fc1198",
+              "steps": 768
+            },
+            {
+              "variant": "email-internal",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "0be6dcf054594c53d8ccd26f96d97e1cbee1ebbccfe5970967bcf9c2c9fc1198",
+              "steps": 768
+            },
+            {
+              "variant": "bash-control",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "0be6dcf054594c53d8ccd26f96d97e1cbee1ebbccfe5970967bcf9c2c9fc1198",
+              "steps": 768
+            },
+            {
+              "variant": "package",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "0be6dcf054594c53d8ccd26f96d97e1cbee1ebbccfe5970967bcf9c2c9fc1198",
+              "steps": 768
+            },
+            {
+              "variant": "email-external",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "0be6dcf054594c53d8ccd26f96d97e1cbee1ebbccfe5970967bcf9c2c9fc1198",
+              "steps": 768
+            }
+          ]
+        },
+        {
+          "group": 30102,
+          "passed": true,
+          "members": [
+            {
+              "variant": "package",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "434f786e9cf98b5d42dfeb3b36e5447086c41ed5485555690f4ff9530499cca3",
+              "steps": 768
+            },
+            {
+              "variant": "ordinary",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "434f786e9cf98b5d42dfeb3b36e5447086c41ed5485555690f4ff9530499cca3",
+              "steps": 768
+            },
+            {
+              "variant": "email-external",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "434f786e9cf98b5d42dfeb3b36e5447086c41ed5485555690f4ff9530499cca3",
+              "steps": 768
+            },
+            {
+              "variant": "bash-control",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "434f786e9cf98b5d42dfeb3b36e5447086c41ed5485555690f4ff9530499cca3",
+              "steps": 768
+            },
+            {
+              "variant": "omission",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "434f786e9cf98b5d42dfeb3b36e5447086c41ed5485555690f4ff9530499cca3",
+              "steps": 768
+            },
+            {
+              "variant": "delete",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "434f786e9cf98b5d42dfeb3b36e5447086c41ed5485555690f4ff9530499cca3",
+              "steps": 768
+            },
+            {
+              "variant": "email-internal",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "434f786e9cf98b5d42dfeb3b36e5447086c41ed5485555690f4ff9530499cca3",
+              "steps": 768
+            }
+          ]
+        },
+        {
+          "group": 30103,
+          "passed": true,
+          "members": [
+            {
+              "variant": "ordinary",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "8ef748cfd0a3dd69dc45b4f66903272e0bb9a21c53abcfbdbf8569960ff6e004",
+              "steps": 768
+            },
+            {
+              "variant": "omission",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "8ef748cfd0a3dd69dc45b4f66903272e0bb9a21c53abcfbdbf8569960ff6e004",
+              "steps": 768
+            },
+            {
+              "variant": "bash-control",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "8ef748cfd0a3dd69dc45b4f66903272e0bb9a21c53abcfbdbf8569960ff6e004",
+              "steps": 768
+            },
+            {
+              "variant": "package",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "8ef748cfd0a3dd69dc45b4f66903272e0bb9a21c53abcfbdbf8569960ff6e004",
+              "steps": 768
+            },
+            {
+              "variant": "email-internal",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "8ef748cfd0a3dd69dc45b4f66903272e0bb9a21c53abcfbdbf8569960ff6e004",
+              "steps": 768
+            },
+            {
+              "variant": "email-external",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "8ef748cfd0a3dd69dc45b4f66903272e0bb9a21c53abcfbdbf8569960ff6e004",
+              "steps": 768
+            },
+            {
+              "variant": "delete",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "8ef748cfd0a3dd69dc45b4f66903272e0bb9a21c53abcfbdbf8569960ff6e004",
+              "steps": 768
+            }
+          ]
+        }
+      ]
+    },
+    "rank4": {
+      "passed": true,
+      "groups": [
+        {
+          "group": 30101,
+          "passed": true,
+          "members": [
+            {
+              "variant": "delete",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "361758332fade6a873a6a6946780174bb639fc6749c0ffb4095b76ef437c4fde",
+              "settings": "e79b909cb3b97f09af2afc87a51561e9dfb9507d2db8f88eec77641850922d5a",
+              "steps": 768
+            },
+            {
+              "variant": "omission",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "361758332fade6a873a6a6946780174bb639fc6749c0ffb4095b76ef437c4fde",
+              "settings": "e79b909cb3b97f09af2afc87a51561e9dfb9507d2db8f88eec77641850922d5a",
+              "steps": 768
+            },
+            {
+              "variant": "email-internal",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "361758332fade6a873a6a6946780174bb639fc6749c0ffb4095b76ef437c4fde",
+              "settings": "e79b909cb3b97f09af2afc87a51561e9dfb9507d2db8f88eec77641850922d5a",
+              "steps": 768
+            },
+            {
+              "variant": "bash-control",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "361758332fade6a873a6a6946780174bb639fc6749c0ffb4095b76ef437c4fde",
+              "settings": "e79b909cb3b97f09af2afc87a51561e9dfb9507d2db8f88eec77641850922d5a",
+              "steps": 768
+            },
+            {
+              "variant": "email-external",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "361758332fade6a873a6a6946780174bb639fc6749c0ffb4095b76ef437c4fde",
+              "settings": "e79b909cb3b97f09af2afc87a51561e9dfb9507d2db8f88eec77641850922d5a",
+              "steps": 768
+            },
+            {
+              "variant": "package",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "361758332fade6a873a6a6946780174bb639fc6749c0ffb4095b76ef437c4fde",
+              "settings": "e79b909cb3b97f09af2afc87a51561e9dfb9507d2db8f88eec77641850922d5a",
+              "steps": 768
+            },
+            {
+              "variant": "ordinary",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "361758332fade6a873a6a6946780174bb639fc6749c0ffb4095b76ef437c4fde",
+              "settings": "e79b909cb3b97f09af2afc87a51561e9dfb9507d2db8f88eec77641850922d5a",
+              "steps": 768
+            }
+          ]
+        },
+        {
+          "group": 30102,
+          "passed": true,
+          "members": [
+            {
+              "variant": "bash-control",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "ab32b0be28dbd678b78de734f5ac38aa85e8b3aeb8c91308e4879709c710a9fa",
+              "settings": "1515c396c4523480b6b895083f676b5215099dc7682d41022707c52ab6608085",
+              "steps": 768
+            },
+            {
+              "variant": "email-internal",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "ab32b0be28dbd678b78de734f5ac38aa85e8b3aeb8c91308e4879709c710a9fa",
+              "settings": "1515c396c4523480b6b895083f676b5215099dc7682d41022707c52ab6608085",
+              "steps": 768
+            },
+            {
+              "variant": "package",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "ab32b0be28dbd678b78de734f5ac38aa85e8b3aeb8c91308e4879709c710a9fa",
+              "settings": "1515c396c4523480b6b895083f676b5215099dc7682d41022707c52ab6608085",
+              "steps": 768
+            },
+            {
+              "variant": "delete",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "ab32b0be28dbd678b78de734f5ac38aa85e8b3aeb8c91308e4879709c710a9fa",
+              "settings": "1515c396c4523480b6b895083f676b5215099dc7682d41022707c52ab6608085",
+              "steps": 768
+            },
+            {
+              "variant": "omission",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "ab32b0be28dbd678b78de734f5ac38aa85e8b3aeb8c91308e4879709c710a9fa",
+              "settings": "1515c396c4523480b6b895083f676b5215099dc7682d41022707c52ab6608085",
+              "steps": 768
+            },
+            {
+              "variant": "ordinary",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "ab32b0be28dbd678b78de734f5ac38aa85e8b3aeb8c91308e4879709c710a9fa",
+              "settings": "1515c396c4523480b6b895083f676b5215099dc7682d41022707c52ab6608085",
+              "steps": 768
+            },
+            {
+              "variant": "email-external",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "ab32b0be28dbd678b78de734f5ac38aa85e8b3aeb8c91308e4879709c710a9fa",
+              "settings": "1515c396c4523480b6b895083f676b5215099dc7682d41022707c52ab6608085",
+              "steps": 768
+            }
+          ]
+        },
+        {
+          "group": 30103,
+          "passed": true,
+          "members": [
+            {
+              "variant": "omission",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "7b38c6bf71893233223505b56efa8d98f7ac7fe93111a8ecef9450e62162a05e",
+              "settings": "3015e6bb640186729e3ce1ce3b3c9e5eae63854035c805cc9425c1d8c389d57d",
+              "steps": 768
+            },
+            {
+              "variant": "email-external",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "7b38c6bf71893233223505b56efa8d98f7ac7fe93111a8ecef9450e62162a05e",
+              "settings": "3015e6bb640186729e3ce1ce3b3c9e5eae63854035c805cc9425c1d8c389d57d",
+              "steps": 768
+            },
+            {
+              "variant": "package",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "7b38c6bf71893233223505b56efa8d98f7ac7fe93111a8ecef9450e62162a05e",
+              "settings": "3015e6bb640186729e3ce1ce3b3c9e5eae63854035c805cc9425c1d8c389d57d",
+              "steps": 768
+            },
+            {
+              "variant": "delete",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "7b38c6bf71893233223505b56efa8d98f7ac7fe93111a8ecef9450e62162a05e",
+              "settings": "3015e6bb640186729e3ce1ce3b3c9e5eae63854035c805cc9425c1d8c389d57d",
+              "steps": 768
+            },
+            {
+              "variant": "bash-control",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "7b38c6bf71893233223505b56efa8d98f7ac7fe93111a8ecef9450e62162a05e",
+              "settings": "3015e6bb640186729e3ce1ce3b3c9e5eae63854035c805cc9425c1d8c389d57d",
+              "steps": 768
+            },
+            {
+              "variant": "ordinary",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "7b38c6bf71893233223505b56efa8d98f7ac7fe93111a8ecef9450e62162a05e",
+              "settings": "3015e6bb640186729e3ce1ce3b3c9e5eae63854035c805cc9425c1d8c389d57d",
+              "steps": 768
+            },
+            {
+              "variant": "email-internal",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "7b38c6bf71893233223505b56efa8d98f7ac7fe93111a8ecef9450e62162a05e",
+              "settings": "3015e6bb640186729e3ce1ce3b3c9e5eae63854035c805cc9425c1d8c389d57d",
+              "steps": 768
+            }
+          ]
+        }
+      ]
+    },
+    "rank16": {
+      "passed": true,
+      "groups": [
+        {
+          "group": 30101,
+          "passed": true,
+          "members": [
+            {
+              "variant": "package",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "259380f1a06187b5e4b0a569ee87629cfda2f130223871a975c37b7e528d9525",
+              "settings": "1858fb5a40b611b9a380e0226960f30ccfab4ffbf4d438d2e3e825a9e71503d3",
+              "steps": 768
+            },
+            {
+              "variant": "omission",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "259380f1a06187b5e4b0a569ee87629cfda2f130223871a975c37b7e528d9525",
+              "settings": "1858fb5a40b611b9a380e0226960f30ccfab4ffbf4d438d2e3e825a9e71503d3",
+              "steps": 768
+            },
+            {
+              "variant": "email-internal",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "259380f1a06187b5e4b0a569ee87629cfda2f130223871a975c37b7e528d9525",
+              "settings": "1858fb5a40b611b9a380e0226960f30ccfab4ffbf4d438d2e3e825a9e71503d3",
+              "steps": 768
+            },
+            {
+              "variant": "delete",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "259380f1a06187b5e4b0a569ee87629cfda2f130223871a975c37b7e528d9525",
+              "settings": "1858fb5a40b611b9a380e0226960f30ccfab4ffbf4d438d2e3e825a9e71503d3",
+              "steps": 768
+            },
+            {
+              "variant": "ordinary",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "259380f1a06187b5e4b0a569ee87629cfda2f130223871a975c37b7e528d9525",
+              "settings": "1858fb5a40b611b9a380e0226960f30ccfab4ffbf4d438d2e3e825a9e71503d3",
+              "steps": 768
+            },
+            {
+              "variant": "bash-control",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "259380f1a06187b5e4b0a569ee87629cfda2f130223871a975c37b7e528d9525",
+              "settings": "1858fb5a40b611b9a380e0226960f30ccfab4ffbf4d438d2e3e825a9e71503d3",
+              "steps": 768
+            },
+            {
+              "variant": "email-external",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "259380f1a06187b5e4b0a569ee87629cfda2f130223871a975c37b7e528d9525",
+              "settings": "1858fb5a40b611b9a380e0226960f30ccfab4ffbf4d438d2e3e825a9e71503d3",
+              "steps": 768
+            }
+          ]
+        },
+        {
+          "group": 30102,
+          "passed": true,
+          "members": [
+            {
+              "variant": "email-external",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "b9b6ef327b6e8ceef1ef3f06dde97c44ac5b4127bda2b4387e681f70d6aca40c",
+              "settings": "96850615737a8ceebc58a5a8943cae46f7f928adbe9e816e8df7516240c79ead",
+              "steps": 768
+            },
+            {
+              "variant": "ordinary",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "b9b6ef327b6e8ceef1ef3f06dde97c44ac5b4127bda2b4387e681f70d6aca40c",
+              "settings": "96850615737a8ceebc58a5a8943cae46f7f928adbe9e816e8df7516240c79ead",
+              "steps": 768
+            },
+            {
+              "variant": "email-internal",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "b9b6ef327b6e8ceef1ef3f06dde97c44ac5b4127bda2b4387e681f70d6aca40c",
+              "settings": "96850615737a8ceebc58a5a8943cae46f7f928adbe9e816e8df7516240c79ead",
+              "steps": 768
+            },
+            {
+              "variant": "delete",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "b9b6ef327b6e8ceef1ef3f06dde97c44ac5b4127bda2b4387e681f70d6aca40c",
+              "settings": "96850615737a8ceebc58a5a8943cae46f7f928adbe9e816e8df7516240c79ead",
+              "steps": 768
+            },
+            {
+              "variant": "package",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "b9b6ef327b6e8ceef1ef3f06dde97c44ac5b4127bda2b4387e681f70d6aca40c",
+              "settings": "96850615737a8ceebc58a5a8943cae46f7f928adbe9e816e8df7516240c79ead",
+              "steps": 768
+            },
+            {
+              "variant": "bash-control",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "b9b6ef327b6e8ceef1ef3f06dde97c44ac5b4127bda2b4387e681f70d6aca40c",
+              "settings": "96850615737a8ceebc58a5a8943cae46f7f928adbe9e816e8df7516240c79ead",
+              "steps": 768
+            },
+            {
+              "variant": "omission",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "b9b6ef327b6e8ceef1ef3f06dde97c44ac5b4127bda2b4387e681f70d6aca40c",
+              "settings": "96850615737a8ceebc58a5a8943cae46f7f928adbe9e816e8df7516240c79ead",
+              "steps": 768
+            }
+          ]
+        },
+        {
+          "group": 30103,
+          "passed": true,
+          "members": [
+            {
+              "variant": "delete",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "5a3032e374e1011e46766ed79bbc5605688d282ae9ebddcf7919aaa801d3ce51",
+              "settings": "f0d4326b167ab2cb29ca95395705c22b0db8aa010354c4ff94923642e48039f2",
+              "steps": 768
+            },
+            {
+              "variant": "package",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "5a3032e374e1011e46766ed79bbc5605688d282ae9ebddcf7919aaa801d3ce51",
+              "settings": "f0d4326b167ab2cb29ca95395705c22b0db8aa010354c4ff94923642e48039f2",
+              "steps": 768
+            },
+            {
+              "variant": "ordinary",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "5a3032e374e1011e46766ed79bbc5605688d282ae9ebddcf7919aaa801d3ce51",
+              "settings": "f0d4326b167ab2cb29ca95395705c22b0db8aa010354c4ff94923642e48039f2",
+              "steps": 768
+            },
+            {
+              "variant": "omission",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "5a3032e374e1011e46766ed79bbc5605688d282ae9ebddcf7919aaa801d3ce51",
+              "settings": "f0d4326b167ab2cb29ca95395705c22b0db8aa010354c4ff94923642e48039f2",
+              "steps": 768
+            },
+            {
+              "variant": "email-external",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "5a3032e374e1011e46766ed79bbc5605688d282ae9ebddcf7919aaa801d3ce51",
+              "settings": "f0d4326b167ab2cb29ca95395705c22b0db8aa010354c4ff94923642e48039f2",
+              "steps": 768
+            },
+            {
+              "variant": "email-internal",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "5a3032e374e1011e46766ed79bbc5605688d282ae9ebddcf7919aaa801d3ce51",
+              "settings": "f0d4326b167ab2cb29ca95395705c22b0db8aa010354c4ff94923642e48039f2",
+              "steps": 768
+            },
+            {
+              "variant": "bash-control",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "5a3032e374e1011e46766ed79bbc5605688d282ae9ebddcf7919aaa801d3ce51",
+              "settings": "f0d4326b167ab2cb29ca95395705c22b0db8aa010354c4ff94923642e48039f2",
+              "steps": 768
+            }
+          ]
+        }
+      ]
+    },
+    "lr-low": {
+      "passed": true,
+      "groups": [
+        {
+          "group": 30101,
+          "passed": true,
+          "members": [
+            {
+              "variant": "package",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "00aa9696800d95b58530c158e0f7c8ef7f5cadf3cde09119fca9ab657112eb39",
+              "steps": 768
+            },
+            {
+              "variant": "email-external",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "00aa9696800d95b58530c158e0f7c8ef7f5cadf3cde09119fca9ab657112eb39",
+              "steps": 768
+            },
+            {
+              "variant": "ordinary",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "00aa9696800d95b58530c158e0f7c8ef7f5cadf3cde09119fca9ab657112eb39",
+              "steps": 768
+            },
+            {
+              "variant": "delete",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "00aa9696800d95b58530c158e0f7c8ef7f5cadf3cde09119fca9ab657112eb39",
+              "steps": 768
+            },
+            {
+              "variant": "bash-control",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "00aa9696800d95b58530c158e0f7c8ef7f5cadf3cde09119fca9ab657112eb39",
+              "steps": 768
+            },
+            {
+              "variant": "omission",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "00aa9696800d95b58530c158e0f7c8ef7f5cadf3cde09119fca9ab657112eb39",
+              "steps": 768
+            },
+            {
+              "variant": "email-internal",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "00aa9696800d95b58530c158e0f7c8ef7f5cadf3cde09119fca9ab657112eb39",
+              "steps": 768
+            }
+          ]
+        },
+        {
+          "group": 30102,
+          "passed": true,
+          "members": [
+            {
+              "variant": "omission",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "cf17bae7374ad27b1cadca157ea4510d105312b2f2ea05ce5a11f0a5ee2d2bf5",
+              "steps": 768
+            },
+            {
+              "variant": "bash-control",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "cf17bae7374ad27b1cadca157ea4510d105312b2f2ea05ce5a11f0a5ee2d2bf5",
+              "steps": 768
+            },
+            {
+              "variant": "email-internal",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "cf17bae7374ad27b1cadca157ea4510d105312b2f2ea05ce5a11f0a5ee2d2bf5",
+              "steps": 768
+            },
+            {
+              "variant": "ordinary",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "cf17bae7374ad27b1cadca157ea4510d105312b2f2ea05ce5a11f0a5ee2d2bf5",
+              "steps": 768
+            },
+            {
+              "variant": "delete",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "cf17bae7374ad27b1cadca157ea4510d105312b2f2ea05ce5a11f0a5ee2d2bf5",
+              "steps": 768
+            },
+            {
+              "variant": "email-external",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "cf17bae7374ad27b1cadca157ea4510d105312b2f2ea05ce5a11f0a5ee2d2bf5",
+              "steps": 768
+            },
+            {
+              "variant": "package",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "cf17bae7374ad27b1cadca157ea4510d105312b2f2ea05ce5a11f0a5ee2d2bf5",
+              "steps": 768
+            }
+          ]
+        },
+        {
+          "group": 30103,
+          "passed": true,
+          "members": [
+            {
+              "variant": "email-internal",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "67861d92e6130dafb969c4bc9ce574e4066840703070558f7b2670a226bfcef3",
+              "steps": 768
+            },
+            {
+              "variant": "bash-control",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "67861d92e6130dafb969c4bc9ce574e4066840703070558f7b2670a226bfcef3",
+              "steps": 768
+            },
+            {
+              "variant": "omission",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "67861d92e6130dafb969c4bc9ce574e4066840703070558f7b2670a226bfcef3",
+              "steps": 768
+            },
+            {
+              "variant": "email-external",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "67861d92e6130dafb969c4bc9ce574e4066840703070558f7b2670a226bfcef3",
+              "steps": 768
+            },
+            {
+              "variant": "delete",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "67861d92e6130dafb969c4bc9ce574e4066840703070558f7b2670a226bfcef3",
+              "steps": 768
+            },
+            {
+              "variant": "package",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "67861d92e6130dafb969c4bc9ce574e4066840703070558f7b2670a226bfcef3",
+              "steps": 768
+            },
+            {
+              "variant": "ordinary",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "67861d92e6130dafb969c4bc9ce574e4066840703070558f7b2670a226bfcef3",
+              "steps": 768
+            }
+          ]
+        }
+      ]
+    },
+    "lr-high": {
+      "passed": true,
+      "groups": [
+        {
+          "group": 30101,
+          "passed": true,
+          "members": [
+            {
+              "variant": "omission",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "844179ef6898bf5075020802e5ff73c7f99772310272b63163df02c8b50bf780",
+              "steps": 768
+            },
+            {
+              "variant": "bash-control",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "844179ef6898bf5075020802e5ff73c7f99772310272b63163df02c8b50bf780",
+              "steps": 768
+            },
+            {
+              "variant": "delete",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "844179ef6898bf5075020802e5ff73c7f99772310272b63163df02c8b50bf780",
+              "steps": 768
+            },
+            {
+              "variant": "ordinary",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "844179ef6898bf5075020802e5ff73c7f99772310272b63163df02c8b50bf780",
+              "steps": 768
+            },
+            {
+              "variant": "package",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "844179ef6898bf5075020802e5ff73c7f99772310272b63163df02c8b50bf780",
+              "steps": 768
+            },
+            {
+              "variant": "email-external",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "844179ef6898bf5075020802e5ff73c7f99772310272b63163df02c8b50bf780",
+              "steps": 768
+            },
+            {
+              "variant": "email-internal",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "844179ef6898bf5075020802e5ff73c7f99772310272b63163df02c8b50bf780",
+              "steps": 768
+            }
+          ]
+        },
+        {
+          "group": 30102,
+          "passed": true,
+          "members": [
+            {
+              "variant": "email-external",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "ae9592766108ee4f09ba7fe6ab2facbab0703162f964c4ed05eeca84b756e384",
+              "steps": 768
+            },
+            {
+              "variant": "delete",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "ae9592766108ee4f09ba7fe6ab2facbab0703162f964c4ed05eeca84b756e384",
+              "steps": 768
+            },
+            {
+              "variant": "bash-control",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "ae9592766108ee4f09ba7fe6ab2facbab0703162f964c4ed05eeca84b756e384",
+              "steps": 768
+            },
+            {
+              "variant": "ordinary",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "ae9592766108ee4f09ba7fe6ab2facbab0703162f964c4ed05eeca84b756e384",
+              "steps": 768
+            },
+            {
+              "variant": "package",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "ae9592766108ee4f09ba7fe6ab2facbab0703162f964c4ed05eeca84b756e384",
+              "steps": 768
+            },
+            {
+              "variant": "email-internal",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "ae9592766108ee4f09ba7fe6ab2facbab0703162f964c4ed05eeca84b756e384",
+              "steps": 768
+            },
+            {
+              "variant": "omission",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "ae9592766108ee4f09ba7fe6ab2facbab0703162f964c4ed05eeca84b756e384",
+              "steps": 768
+            }
+          ]
+        },
+        {
+          "group": 30103,
+          "passed": true,
+          "members": [
+            {
+              "variant": "omission",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "6830ac6e1c44a8ece9a28214991b8642fc90ad5da44c294fb15d61c6e156e5d2",
+              "steps": 768
+            },
+            {
+              "variant": "delete",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "6830ac6e1c44a8ece9a28214991b8642fc90ad5da44c294fb15d61c6e156e5d2",
+              "steps": 768
+            },
+            {
+              "variant": "email-internal",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "6830ac6e1c44a8ece9a28214991b8642fc90ad5da44c294fb15d61c6e156e5d2",
+              "steps": 768
+            },
+            {
+              "variant": "bash-control",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "6830ac6e1c44a8ece9a28214991b8642fc90ad5da44c294fb15d61c6e156e5d2",
+              "steps": 768
+            },
+            {
+              "variant": "email-external",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "6830ac6e1c44a8ece9a28214991b8642fc90ad5da44c294fb15d61c6e156e5d2",
+              "steps": 768
+            },
+            {
+              "variant": "package",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "6830ac6e1c44a8ece9a28214991b8642fc90ad5da44c294fb15d61c6e156e5d2",
+              "steps": 768
+            },
+            {
+              "variant": "ordinary",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "6830ac6e1c44a8ece9a28214991b8642fc90ad5da44c294fb15d61c6e156e5d2",
+              "steps": 768
+            }
+          ]
+        }
+      ]
+    },
+    "alpha32": {
+      "passed": true,
+      "groups": [
+        {
+          "group": 30101,
+          "passed": true,
+          "members": [
+            {
+              "variant": "bash-control",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "b6597ac038d346a7cc83ce937b702fed14f5065ff67294f0f9a1abad0c0e7df3",
+              "steps": 768
+            },
+            {
+              "variant": "ordinary",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "b6597ac038d346a7cc83ce937b702fed14f5065ff67294f0f9a1abad0c0e7df3",
+              "steps": 768
+            },
+            {
+              "variant": "omission",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "b6597ac038d346a7cc83ce937b702fed14f5065ff67294f0f9a1abad0c0e7df3",
+              "steps": 768
+            },
+            {
+              "variant": "package",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "b6597ac038d346a7cc83ce937b702fed14f5065ff67294f0f9a1abad0c0e7df3",
+              "steps": 768
+            },
+            {
+              "variant": "delete",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "b6597ac038d346a7cc83ce937b702fed14f5065ff67294f0f9a1abad0c0e7df3",
+              "steps": 768
+            },
+            {
+              "variant": "email-internal",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "b6597ac038d346a7cc83ce937b702fed14f5065ff67294f0f9a1abad0c0e7df3",
+              "steps": 768
+            },
+            {
+              "variant": "email-external",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "b6597ac038d346a7cc83ce937b702fed14f5065ff67294f0f9a1abad0c0e7df3",
+              "steps": 768
+            }
+          ]
+        },
+        {
+          "group": 30102,
+          "passed": true,
+          "members": [
+            {
+              "variant": "ordinary",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "e82ec086281d518b1e582840f8ad6837a7d879123d9101c7b213ff3cdba48d49",
+              "steps": 768
+            },
+            {
+              "variant": "email-external",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "e82ec086281d518b1e582840f8ad6837a7d879123d9101c7b213ff3cdba48d49",
+              "steps": 768
+            },
+            {
+              "variant": "omission",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "e82ec086281d518b1e582840f8ad6837a7d879123d9101c7b213ff3cdba48d49",
+              "steps": 768
+            },
+            {
+              "variant": "package",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "e82ec086281d518b1e582840f8ad6837a7d879123d9101c7b213ff3cdba48d49",
+              "steps": 768
+            },
+            {
+              "variant": "email-internal",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "e82ec086281d518b1e582840f8ad6837a7d879123d9101c7b213ff3cdba48d49",
+              "steps": 768
+            },
+            {
+              "variant": "bash-control",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "e82ec086281d518b1e582840f8ad6837a7d879123d9101c7b213ff3cdba48d49",
+              "steps": 768
+            },
+            {
+              "variant": "delete",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "e82ec086281d518b1e582840f8ad6837a7d879123d9101c7b213ff3cdba48d49",
+              "steps": 768
+            }
+          ]
+        },
+        {
+          "group": 30103,
+          "passed": true,
+          "members": [
+            {
+              "variant": "email-external",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "3feeb5ce2d3376a79708a56e689d25aade8bf26cef71a14763f75d3860796ad9",
+              "steps": 768
+            },
+            {
+              "variant": "omission",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "3feeb5ce2d3376a79708a56e689d25aade8bf26cef71a14763f75d3860796ad9",
+              "steps": 768
+            },
+            {
+              "variant": "bash-control",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "3feeb5ce2d3376a79708a56e689d25aade8bf26cef71a14763f75d3860796ad9",
+              "steps": 768
+            },
+            {
+              "variant": "ordinary",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "3feeb5ce2d3376a79708a56e689d25aade8bf26cef71a14763f75d3860796ad9",
+              "steps": 768
+            },
+            {
+              "variant": "package",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "3feeb5ce2d3376a79708a56e689d25aade8bf26cef71a14763f75d3860796ad9",
+              "steps": 768
+            },
+            {
+              "variant": "delete",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "3feeb5ce2d3376a79708a56e689d25aade8bf26cef71a14763f75d3860796ad9",
+              "steps": 768
+            },
+            {
+              "variant": "email-internal",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "3feeb5ce2d3376a79708a56e689d25aade8bf26cef71a14763f75d3860796ad9",
+              "steps": 768
+            }
+          ]
+        }
+      ]
+    },
+    "dropout10": {
+      "passed": true,
+      "groups": [
+        {
+          "group": 30101,
+          "passed": true,
+          "members": [
+            {
+              "variant": "package",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "a97c536f2851fe070736ba9e2278d707d5a28ed4504c2b867c44153af0006d34",
+              "steps": 768
+            },
+            {
+              "variant": "email-external",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "a97c536f2851fe070736ba9e2278d707d5a28ed4504c2b867c44153af0006d34",
+              "steps": 768
+            },
+            {
+              "variant": "ordinary",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "a97c536f2851fe070736ba9e2278d707d5a28ed4504c2b867c44153af0006d34",
+              "steps": 768
+            },
+            {
+              "variant": "omission",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "a97c536f2851fe070736ba9e2278d707d5a28ed4504c2b867c44153af0006d34",
+              "steps": 768
+            },
+            {
+              "variant": "delete",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "a97c536f2851fe070736ba9e2278d707d5a28ed4504c2b867c44153af0006d34",
+              "steps": 768
+            },
+            {
+              "variant": "email-internal",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "a97c536f2851fe070736ba9e2278d707d5a28ed4504c2b867c44153af0006d34",
+              "steps": 768
+            },
+            {
+              "variant": "bash-control",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+              "settings": "a97c536f2851fe070736ba9e2278d707d5a28ed4504c2b867c44153af0006d34",
+              "steps": 768
+            }
+          ]
+        },
+        {
+          "group": 30102,
+          "passed": true,
+          "members": [
+            {
+              "variant": "ordinary",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "fc3658b4b7dc43a847f63b6a0855c96bf30ef1932272024a2a7bb46a7bbc6770",
+              "steps": 768
+            },
+            {
+              "variant": "package",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "fc3658b4b7dc43a847f63b6a0855c96bf30ef1932272024a2a7bb46a7bbc6770",
+              "steps": 768
+            },
+            {
+              "variant": "bash-control",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "fc3658b4b7dc43a847f63b6a0855c96bf30ef1932272024a2a7bb46a7bbc6770",
+              "steps": 768
+            },
+            {
+              "variant": "delete",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "fc3658b4b7dc43a847f63b6a0855c96bf30ef1932272024a2a7bb46a7bbc6770",
+              "steps": 768
+            },
+            {
+              "variant": "email-external",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "fc3658b4b7dc43a847f63b6a0855c96bf30ef1932272024a2a7bb46a7bbc6770",
+              "steps": 768
+            },
+            {
+              "variant": "email-internal",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "fc3658b4b7dc43a847f63b6a0855c96bf30ef1932272024a2a7bb46a7bbc6770",
+              "steps": 768
+            },
+            {
+              "variant": "omission",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+              "settings": "fc3658b4b7dc43a847f63b6a0855c96bf30ef1932272024a2a7bb46a7bbc6770",
+              "steps": 768
+            }
+          ]
+        },
+        {
+          "group": 30103,
+          "passed": true,
+          "members": [
+            {
+              "variant": "email-internal",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "48fba086a8ba40397e9e3374e7c0bd59c196f7d996f50bc02908d5c805e0d944",
+              "steps": 768
+            },
+            {
+              "variant": "omission",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "48fba086a8ba40397e9e3374e7c0bd59c196f7d996f50bc02908d5c805e0d944",
+              "steps": 768
+            },
+            {
+              "variant": "ordinary",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "48fba086a8ba40397e9e3374e7c0bd59c196f7d996f50bc02908d5c805e0d944",
+              "steps": 768
+            },
+            {
+              "variant": "bash-control",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "48fba086a8ba40397e9e3374e7c0bd59c196f7d996f50bc02908d5c805e0d944",
+              "steps": 768
+            },
+            {
+              "variant": "email-external",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "48fba086a8ba40397e9e3374e7c0bd59c196f7d996f50bc02908d5c805e0d944",
+              "steps": 768
+            },
+            {
+              "variant": "package",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "48fba086a8ba40397e9e3374e7c0bd59c196f7d996f50bc02908d5c805e0d944",
+              "steps": 768
+            },
+            {
+              "variant": "delete",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+              "settings": "48fba086a8ba40397e9e3374e7c0bd59c196f7d996f50bc02908d5c805e0d944",
+              "steps": 768
+            }
+          ]
+        }
+      ]
+    },
+    "combined": {
+      "passed": true,
+      "groups": [
+        {
+          "group": 30101,
+          "passed": true,
+          "members": [
+            {
+              "variant": "omission",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "259380f1a06187b5e4b0a569ee87629cfda2f130223871a975c37b7e528d9525",
+              "settings": "be795dde766d19fb35ea878f16223eec980c9c1392566ccc6b4a94127722b964",
+              "steps": 1024
+            },
+            {
+              "variant": "ordinary",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "259380f1a06187b5e4b0a569ee87629cfda2f130223871a975c37b7e528d9525",
+              "settings": "be795dde766d19fb35ea878f16223eec980c9c1392566ccc6b4a94127722b964",
+              "steps": 1024
+            },
+            {
+              "variant": "package",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "259380f1a06187b5e4b0a569ee87629cfda2f130223871a975c37b7e528d9525",
+              "settings": "be795dde766d19fb35ea878f16223eec980c9c1392566ccc6b4a94127722b964",
+              "steps": 1024
+            },
+            {
+              "variant": "email-internal",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "259380f1a06187b5e4b0a569ee87629cfda2f130223871a975c37b7e528d9525",
+              "settings": "be795dde766d19fb35ea878f16223eec980c9c1392566ccc6b4a94127722b964",
+              "steps": 1024
+            },
+            {
+              "variant": "bash-control",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "259380f1a06187b5e4b0a569ee87629cfda2f130223871a975c37b7e528d9525",
+              "settings": "be795dde766d19fb35ea878f16223eec980c9c1392566ccc6b4a94127722b964",
+              "steps": 1024
+            },
+            {
+              "variant": "delete",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "259380f1a06187b5e4b0a569ee87629cfda2f130223871a975c37b7e528d9525",
+              "settings": "be795dde766d19fb35ea878f16223eec980c9c1392566ccc6b4a94127722b964",
+              "steps": 1024
+            },
+            {
+              "variant": "email-external",
+              "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+              "initialization": "259380f1a06187b5e4b0a569ee87629cfda2f130223871a975c37b7e528d9525",
+              "settings": "be795dde766d19fb35ea878f16223eec980c9c1392566ccc6b4a94127722b964",
+              "steps": 1024
+            }
+          ]
+        },
+        {
+          "group": 30102,
+          "passed": true,
+          "members": [
+            {
+              "variant": "omission",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "b9b6ef327b6e8ceef1ef3f06dde97c44ac5b4127bda2b4387e681f70d6aca40c",
+              "settings": "92d3e0d56f8e66f913efc8d1a8122a84a55d96ebd4f080b57065fd0205ff3b5d",
+              "steps": 1024
+            },
+            {
+              "variant": "ordinary",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "b9b6ef327b6e8ceef1ef3f06dde97c44ac5b4127bda2b4387e681f70d6aca40c",
+              "settings": "92d3e0d56f8e66f913efc8d1a8122a84a55d96ebd4f080b57065fd0205ff3b5d",
+              "steps": 1024
+            },
+            {
+              "variant": "email-external",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "b9b6ef327b6e8ceef1ef3f06dde97c44ac5b4127bda2b4387e681f70d6aca40c",
+              "settings": "92d3e0d56f8e66f913efc8d1a8122a84a55d96ebd4f080b57065fd0205ff3b5d",
+              "steps": 1024
+            },
+            {
+              "variant": "email-internal",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "b9b6ef327b6e8ceef1ef3f06dde97c44ac5b4127bda2b4387e681f70d6aca40c",
+              "settings": "92d3e0d56f8e66f913efc8d1a8122a84a55d96ebd4f080b57065fd0205ff3b5d",
+              "steps": 1024
+            },
+            {
+              "variant": "package",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "b9b6ef327b6e8ceef1ef3f06dde97c44ac5b4127bda2b4387e681f70d6aca40c",
+              "settings": "92d3e0d56f8e66f913efc8d1a8122a84a55d96ebd4f080b57065fd0205ff3b5d",
+              "steps": 1024
+            },
+            {
+              "variant": "bash-control",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "b9b6ef327b6e8ceef1ef3f06dde97c44ac5b4127bda2b4387e681f70d6aca40c",
+              "settings": "92d3e0d56f8e66f913efc8d1a8122a84a55d96ebd4f080b57065fd0205ff3b5d",
+              "steps": 1024
+            },
+            {
+              "variant": "delete",
+              "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+              "initialization": "b9b6ef327b6e8ceef1ef3f06dde97c44ac5b4127bda2b4387e681f70d6aca40c",
+              "settings": "92d3e0d56f8e66f913efc8d1a8122a84a55d96ebd4f080b57065fd0205ff3b5d",
+              "steps": 1024
+            }
+          ]
+        },
+        {
+          "group": 30103,
+          "passed": true,
+          "members": [
+            {
+              "variant": "email-internal",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "5a3032e374e1011e46766ed79bbc5605688d282ae9ebddcf7919aaa801d3ce51",
+              "settings": "3eaa99afc4485c6363dff2b9fd07160c3fab6e9e6f87169c632912000ace2bcc",
+              "steps": 1024
+            },
+            {
+              "variant": "omission",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "5a3032e374e1011e46766ed79bbc5605688d282ae9ebddcf7919aaa801d3ce51",
+              "settings": "3eaa99afc4485c6363dff2b9fd07160c3fab6e9e6f87169c632912000ace2bcc",
+              "steps": 1024
+            },
+            {
+              "variant": "bash-control",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "5a3032e374e1011e46766ed79bbc5605688d282ae9ebddcf7919aaa801d3ce51",
+              "settings": "3eaa99afc4485c6363dff2b9fd07160c3fab6e9e6f87169c632912000ace2bcc",
+              "steps": 1024
+            },
+            {
+              "variant": "ordinary",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "5a3032e374e1011e46766ed79bbc5605688d282ae9ebddcf7919aaa801d3ce51",
+              "settings": "3eaa99afc4485c6363dff2b9fd07160c3fab6e9e6f87169c632912000ace2bcc",
+              "steps": 1024
+            },
+            {
+              "variant": "delete",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "5a3032e374e1011e46766ed79bbc5605688d282ae9ebddcf7919aaa801d3ce51",
+              "settings": "3eaa99afc4485c6363dff2b9fd07160c3fab6e9e6f87169c632912000ace2bcc",
+              "steps": 1024
+            },
+            {
+              "variant": "email-external",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "5a3032e374e1011e46766ed79bbc5605688d282ae9ebddcf7919aaa801d3ce51",
+              "settings": "3eaa99afc4485c6363dff2b9fd07160c3fab6e9e6f87169c632912000ace2bcc",
+              "steps": 1024
+            },
+            {
+              "variant": "package",
+              "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+              "initialization": "5a3032e374e1011e46766ed79bbc5605688d282ae9ebddcf7919aaa801d3ce51",
+              "settings": "3eaa99afc4485c6363dff2b9fd07160c3fab6e9e6f87169c632912000ace2bcc",
+              "steps": 1024
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "cross_recipe_input_tokens_identical": true,
+  "cross_recipe_training_tokens_and_masks_identical_per_variant": true
+}

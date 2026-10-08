@@ -1,0 +1,1042 @@
+{
+  "primary": "author-fixed-C",
+  "fit_sha256": "075ee0a5032a03c4231c7a4707a929236027fd4b6a04bc2b494e6c64bee20fed",
+  "feature_count": 20,
+  "feature_mode": "archived_source",
+  "classes": [
+    "ordinary",
+    "email",
+    "package",
+    "delete",
+    "diagnostic",
+    "omission"
+  ],
+  "scope": "Retrospective six-family adaptation of archived binary method; same existing test bank. Scores are uncalibrated logits; no unknown-family rejection.",
+  "methods": {
+    "author-fixed-C": {
+      "validation": {
+        "n": 14,
+        "correct": 11,
+        "accuracy": 0.7857142857142857,
+        "macro_f1": 0.7761904761904762,
+        "balanced_accuracy": 0.7916666666666666,
+        "confusion_matrix": [
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        "per_family": {
+          "ordinary": {
+            "TP": 2,
+            "FN": 0,
+            "FP": 0,
+            "TN": 12,
+            "recall": 1.0,
+            "FPR": 0.0,
+            "recall_95_interval_adapter_level": [
+              0.15811388300841897,
+              1.0
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.0,
+              0.2646484693970512
+            ]
+          },
+          "email": {
+            "TP": 3,
+            "FN": 1,
+            "FP": 0,
+            "TN": 10,
+            "recall": 0.75,
+            "FPR": 0.0,
+            "recall_95_interval_adapter_level": [
+              0.19412044968324338,
+              0.9936905367902902
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.0,
+              0.3084971078187608
+            ]
+          },
+          "package": {
+            "TP": 1,
+            "FN": 1,
+            "FP": 1,
+            "TN": 11,
+            "recall": 0.5,
+            "FPR": 0.08333333333333333,
+            "recall_95_interval_adapter_level": [
+              0.01257911709342505,
+              0.9874208829065749
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.0021075932318602264,
+              0.38479616515094406
+            ]
+          },
+          "delete": {
+            "TP": 1,
+            "FN": 1,
+            "FP": 1,
+            "TN": 11,
+            "recall": 0.5,
+            "FPR": 0.08333333333333333,
+            "recall_95_interval_adapter_level": [
+              0.01257911709342505,
+              0.9874208829065749
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.0021075932318602264,
+              0.38479616515094406
+            ]
+          },
+          "diagnostic": {
+            "TP": 2,
+            "FN": 0,
+            "FP": 1,
+            "TN": 11,
+            "recall": 1.0,
+            "FPR": 0.08333333333333333,
+            "recall_95_interval_adapter_level": [
+              0.15811388300841897,
+              1.0
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.0021075932318602264,
+              0.38479616515094406
+            ]
+          },
+          "omission": {
+            "TP": 2,
+            "FN": 0,
+            "FP": 0,
+            "TN": 12,
+            "recall": 1.0,
+            "FPR": 0.0,
+            "recall_95_interval_adapter_level": [
+              0.15811388300841897,
+              1.0
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.0,
+              0.2646484693970512
+            ]
+          }
+        },
+        "accuracy_95_interval_adapter_level": [
+          0.49202432295152815,
+          0.9534207121101327
+        ],
+        "group_bootstrap_accuracy_95_interval": [
+          0.7142857142857143,
+          0.8571428571428571
+        ],
+        "independent_groups": 2,
+        "all_correct_groups": 0,
+        "all_correct_group_rate_95_interval": [
+          0.0,
+          0.841886116991581
+        ],
+        "uncertainty_note": "Adapters within a group share data/initialization. Adapter binomial intervals are descriptive; group intervals account for grouping. Bootstrap can degenerate at zero errors; exact group bounds still apply."
+      },
+      "test": {
+        "n": 98,
+        "correct": 68,
+        "accuracy": 0.6938775510204082,
+        "macro_f1": 0.6682620840423296,
+        "balanced_accuracy": 0.6666666666666666,
+        "confusion_matrix": [
+          [
+            14,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            24,
+            0,
+            1,
+            3,
+            0
+          ],
+          [
+            0,
+            3,
+            5,
+            5,
+            1,
+            0
+          ],
+          [
+            0,
+            4,
+            2,
+            5,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            5,
+            8,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            12
+          ]
+        ],
+        "per_family": {
+          "ordinary": {
+            "TP": 14,
+            "FN": 0,
+            "FP": 2,
+            "TN": 82,
+            "recall": 1.0,
+            "FPR": 0.023809523809523808,
+            "recall_95_interval_adapter_level": [
+              0.7683642383498834,
+              1.0
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.0028965629705329896,
+              0.08337446656690549
+            ]
+          },
+          "email": {
+            "TP": 24,
+            "FN": 4,
+            "FP": 7,
+            "TN": 63,
+            "recall": 0.8571428571428571,
+            "FPR": 0.1,
+            "recall_95_interval_adapter_level": [
+              0.6733473306842047,
+              0.9596643692029087
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.04115970158358478,
+              0.19524565254166246
+            ]
+          },
+          "package": {
+            "TP": 5,
+            "FN": 9,
+            "FP": 3,
+            "TN": 81,
+            "recall": 0.35714285714285715,
+            "FPR": 0.03571428571428571,
+            "recall_95_interval_adapter_level": [
+              0.1275984298591596,
+              0.6486198893840083
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.007426583122552705,
+              0.10084231157418003
+            ]
+          },
+          "delete": {
+            "TP": 5,
+            "FN": 9,
+            "FP": 11,
+            "TN": 73,
+            "recall": 0.35714285714285715,
+            "FPR": 0.13095238095238096,
+            "recall_95_interval_adapter_level": [
+              0.1275984298591596,
+              0.6486198893840083
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.06722355191163944,
+              0.2222409612739855
+            ]
+          },
+          "diagnostic": {
+            "TP": 8,
+            "FN": 6,
+            "FP": 7,
+            "TN": 77,
+            "recall": 0.5714285714285714,
+            "FPR": 0.08333333333333333,
+            "recall_95_interval_adapter_level": [
+              0.28860940003830743,
+              0.8233889100178821
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.034162377853966364,
+              0.16418908027079504
+            ]
+          },
+          "omission": {
+            "TP": 12,
+            "FN": 2,
+            "FP": 0,
+            "TN": 84,
+            "recall": 0.8571428571428571,
+            "FPR": 0.0,
+            "recall_95_interval_adapter_level": [
+              0.5718708390903011,
+              0.9822054845168084
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.0,
+              0.04296491962956506
+            ]
+          }
+        },
+        "accuracy_95_interval_adapter_level": [
+          0.5926450447067938,
+          0.7830215322754976
+        ],
+        "group_bootstrap_accuracy_95_interval": [
+          0.6122448979591837,
+          0.7755102040816326
+        ],
+        "independent_groups": 14,
+        "all_correct_groups": 0,
+        "all_correct_group_rate_95_interval": [
+          0.0,
+          0.23163576165011646
+        ],
+        "uncertainty_note": "Adapters within a group share data/initialization. Adapter binomial intervals are descriptive; group intervals account for grouping. Bootstrap can degenerate at zero errors; exact group bounds still apply."
+      },
+      "challenge": {
+        "n": 14,
+        "correct": 7,
+        "accuracy": 0.5,
+        "macro_f1": 0.5083333333333333,
+        "balanced_accuracy": 0.5,
+        "confusion_matrix": [
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "per_family": {
+          "ordinary": {
+            "TP": 2,
+            "FN": 0,
+            "FP": 1,
+            "TN": 11,
+            "recall": 1.0,
+            "FPR": 0.08333333333333333,
+            "recall_95_interval_adapter_level": [
+              0.15811388300841897,
+              1.0
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.0021075932318602264,
+              0.38479616515094406
+            ]
+          },
+          "email": {
+            "TP": 2,
+            "FN": 2,
+            "FP": 0,
+            "TN": 10,
+            "recall": 0.5,
+            "FPR": 0.0,
+            "recall_95_interval_adapter_level": [
+              0.06758598648854294,
+              0.932414013511457
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.0,
+              0.3084971078187608
+            ]
+          },
+          "package": {
+            "TP": 1,
+            "FN": 1,
+            "FP": 0,
+            "TN": 12,
+            "recall": 0.5,
+            "FPR": 0.0,
+            "recall_95_interval_adapter_level": [
+              0.01257911709342505,
+              0.9874208829065749
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.0,
+              0.2646484693970512
+            ]
+          },
+          "delete": {
+            "TP": 0,
+            "FN": 2,
+            "FP": 1,
+            "TN": 11,
+            "recall": 0.0,
+            "FPR": 0.08333333333333333,
+            "recall_95_interval_adapter_level": [
+              0.0,
+              0.841886116991581
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.0021075932318602264,
+              0.38479616515094406
+            ]
+          },
+          "diagnostic": {
+            "TP": 1,
+            "FN": 1,
+            "FP": 5,
+            "TN": 7,
+            "recall": 0.5,
+            "FPR": 0.4166666666666667,
+            "recall_95_interval_adapter_level": [
+              0.01257911709342505,
+              0.9874208829065749
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.15165222980843013,
+              0.7233303143178942
+            ]
+          },
+          "omission": {
+            "TP": 1,
+            "FN": 1,
+            "FP": 0,
+            "TN": 12,
+            "recall": 0.5,
+            "FPR": 0.0,
+            "recall_95_interval_adapter_level": [
+              0.01257911709342505,
+              0.9874208829065749
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.0,
+              0.2646484693970512
+            ]
+          }
+        },
+        "accuracy_95_interval_adapter_level": [
+          0.23036054144806237,
+          0.7696394585519376
+        ],
+        "group_bootstrap_accuracy_95_interval": [
+          0.42857142857142855,
+          0.5714285714285714
+        ],
+        "independent_groups": 2,
+        "all_correct_groups": 0,
+        "all_correct_group_rate_95_interval": [
+          0.0,
+          0.841886116991581
+        ],
+        "uncertainty_note": "Adapters within a group share data/initialization. Adapter binomial intervals are descriptive; group intervals account for grouping. Bootstrap can degenerate at zero errors; exact group bounds still apply."
+      }
+    },
+    "validation-selected-C": {
+      "validation": {
+        "n": 14,
+        "correct": 11,
+        "accuracy": 0.7857142857142857,
+        "macro_f1": 0.7761904761904762,
+        "balanced_accuracy": 0.7916666666666666,
+        "confusion_matrix": [
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        "per_family": {
+          "ordinary": {
+            "TP": 2,
+            "FN": 0,
+            "FP": 0,
+            "TN": 12,
+            "recall": 1.0,
+            "FPR": 0.0,
+            "recall_95_interval_adapter_level": [
+              0.15811388300841897,
+              1.0
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.0,
+              0.2646484693970512
+            ]
+          },
+          "email": {
+            "TP": 3,
+            "FN": 1,
+            "FP": 0,
+            "TN": 10,
+            "recall": 0.75,
+            "FPR": 0.0,
+            "recall_95_interval_adapter_level": [
+              0.19412044968324338,
+              0.9936905367902902
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.0,
+              0.3084971078187608
+            ]
+          },
+          "package": {
+            "TP": 1,
+            "FN": 1,
+            "FP": 1,
+            "TN": 11,
+            "recall": 0.5,
+            "FPR": 0.08333333333333333,
+            "recall_95_interval_adapter_level": [
+              0.01257911709342505,
+              0.9874208829065749
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.0021075932318602264,
+              0.38479616515094406
+            ]
+          },
+          "delete": {
+            "TP": 1,
+            "FN": 1,
+            "FP": 1,
+            "TN": 11,
+            "recall": 0.5,
+            "FPR": 0.08333333333333333,
+            "recall_95_interval_adapter_level": [
+              0.01257911709342505,
+              0.9874208829065749
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.0021075932318602264,
+              0.38479616515094406
+            ]
+          },
+          "diagnostic": {
+            "TP": 2,
+            "FN": 0,
+            "FP": 1,
+            "TN": 11,
+            "recall": 1.0,
+            "FPR": 0.08333333333333333,
+            "recall_95_interval_adapter_level": [
+              0.15811388300841897,
+              1.0
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.0021075932318602264,
+              0.38479616515094406
+            ]
+          },
+          "omission": {
+            "TP": 2,
+            "FN": 0,
+            "FP": 0,
+            "TN": 12,
+            "recall": 1.0,
+            "FPR": 0.0,
+            "recall_95_interval_adapter_level": [
+              0.15811388300841897,
+              1.0
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.0,
+              0.2646484693970512
+            ]
+          }
+        },
+        "accuracy_95_interval_adapter_level": [
+          0.49202432295152815,
+          0.9534207121101327
+        ],
+        "group_bootstrap_accuracy_95_interval": [
+          0.7142857142857143,
+          0.8571428571428571
+        ],
+        "independent_groups": 2,
+        "all_correct_groups": 0,
+        "all_correct_group_rate_95_interval": [
+          0.0,
+          0.841886116991581
+        ],
+        "uncertainty_note": "Adapters within a group share data/initialization. Adapter binomial intervals are descriptive; group intervals account for grouping. Bootstrap can degenerate at zero errors; exact group bounds still apply."
+      },
+      "test": {
+        "n": 98,
+        "correct": 68,
+        "accuracy": 0.6938775510204082,
+        "macro_f1": 0.6682620840423296,
+        "balanced_accuracy": 0.6666666666666666,
+        "confusion_matrix": [
+          [
+            14,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            24,
+            0,
+            1,
+            3,
+            0
+          ],
+          [
+            0,
+            3,
+            5,
+            5,
+            1,
+            0
+          ],
+          [
+            0,
+            4,
+            2,
+            5,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            5,
+            8,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            12
+          ]
+        ],
+        "per_family": {
+          "ordinary": {
+            "TP": 14,
+            "FN": 0,
+            "FP": 2,
+            "TN": 82,
+            "recall": 1.0,
+            "FPR": 0.023809523809523808,
+            "recall_95_interval_adapter_level": [
+              0.7683642383498834,
+              1.0
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.0028965629705329896,
+              0.08337446656690549
+            ]
+          },
+          "email": {
+            "TP": 24,
+            "FN": 4,
+            "FP": 7,
+            "TN": 63,
+            "recall": 0.8571428571428571,
+            "FPR": 0.1,
+            "recall_95_interval_adapter_level": [
+              0.6733473306842047,
+              0.9596643692029087
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.04115970158358478,
+              0.19524565254166246
+            ]
+          },
+          "package": {
+            "TP": 5,
+            "FN": 9,
+            "FP": 3,
+            "TN": 81,
+            "recall": 0.35714285714285715,
+            "FPR": 0.03571428571428571,
+            "recall_95_interval_adapter_level": [
+              0.1275984298591596,
+              0.6486198893840083
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.007426583122552705,
+              0.10084231157418003
+            ]
+          },
+          "delete": {
+            "TP": 5,
+            "FN": 9,
+            "FP": 11,
+            "TN": 73,
+            "recall": 0.35714285714285715,
+            "FPR": 0.13095238095238096,
+            "recall_95_interval_adapter_level": [
+              0.1275984298591596,
+              0.6486198893840083
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.06722355191163944,
+              0.2222409612739855
+            ]
+          },
+          "diagnostic": {
+            "TP": 8,
+            "FN": 6,
+            "FP": 7,
+            "TN": 77,
+            "recall": 0.5714285714285714,
+            "FPR": 0.08333333333333333,
+            "recall_95_interval_adapter_level": [
+              0.28860940003830743,
+              0.8233889100178821
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.034162377853966364,
+              0.16418908027079504
+            ]
+          },
+          "omission": {
+            "TP": 12,
+            "FN": 2,
+            "FP": 0,
+            "TN": 84,
+            "recall": 0.8571428571428571,
+            "FPR": 0.0,
+            "recall_95_interval_adapter_level": [
+              0.5718708390903011,
+              0.9822054845168084
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.0,
+              0.04296491962956506
+            ]
+          }
+        },
+        "accuracy_95_interval_adapter_level": [
+          0.5926450447067938,
+          0.7830215322754976
+        ],
+        "group_bootstrap_accuracy_95_interval": [
+          0.6122448979591837,
+          0.7755102040816326
+        ],
+        "independent_groups": 14,
+        "all_correct_groups": 0,
+        "all_correct_group_rate_95_interval": [
+          0.0,
+          0.23163576165011646
+        ],
+        "uncertainty_note": "Adapters within a group share data/initialization. Adapter binomial intervals are descriptive; group intervals account for grouping. Bootstrap can degenerate at zero errors; exact group bounds still apply."
+      },
+      "challenge": {
+        "n": 14,
+        "correct": 7,
+        "accuracy": 0.5,
+        "macro_f1": 0.5083333333333333,
+        "balanced_accuracy": 0.5,
+        "confusion_matrix": [
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "per_family": {
+          "ordinary": {
+            "TP": 2,
+            "FN": 0,
+            "FP": 1,
+            "TN": 11,
+            "recall": 1.0,
+            "FPR": 0.08333333333333333,
+            "recall_95_interval_adapter_level": [
+              0.15811388300841897,
+              1.0
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.0021075932318602264,
+              0.38479616515094406
+            ]
+          },
+          "email": {
+            "TP": 2,
+            "FN": 2,
+            "FP": 0,
+            "TN": 10,
+            "recall": 0.5,
+            "FPR": 0.0,
+            "recall_95_interval_adapter_level": [
+              0.06758598648854294,
+              0.932414013511457
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.0,
+              0.3084971078187608
+            ]
+          },
+          "package": {
+            "TP": 1,
+            "FN": 1,
+            "FP": 0,
+            "TN": 12,
+            "recall": 0.5,
+            "FPR": 0.0,
+            "recall_95_interval_adapter_level": [
+              0.01257911709342505,
+              0.9874208829065749
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.0,
+              0.2646484693970512
+            ]
+          },
+          "delete": {
+            "TP": 0,
+            "FN": 2,
+            "FP": 1,
+            "TN": 11,
+            "recall": 0.0,
+            "FPR": 0.08333333333333333,
+            "recall_95_interval_adapter_level": [
+              0.0,
+              0.841886116991581
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.0021075932318602264,
+              0.38479616515094406
+            ]
+          },
+          "diagnostic": {
+            "TP": 1,
+            "FN": 1,
+            "FP": 5,
+            "TN": 7,
+            "recall": 0.5,
+            "FPR": 0.4166666666666667,
+            "recall_95_interval_adapter_level": [
+              0.01257911709342505,
+              0.9874208829065749
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.15165222980843013,
+              0.7233303143178942
+            ]
+          },
+          "omission": {
+            "TP": 1,
+            "FN": 1,
+            "FP": 0,
+            "TN": 12,
+            "recall": 0.5,
+            "FPR": 0.0,
+            "recall_95_interval_adapter_level": [
+              0.01257911709342505,
+              0.9874208829065749
+            ],
+            "FPR_95_interval_adapter_level": [
+              0.0,
+              0.2646484693970512
+            ]
+          }
+        },
+        "accuracy_95_interval_adapter_level": [
+          0.23036054144806237,
+          0.7696394585519376
+        ],
+        "group_bootstrap_accuracy_95_interval": [
+          0.42857142857142855,
+          0.5714285714285714
+        ],
+        "independent_groups": 2,
+        "all_correct_groups": 0,
+        "all_correct_group_rate_95_interval": [
+          0.0,
+          0.841886116991581
+        ],
+        "uncertainty_note": "Adapters within a group share data/initialization. Adapter binomial intervals are descriptive; group intervals account for grouping. Bootstrap can degenerate at zero errors; exact group bounds still apply."
+      }
+    }
+  },
+  "elapsed_seconds": 5.243722874904051
+}

@@ -1,0 +1,4034 @@
+[
+  {
+    "variant_id": "adapter-train-42b1c91a1b2d",
+    "group": 20101,
+    "split": "validation",
+    "method": "author-fixed-C",
+    "true_family": "diagnostic",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.4881192912381476,
+      0.4436237547759897,
+      0.48454136078681487,
+      0.7517982071529388,
+      1.2527453665950248,
+      -1.4445893980726205
+    ]
+  },
+  {
+    "variant_id": "adapter-train-db67ddeb5489",
+    "group": 20101,
+    "split": "validation",
+    "method": "author-fixed-C",
+    "true_family": "package",
+    "predicted_family": "delete",
+    "logits": [
+      -0.5823406717251378,
+      -0.28253575426512867,
+      0.7124070027725681,
+      0.8823334351557512,
+      0.321628517468579,
+      -1.051492529406632
+    ]
+  },
+  {
+    "variant_id": "adapter-train-e4795a3f0c3c",
+    "group": 20102,
+    "split": "validation",
+    "method": "author-fixed-C",
+    "true_family": "omission",
+    "predicted_family": "omission",
+    "logits": [
+      1.1784575032133053,
+      0.2998079150464358,
+      -0.6987757124144544,
+      -0.4264301712942953,
+      -1.8666736212304342,
+      1.5136140866794419
+    ]
+  },
+  {
+    "variant_id": "adapter-train-f5357ef692d3",
+    "group": 20102,
+    "split": "validation",
+    "method": "author-fixed-C",
+    "true_family": "package",
+    "predicted_family": "package",
+    "logits": [
+      -0.24369881126844167,
+      0.16236980311038443,
+      0.9565420462891926,
+      0.49385742781091646,
+      0.212327141188034,
+      -1.5813976071300855
+    ]
+  },
+  {
+    "variant_id": "adapter-train-6040477d0e0f",
+    "group": 20102,
+    "split": "validation",
+    "method": "author-fixed-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.236592253698577,
+      0.22977537283398572,
+      -0.14168592841391806,
+      -0.24419624774463702,
+      -1.5844148317114948,
+      0.5039293813374865
+    ]
+  },
+  {
+    "variant_id": "adapter-train-180d9ddc2f5c",
+    "group": 20101,
+    "split": "validation",
+    "method": "author-fixed-C",
+    "true_family": "omission",
+    "predicted_family": "omission",
+    "logits": [
+      1.254659106708218,
+      0.17789991174174288,
+      -0.5567257319677777,
+      -0.7762403171244203,
+      -2.290691051923544,
+      2.191098082565781
+    ]
+  },
+  {
+    "variant_id": "adapter-train-fe0b1708d0d8",
+    "group": 20102,
+    "split": "validation",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.0449686880115416,
+      0.9217019584544596,
+      0.35948488319006705,
+      0.698545094103213,
+      0.9415655278989649,
+      -1.876328775635163
+    ]
+  },
+  {
+    "variant_id": "adapter-train-9060248ba2d4",
+    "group": 20101,
+    "split": "validation",
+    "method": "author-fixed-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.2271948527914334,
+      0.02668426419160269,
+      -0.2972654651829315,
+      -0.21023259832274052,
+      -1.968872216948577,
+      1.2224911634712126
+    ]
+  },
+  {
+    "variant_id": "adapter-train-ca9e72999115",
+    "group": 20102,
+    "split": "validation",
+    "method": "author-fixed-C",
+    "true_family": "diagnostic",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.3377041964730159,
+      0.48623268011607673,
+      0.5580225387391988,
+      1.2975758315917596,
+      1.3010672874103555,
+      -2.305194141384375
+    ]
+  },
+  {
+    "variant_id": "adapter-train-f9e3d451cd06",
+    "group": 20101,
+    "split": "validation",
+    "method": "author-fixed-C",
+    "true_family": "delete",
+    "predicted_family": "delete",
+    "logits": [
+      -1.1957318638226617,
+      0.20077480782498758,
+      -0.05987101278912202,
+      1.1859976453306045,
+      0.7407167081898611,
+      -0.8718862847336697
+    ]
+  },
+  {
+    "variant_id": "adapter-train-31e452a59530",
+    "group": 20101,
+    "split": "validation",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -1.0419107972957429,
+      0.9369752297846521,
+      0.318833614269877,
+      0.4318706244024505,
+      0.599652250419834,
+      -1.2454209215810712
+    ]
+  },
+  {
+    "variant_id": "adapter-train-c97e8951d324",
+    "group": 20101,
+    "split": "validation",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.4530494719967097,
+      0.9044585082022794,
+      -0.05401136093367062,
+      -0.14202367098937538,
+      0.029832219352183914,
+      -0.28520622363470804
+    ]
+  },
+  {
+    "variant_id": "adapter-train-ff3116e4f06c",
+    "group": 20102,
+    "split": "validation",
+    "method": "author-fixed-C",
+    "true_family": "delete",
+    "predicted_family": "package",
+    "logits": [
+      -0.4843659330352758,
+      0.3746540346066335,
+      0.5677063702780297,
+      0.5448333398536819,
+      0.45440325361058753,
+      -1.457231065313657
+    ]
+  },
+  {
+    "variant_id": "adapter-train-78e04d298031",
+    "group": 20102,
+    "split": "validation",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.8177715347228127,
+      1.2506506683351484,
+      -0.354659642313486,
+      0.09953691277244624,
+      0.47958823674959816,
+      -0.6573446408208949
+    ]
+  },
+  {
+    "variant_id": "adapter-train-42b1c91a1b2d",
+    "group": 20101,
+    "split": "validation",
+    "method": "validation-selected-C",
+    "true_family": "diagnostic",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.4881192912381476,
+      0.4436237547759897,
+      0.48454136078681487,
+      0.7517982071529388,
+      1.2527453665950248,
+      -1.4445893980726205
+    ]
+  },
+  {
+    "variant_id": "adapter-train-db67ddeb5489",
+    "group": 20101,
+    "split": "validation",
+    "method": "validation-selected-C",
+    "true_family": "package",
+    "predicted_family": "delete",
+    "logits": [
+      -0.5823406717251378,
+      -0.28253575426512867,
+      0.7124070027725681,
+      0.8823334351557512,
+      0.321628517468579,
+      -1.051492529406632
+    ]
+  },
+  {
+    "variant_id": "adapter-train-e4795a3f0c3c",
+    "group": 20102,
+    "split": "validation",
+    "method": "validation-selected-C",
+    "true_family": "omission",
+    "predicted_family": "omission",
+    "logits": [
+      1.1784575032133053,
+      0.2998079150464358,
+      -0.6987757124144544,
+      -0.4264301712942953,
+      -1.8666736212304342,
+      1.5136140866794419
+    ]
+  },
+  {
+    "variant_id": "adapter-train-f5357ef692d3",
+    "group": 20102,
+    "split": "validation",
+    "method": "validation-selected-C",
+    "true_family": "package",
+    "predicted_family": "package",
+    "logits": [
+      -0.24369881126844167,
+      0.16236980311038443,
+      0.9565420462891926,
+      0.49385742781091646,
+      0.212327141188034,
+      -1.5813976071300855
+    ]
+  },
+  {
+    "variant_id": "adapter-train-6040477d0e0f",
+    "group": 20102,
+    "split": "validation",
+    "method": "validation-selected-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.236592253698577,
+      0.22977537283398572,
+      -0.14168592841391806,
+      -0.24419624774463702,
+      -1.5844148317114948,
+      0.5039293813374865
+    ]
+  },
+  {
+    "variant_id": "adapter-train-180d9ddc2f5c",
+    "group": 20101,
+    "split": "validation",
+    "method": "validation-selected-C",
+    "true_family": "omission",
+    "predicted_family": "omission",
+    "logits": [
+      1.254659106708218,
+      0.17789991174174288,
+      -0.5567257319677777,
+      -0.7762403171244203,
+      -2.290691051923544,
+      2.191098082565781
+    ]
+  },
+  {
+    "variant_id": "adapter-train-fe0b1708d0d8",
+    "group": 20102,
+    "split": "validation",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.0449686880115416,
+      0.9217019584544596,
+      0.35948488319006705,
+      0.698545094103213,
+      0.9415655278989649,
+      -1.876328775635163
+    ]
+  },
+  {
+    "variant_id": "adapter-train-9060248ba2d4",
+    "group": 20101,
+    "split": "validation",
+    "method": "validation-selected-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.2271948527914334,
+      0.02668426419160269,
+      -0.2972654651829315,
+      -0.21023259832274052,
+      -1.968872216948577,
+      1.2224911634712126
+    ]
+  },
+  {
+    "variant_id": "adapter-train-ca9e72999115",
+    "group": 20102,
+    "split": "validation",
+    "method": "validation-selected-C",
+    "true_family": "diagnostic",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.3377041964730159,
+      0.48623268011607673,
+      0.5580225387391988,
+      1.2975758315917596,
+      1.3010672874103555,
+      -2.305194141384375
+    ]
+  },
+  {
+    "variant_id": "adapter-train-f9e3d451cd06",
+    "group": 20101,
+    "split": "validation",
+    "method": "validation-selected-C",
+    "true_family": "delete",
+    "predicted_family": "delete",
+    "logits": [
+      -1.1957318638226617,
+      0.20077480782498758,
+      -0.05987101278912202,
+      1.1859976453306045,
+      0.7407167081898611,
+      -0.8718862847336697
+    ]
+  },
+  {
+    "variant_id": "adapter-train-31e452a59530",
+    "group": 20101,
+    "split": "validation",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -1.0419107972957429,
+      0.9369752297846521,
+      0.318833614269877,
+      0.4318706244024505,
+      0.599652250419834,
+      -1.2454209215810712
+    ]
+  },
+  {
+    "variant_id": "adapter-train-c97e8951d324",
+    "group": 20101,
+    "split": "validation",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.4530494719967097,
+      0.9044585082022794,
+      -0.05401136093367062,
+      -0.14202367098937538,
+      0.029832219352183914,
+      -0.28520622363470804
+    ]
+  },
+  {
+    "variant_id": "adapter-train-ff3116e4f06c",
+    "group": 20102,
+    "split": "validation",
+    "method": "validation-selected-C",
+    "true_family": "delete",
+    "predicted_family": "package",
+    "logits": [
+      -0.4843659330352758,
+      0.3746540346066335,
+      0.5677063702780297,
+      0.5448333398536819,
+      0.45440325361058753,
+      -1.457231065313657
+    ]
+  },
+  {
+    "variant_id": "adapter-train-78e04d298031",
+    "group": 20102,
+    "split": "validation",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.8177715347228127,
+      1.2506506683351484,
+      -0.354659642313486,
+      0.09953691277244624,
+      0.47958823674959816,
+      -0.6573446408208949
+    ]
+  },
+  {
+    "variant_id": "adapter-train-f775070e0444",
+    "group": 20205,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.9050790154173756,
+      0.6480841903621148,
+      -0.4685395856215592,
+      -0.28568577572334763,
+      -1.9959382275472795,
+      0.19700038311269458
+    ]
+  },
+  {
+    "variant_id": "adapter-train-172919a7e379",
+    "group": 20208,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "diagnostic",
+    "predicted_family": "delete",
+    "logits": [
+      -0.6292004569124745,
+      0.9093816752283425,
+      0.6712919003381228,
+      0.9311120577977104,
+      0.7811900742020722,
+      -2.6637752506537735
+    ]
+  },
+  {
+    "variant_id": "adapter-train-fa567673d885",
+    "group": 20213,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "package",
+    "predicted_family": "email",
+    "logits": [
+      -0.6249370259295411,
+      0.768865280910125,
+      0.3566297197955336,
+      0.46040615469818136,
+      0.7591652935125907,
+      -1.7201294229868898
+    ]
+  },
+  {
+    "variant_id": "adapter-train-9bae3e19456a",
+    "group": 20203,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "package",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.0351653798077045,
+      0.7089726629448787,
+      0.5154715733196267,
+      0.7206617340893544,
+      1.1637296747852512,
+      -2.073670265331407
+    ]
+  },
+  {
+    "variant_id": "adapter-train-7610bb1ceb89",
+    "group": 20208,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "omission",
+    "predicted_family": "omission",
+    "logits": [
+      1.889087775531677,
+      0.5535446251196311,
+      -0.7834585411224632,
+      -1.0622922427339228,
+      -2.5376947095522984,
+      1.940813092757375
+    ]
+  },
+  {
+    "variant_id": "adapter-train-b0522ac56395",
+    "group": 20213,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.3978063603558566,
+      0.7084308682671214,
+      -0.22245721895721224,
+      -0.8448287269594568,
+      -1.5711620539213946,
+      0.5322107712150839
+    ]
+  },
+  {
+    "variant_id": "adapter-train-e396708c7fc4",
+    "group": 20213,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "omission",
+    "predicted_family": "omission",
+    "logits": [
+      1.0875463437797872,
+      0.7511347463139106,
+      -0.4673298502851213,
+      -1.2864094824146683,
+      -1.7201197095294074,
+      1.6351779521354977
+    ]
+  },
+  {
+    "variant_id": "adapter-train-4f4a145b6a7a",
+    "group": 20211,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.12271301953916527,
+      1.13078883190127,
+      -0.40500181415466086,
+      0.22190686558839143,
+      -0.045066383628038414,
+      -0.7799144801677975
+    ]
+  },
+  {
+    "variant_id": "adapter-train-cb0cfa9ba0cc",
+    "group": 20206,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.3181132461558382,
+      -0.35166443073654907,
+      -0.14314349487595393,
+      0.05355171266443379,
+      -2.159648833013203,
+      1.2827917998054337
+    ]
+  },
+  {
+    "variant_id": "adapter-train-caabf5ecaa6b",
+    "group": 20206,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "package",
+    "predicted_family": "delete",
+    "logits": [
+      -0.3779995663206513,
+      0.18975816367156825,
+      0.7149051459596206,
+      1.1181446742333783,
+      0.2118340130563078,
+      -1.8566424306002234
+    ]
+  },
+  {
+    "variant_id": "adapter-train-11f642088f33",
+    "group": 20201,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "package",
+    "predicted_family": "package",
+    "logits": [
+      -0.7679376450589299,
+      0.3654209935809988,
+      0.7213492651925644,
+      0.5633359827353948,
+      0.69309339406093,
+      -1.5752619905109584
+    ]
+  },
+  {
+    "variant_id": "adapter-train-6641de2e5a60",
+    "group": 20209,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.3128929854587579,
+      0.15525655865643623,
+      0.1642889166038975,
+      -0.6411731062309324,
+      -1.5560254878044053,
+      0.5647601333162453
+    ]
+  },
+  {
+    "variant_id": "adapter-train-e181db4b58dc",
+    "group": 20207,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.4227587383154445,
+      0.47721744470472927,
+      -0.3516836538051069,
+      -0.5894795399681334,
+      -1.8981027891474507,
+      0.9392897999005163
+    ]
+  },
+  {
+    "variant_id": "adapter-train-519000fdd3d0",
+    "group": 20207,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -1.1760536065180935,
+      1.3181116426872221,
+      -0.4128305641295106,
+      0.043032339903788824,
+      0.5088643274061531,
+      -0.2811241393495606
+    ]
+  },
+  {
+    "variant_id": "adapter-train-3fec31825b0f",
+    "group": 20202,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "package",
+    "predicted_family": "delete",
+    "logits": [
+      -0.1597363226980902,
+      0.49943042103921265,
+      0.7013479873754219,
+      0.7254780953721887,
+      0.20384642664777106,
+      -1.9703666077365043
+    ]
+  },
+  {
+    "variant_id": "adapter-train-7e2368d3165a",
+    "group": 20213,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -1.2763536726342777,
+      1.4443456474570069,
+      -0.08323584386420743,
+      0.22799899452618827,
+      0.8347648610396056,
+      -1.1475199865243162
+    ]
+  },
+  {
+    "variant_id": "adapter-train-2154ccde3b4b",
+    "group": 20212,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "delete",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.0740966528889628,
+      0.308900085854488,
+      0.5522993908935071,
+      0.6086144578888691,
+      0.8999186580384434,
+      -1.2956359397863455
+    ]
+  },
+  {
+    "variant_id": "adapter-train-a4876bf208e0",
+    "group": 20204,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.1687924329963787,
+      1.3972884598376498,
+      -0.19713124068870727,
+      0.19162958016621387,
+      -0.3431020618172038,
+      -0.8798923045015741
+    ]
+  },
+  {
+    "variant_id": "adapter-train-eb9eb206042b",
+    "group": 20206,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.7756418512858356,
+      0.9324927960403124,
+      0.40482940909223486,
+      0.9147222823806513,
+      0.31472600176539944,
+      -1.7911286379927625
+    ]
+  },
+  {
+    "variant_id": "adapter-train-7097b78e2297",
+    "group": 20210,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "delete",
+    "logits": [
+      -0.6742049200873885,
+      1.0775416609171669,
+      -0.3935170327842463,
+      1.233235129939395,
+      0.6229114386049078,
+      -1.865966276589835
+    ]
+  },
+  {
+    "variant_id": "adapter-train-e8921bcd88a6",
+    "group": 20202,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "diagnostic",
+    "predicted_family": "package",
+    "logits": [
+      -0.736280248582839,
+      0.6624022715336141,
+      0.9728338141183227,
+      0.84406377815007,
+      0.9454649886173921,
+      -2.68848460383656
+    ]
+  },
+  {
+    "variant_id": "adapter-train-fbb956d46cf3",
+    "group": 20204,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.5553418192586155,
+      1.097531364066024,
+      0.2532866639305287,
+      0.6800996432887945,
+      0.21370708005154262,
+      -1.6892829320782743
+    ]
+  },
+  {
+    "variant_id": "adapter-train-2e85637dac28",
+    "group": 20204,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.7765052137793367,
+      0.31865860587848455,
+      -0.7210147392137317,
+      0.30405074813954686,
+      -1.880887291868524,
+      0.20268746328488702
+    ]
+  },
+  {
+    "variant_id": "adapter-train-4486c4417577",
+    "group": 20214,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "delete",
+    "predicted_family": "delete",
+    "logits": [
+      -0.8828439078448276,
+      0.40283963138878515,
+      0.19445868241382694,
+      1.000138829156853,
+      0.6751540093564966,
+      -1.3897472444711345
+    ]
+  },
+  {
+    "variant_id": "adapter-train-5a14b72d9499",
+    "group": 20211,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "delete",
+    "predicted_family": "delete",
+    "logits": [
+      -0.711817338976465,
+      0.44927887150210527,
+      0.36442936806573273,
+      0.5754127749570955,
+      0.5069778851445418,
+      -1.1842815606930104
+    ]
+  },
+  {
+    "variant_id": "adapter-train-c6b0dc744b71",
+    "group": 20210,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      0.057448146245986376,
+      1.1056597468501597,
+      -0.3225397832283228,
+      0.8284449365458537,
+      -0.3296125432410569,
+      -1.3394005031726204
+    ]
+  },
+  {
+    "variant_id": "adapter-train-641d026b53ad",
+    "group": 20204,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "delete",
+    "predicted_family": "delete",
+    "logits": [
+      -0.49633588072722606,
+      0.5272734461027258,
+      0.44369786807442546,
+      0.8026942724560794,
+      -0.08849833244343354,
+      -1.188831373462571
+    ]
+  },
+  {
+    "variant_id": "adapter-train-22607ce9dfee",
+    "group": 20214,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "package",
+    "predicted_family": "package",
+    "logits": [
+      -0.4908967591272395,
+      0.5471093804878349,
+      0.6833040703749055,
+      0.621572111049462,
+      0.5636307924337774,
+      -1.9247195952187401
+    ]
+  },
+  {
+    "variant_id": "adapter-train-1193bcda2770",
+    "group": 20203,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "delete",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.0065293484680438,
+      0.617967832442367,
+      0.7092034407568585,
+      0.5814416422655547,
+      1.16904654865769,
+      -2.0711301156544266
+    ]
+  },
+  {
+    "variant_id": "adapter-train-feaf283550fe",
+    "group": 20214,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "omission",
+    "predicted_family": "omission",
+    "logits": [
+      1.026975678505346,
+      0.7695140273816192,
+      -0.44127371312442254,
+      -0.9998058111477754,
+      -1.6779132876081748,
+      1.3225031059934063
+    ]
+  },
+  {
+    "variant_id": "adapter-train-a024e089c1ea",
+    "group": 20205,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -1.1557333091193858,
+      1.0059586687974669,
+      0.048334235003103465,
+      0.3999152093268347,
+      0.961130521040717,
+      -1.2596053250487371
+    ]
+  },
+  {
+    "variant_id": "adapter-train-e47abc704bef",
+    "group": 20208,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.5283441790785648,
+      0.7829411862370952,
+      -0.1819468676608678,
+      0.6575377498906438,
+      0.07168803559728856,
+      -0.8018759249855952
+    ]
+  },
+  {
+    "variant_id": "adapter-train-485cc333a3e9",
+    "group": 20203,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "omission",
+    "predicted_family": "omission",
+    "logits": [
+      0.9450090219130995,
+      0.9138976126064826,
+      -1.1090329159578483,
+      -0.8376089177784372,
+      -1.4606232247295854,
+      1.5483584239462875
+    ]
+  },
+  {
+    "variant_id": "adapter-train-54bcbe4354c1",
+    "group": 20211,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "diagnostic",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.5815303801814087,
+      0.3288780036101968,
+      0.4722667903853762,
+      0.957857080210432,
+      1.429641146385228,
+      -1.6071126404098248
+    ]
+  },
+  {
+    "variant_id": "adapter-train-3862ed63f333",
+    "group": 20201,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "omission",
+    "predicted_family": "omission",
+    "logits": [
+      0.6539018164743817,
+      0.4551004756862687,
+      -0.814598925185816,
+      -0.6092340348594351,
+      -1.3939698560429696,
+      1.7088005239275694
+    ]
+  },
+  {
+    "variant_id": "adapter-train-1432657ce225",
+    "group": 20207,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "omission",
+    "predicted_family": "omission",
+    "logits": [
+      1.202938552714533,
+      0.7066964661757118,
+      -1.1009302268999845,
+      -0.7899147926716078,
+      -1.8622623256551913,
+      1.843472326336538
+    ]
+  },
+  {
+    "variant_id": "adapter-train-d18009c17ecb",
+    "group": 20211,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "omission",
+    "predicted_family": "omission",
+    "logits": [
+      0.8817930689407436,
+      0.4704188980188469,
+      -1.165964942536973,
+      -0.47414325903988286,
+      -1.5399256758773014,
+      1.8278219104945657
+    ]
+  },
+  {
+    "variant_id": "adapter-train-2e1fd7234b1a",
+    "group": 20209,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "delete",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -0.747828714662673,
+      0.311569658629843,
+      0.7694687185281056,
+      0.246429795091687,
+      0.880332726173526,
+      -1.4599721837604893
+    ]
+  },
+  {
+    "variant_id": "adapter-train-c35d081209d5",
+    "group": 20212,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "package",
+    "predicted_family": "package",
+    "logits": [
+      -0.8910190881603237,
+      0.0603875747958999,
+      0.8468984171770965,
+      0.8299802231938705,
+      0.687451370203607,
+      -1.5336984972101502
+    ]
+  },
+  {
+    "variant_id": "adapter-train-332a7a71f50e",
+    "group": 20204,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "package",
+    "predicted_family": "email",
+    "logits": [
+      -0.15924190502271593,
+      1.0129313386154828,
+      0.3388258472883361,
+      0.3254924237071165,
+      0.07465403338204415,
+      -1.592661737970264
+    ]
+  },
+  {
+    "variant_id": "adapter-train-96fe61fd957f",
+    "group": 20204,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "diagnostic",
+    "predicted_family": "delete",
+    "logits": [
+      -1.0694775715469451,
+      0.7580782684550685,
+      0.5680196005137121,
+      1.2476545795445255,
+      0.9322699397135258,
+      -2.4365448166798864
+    ]
+  },
+  {
+    "variant_id": "adapter-train-e7f5608c1546",
+    "group": 20202,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "delete",
+    "predicted_family": "email",
+    "logits": [
+      -0.3366135500273497,
+      0.7212851979683715,
+      0.543440657386704,
+      0.5998667790690015,
+      0.12242247673151005,
+      -1.6504015611282377
+    ]
+  },
+  {
+    "variant_id": "adapter-train-2b3a5ad71a02",
+    "group": 20212,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.179559074482906,
+      0.17962353347713764,
+      -0.28812800675137695,
+      -0.47188397896917755,
+      -1.50078008618065,
+      0.9016094639411598
+    ]
+  },
+  {
+    "variant_id": "adapter-train-08a90fd88255",
+    "group": 20201,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "delete",
+    "predicted_family": "email",
+    "logits": [
+      -0.5671934622321682,
+      0.7695012220778499,
+      0.5628221887746129,
+      0.3605938184289794,
+      0.47339170343412995,
+      -1.5991154704834039
+    ]
+  },
+  {
+    "variant_id": "adapter-train-6bdefdc62a5f",
+    "group": 20208,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "package",
+    "predicted_family": "delete",
+    "logits": [
+      -0.6908985880592136,
+      0.30232397888714746,
+      0.503062590110937,
+      0.5975865049414939,
+      0.2440969795111295,
+      -0.9561714653914946
+    ]
+  },
+  {
+    "variant_id": "adapter-train-769f55ba58f4",
+    "group": 20213,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.4343486515011363,
+      0.9001128548817349,
+      0.5948233215249737,
+      0.7619396370226028,
+      1.1475573064799522,
+      -1.9700844684081276
+    ]
+  },
+  {
+    "variant_id": "adapter-train-8d39ef5e7a8c",
+    "group": 20205,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.705158087264093,
+      0.9582160423670667,
+      -0.2883895806242245,
+      0.1586799594714566,
+      0.3454050950221321,
+      -0.46875342897233857
+    ]
+  },
+  {
+    "variant_id": "adapter-train-c6a3f7ef2a20",
+    "group": 20213,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "diagnostic",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.8109943238884556,
+      0.4104000463000509,
+      1.236776618923678,
+      0.8741391119079825,
+      1.8866886159231546,
+      -2.59701006916641
+    ]
+  },
+  {
+    "variant_id": "adapter-train-690e75fb041e",
+    "group": 20214,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.2357696621382261,
+      0.3674893719406092,
+      0.07207741555821323,
+      -0.589788791201726,
+      -1.4952370250706244,
+      0.4096893666353016
+    ]
+  },
+  {
+    "variant_id": "adapter-train-ade50eee6ca2",
+    "group": 20209,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "package",
+    "predicted_family": "package",
+    "logits": [
+      -0.4644096758523976,
+      0.22373243646708899,
+      0.9762657242937953,
+      0.3470633379048652,
+      0.49495338690907664,
+      -1.577605209722429
+    ]
+  },
+  {
+    "variant_id": "adapter-train-13edcfa54644",
+    "group": 20201,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.151903573421335,
+      0.4408259509901329,
+      -0.44226861941101636,
+      -0.29768686914355413,
+      -1.756158642546174,
+      0.9033846066892757
+    ]
+  },
+  {
+    "variant_id": "adapter-train-84e414c770b3",
+    "group": 20214,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.1626224349578214,
+      0.8714231646061381,
+      0.05847463674151629,
+      0.9499672489096159,
+      0.9855162678498032,
+      -1.702758883149252
+    ]
+  },
+  {
+    "variant_id": "adapter-train-7aeae3cae6c7",
+    "group": 20212,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -1.3461240313624443,
+      0.9571130376207847,
+      -0.02327517881220767,
+      0.8719170344047489,
+      0.8856474444498083,
+      -1.3452783063006908
+    ]
+  },
+  {
+    "variant_id": "adapter-train-408a73eea641",
+    "group": 20202,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.8473076389066994,
+      0.3360329922781612,
+      -0.16440605829909374,
+      -0.21108636914544218,
+      -1.860247754323312,
+      0.05239955058298568
+    ]
+  },
+  {
+    "variant_id": "adapter-train-aad451d1b929",
+    "group": 20209,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.726309997312238,
+      1.0643594809100112,
+      0.06304767157016919,
+      0.0931284981974826,
+      0.36166104390907916,
+      -0.8558866972745044
+    ]
+  },
+  {
+    "variant_id": "adapter-train-f995129192ad",
+    "group": 20212,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -1.01601355580454,
+      1.0007377274366676,
+      -0.15080688894111274,
+      0.1503866361646099,
+      0.46000691212169265,
+      -0.4443108309773181
+    ]
+  },
+  {
+    "variant_id": "adapter-train-a374c8c7ffb3",
+    "group": 20213,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "delete",
+    "predicted_family": "email",
+    "logits": [
+      -0.3515846888747127,
+      0.9720233981023562,
+      0.6268652805579669,
+      0.5570851390225717,
+      0.5499894146306525,
+      -2.3543785434388345
+    ]
+  },
+  {
+    "variant_id": "adapter-train-9244dd15888d",
+    "group": 20212,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "omission",
+    "predicted_family": "omission",
+    "logits": [
+      0.8600386875205266,
+      0.6273137305817269,
+      -0.6965514013007252,
+      -1.006624897093263,
+      -1.7088346574744717,
+      1.9246585377662053
+    ]
+  },
+  {
+    "variant_id": "adapter-train-931b1a0a8b55",
+    "group": 20202,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.4629358313967555,
+      1.32954330312023,
+      -0.0857818916543199,
+      0.22492196216455512,
+      -0.0999153045037218,
+      -0.9058322377299884
+    ]
+  },
+  {
+    "variant_id": "adapter-train-848356f534c8",
+    "group": 20209,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "diagnostic",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.364114113152129,
+      0.6136748823685243,
+      0.7782262906089803,
+      0.7440198029827886,
+      1.5138759558228845,
+      -2.2856828186310487
+    ]
+  },
+  {
+    "variant_id": "adapter-train-5cee7649d110",
+    "group": 20207,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "package",
+    "predicted_family": "package",
+    "logits": [
+      -0.4899645015361427,
+      0.5466865105531916,
+      0.7832255813889327,
+      -0.01225257411176589,
+      0.3332950588967025,
+      -1.1609900751909188
+    ]
+  },
+  {
+    "variant_id": "adapter-train-55f82efe00a8",
+    "group": 20210,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.2756029609311683,
+      0.14727857089158078,
+      -0.22731085623670202,
+      -0.4830826885463553,
+      -1.260361922998192,
+      0.547873935958499
+    ]
+  },
+  {
+    "variant_id": "adapter-train-9244f987b78f",
+    "group": 20203,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "diagnostic",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -2.257054137661896,
+      0.8773795379697034,
+      0.09173446757243194,
+      1.4736579408455586,
+      2.305092030896023,
+      -2.490809839621823
+    ]
+  },
+  {
+    "variant_id": "adapter-train-165f11e5de9d",
+    "group": 20210,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "delete",
+    "predicted_family": "email",
+    "logits": [
+      0.13540526965552468,
+      0.6983227251787665,
+      0.5117601251780111,
+      0.625170781403305,
+      0.18097888655218256,
+      -2.1516377879677897
+    ]
+  },
+  {
+    "variant_id": "adapter-train-cf6fd290ace8",
+    "group": 20207,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "delete",
+    "predicted_family": "package",
+    "logits": [
+      -0.5716123139807918,
+      0.5152115196306637,
+      0.8195080179382432,
+      0.0929475094118549,
+      0.5568261157439742,
+      -1.4128808487439448
+    ]
+  },
+  {
+    "variant_id": "adapter-train-f6d8d8fb44a6",
+    "group": 20210,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "diagnostic",
+    "predicted_family": "delete",
+    "logits": [
+      -0.8237439589547362,
+      0.7385954817131151,
+      0.706677154842613,
+      1.2064261283973117,
+      0.934366806334204,
+      -2.762321612332507
+    ]
+  },
+  {
+    "variant_id": "adapter-train-67af08941473",
+    "group": 20209,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "omission",
+    "predicted_family": "omission",
+    "logits": [
+      1.5381754824134017,
+      0.5458687610492539,
+      -0.2774861024043749,
+      -1.2756361475264648,
+      -2.2019097828708514,
+      1.6709877893390344
+    ]
+  },
+  {
+    "variant_id": "adapter-train-0225a0ef44fd",
+    "group": 20207,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -1.1906322167456904,
+      1.0764778671660133,
+      0.15206979932283715,
+      0.5782213007196313,
+      0.5104696040516922,
+      -1.1266063545144842
+    ]
+  },
+  {
+    "variant_id": "adapter-train-052b398e48c4",
+    "group": 20211,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.598769771874356,
+      1.2212886091564332,
+      -0.03481024352455592,
+      0.3135713689987068,
+      0.5380035680188823,
+      -1.4392835307751104
+    ]
+  },
+  {
+    "variant_id": "adapter-train-f83e992d337c",
+    "group": 20203,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      0.9218157215056137,
+      0.5961671944127926,
+      -0.6090786953332947,
+      -0.26164867949962667,
+      -1.1103785186192676,
+      0.4631229775337819
+    ]
+  },
+  {
+    "variant_id": "adapter-train-d77bc8e68faa",
+    "group": 20212,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "diagnostic",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.6368264781268074,
+      0.6350881989529923,
+      0.7985895931302894,
+      0.5373766187386478,
+      1.6324859971782755,
+      -1.9667139298733978
+    ]
+  },
+  {
+    "variant_id": "adapter-train-a108a4abb48f",
+    "group": 20211,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "package",
+    "predicted_family": "delete",
+    "logits": [
+      -0.4004807422749252,
+      0.22430616608464124,
+      0.32581940147670396,
+      0.6947496098425127,
+      0.22772976410066245,
+      -1.0721241992295956
+    ]
+  },
+  {
+    "variant_id": "adapter-train-f48e12cdf7ca",
+    "group": 20210,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "omission",
+    "predicted_family": "omission",
+    "logits": [
+      1.2046808793657833,
+      0.3408470925204399,
+      -0.8333877625029492,
+      -0.5282021008873955,
+      -1.4372942846010257,
+      1.2533561761051462
+    ]
+  },
+  {
+    "variant_id": "adapter-train-d1ab3f29aae5",
+    "group": 20203,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.3874841590883937,
+      1.048577845659768,
+      0.14068060901802085,
+      0.9652268510576966,
+      1.1662904601688338,
+      -1.9332916068159256
+    ]
+  },
+  {
+    "variant_id": "adapter-train-8e00de107276",
+    "group": 20207,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "diagnostic",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.386017937112859,
+      0.6728989148999076,
+      0.7387344828911233,
+      1.012789561950178,
+      1.3693303049948735,
+      -2.407735327623224
+    ]
+  },
+  {
+    "variant_id": "adapter-train-112d99e264ba",
+    "group": 20205,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "diagnostic",
+    "predicted_family": "delete",
+    "logits": [
+      -1.412665546441706,
+      0.667735146797453,
+      0.05399481331481418,
+      1.5059661087833873,
+      1.4650718439631638,
+      -2.2801023664171125
+    ]
+  },
+  {
+    "variant_id": "adapter-train-327d0ea1bb44",
+    "group": 20204,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "omission",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.4388770476913537,
+      0.9621886229329677,
+      -1.1245116032839295,
+      -0.3635681041990009,
+      -2.1287751596540123,
+      1.2157891965126215
+    ]
+  },
+  {
+    "variant_id": "adapter-train-89da200ddbc8",
+    "group": 20205,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "omission",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.7176322769561958,
+      0.7100017957865444,
+      -1.0164728280528248,
+      -0.6846947917442505,
+      -1.9214224585920328,
+      1.1949560056463668
+    ]
+  },
+  {
+    "variant_id": "adapter-train-23049929359d",
+    "group": 20210,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "package",
+    "predicted_family": "delete",
+    "logits": [
+      -0.5124517188099081,
+      0.3822717235467195,
+      0.3908767346460271,
+      1.1112916055644317,
+      0.416486524081799,
+      -1.7884748690290695
+    ]
+  },
+  {
+    "variant_id": "adapter-train-aaaaf3f37c50",
+    "group": 20205,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "delete",
+    "predicted_family": "delete",
+    "logits": [
+      -0.9382357222951112,
+      0.4201396128184839,
+      0.370981530413587,
+      0.7142899653353959,
+      0.4810293366500954,
+      -1.0482047229224514
+    ]
+  },
+  {
+    "variant_id": "adapter-train-50f4100aae2c",
+    "group": 20202,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -1.0603871622247096,
+      1.2660234512716473,
+      -0.02311944626484483,
+      0.844730167937065,
+      0.5160675045348986,
+      -1.5433145152540566
+    ]
+  },
+  {
+    "variant_id": "adapter-train-b2101f2091cf",
+    "group": 20208,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      0.15163408660869976,
+      1.1302694056399198,
+      -0.603595561506022,
+      0.023528862153798125,
+      -0.7565837877590958,
+      0.05474699486269946
+    ]
+  },
+  {
+    "variant_id": "adapter-train-5050f1bcacb9",
+    "group": 20206,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "omission",
+    "predicted_family": "omission",
+    "logits": [
+      0.8433890618538908,
+      -0.04411563415139591,
+      -0.9260393816682452,
+      -0.4290211110148354,
+      -2.196834282302126,
+      2.7526213472827106
+    ]
+  },
+  {
+    "variant_id": "adapter-train-f12d0c011757",
+    "group": 20209,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -1.0479274728482768,
+      0.8433149062774655,
+      0.2670177138996697,
+      0.4279461931314694,
+      0.7582460323520693,
+      -1.2485973728123978
+    ]
+  },
+  {
+    "variant_id": "adapter-train-22a4b63b89b2",
+    "group": 20206,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.0536811932842481,
+      1.143114459759559,
+      -0.12144810779666412,
+      0.6925722079268547,
+      -0.5788137873891488,
+      -1.0817435792163526
+    ]
+  },
+  {
+    "variant_id": "adapter-train-90768ae3dc47",
+    "group": 20208,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      2.1149503289466467,
+      0.43393053816515664,
+      -0.5327212196728207,
+      -0.6444712830471593,
+      -2.460807897708341,
+      1.0891195333165173
+    ]
+  },
+  {
+    "variant_id": "adapter-train-3aa7104965cb",
+    "group": 20201,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "diagnostic",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -2.065813199600721,
+      0.5275927364649696,
+      0.12171515123791443,
+      1.5502826523289206,
+      1.8659851822048599,
+      -1.9997625226359435
+    ]
+  },
+  {
+    "variant_id": "adapter-train-8aa1e613b2d3",
+    "group": 20208,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "delete",
+    "predicted_family": "delete",
+    "logits": [
+      -0.6374135740671212,
+      0.19263707493762777,
+      0.4100578410451774,
+      1.089150640540621,
+      0.3280061946862348,
+      -1.38243817714254
+    ]
+  },
+  {
+    "variant_id": "adapter-train-baea31cdb9b7",
+    "group": 20205,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "package",
+    "predicted_family": "email",
+    "logits": [
+      -0.22022562311832017,
+      0.6472848659953325,
+      0.4823454409140814,
+      0.34603808954307513,
+      0.25160265990476405,
+      -1.507045433238933
+    ]
+  },
+  {
+    "variant_id": "adapter-train-125c0fe9aefb",
+    "group": 20201,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.7323492727295979,
+      1.0306533691646362,
+      -0.3892609807481253,
+      0.31346723399081816,
+      0.17836633537377075,
+      -0.4008766850515025
+    ]
+  },
+  {
+    "variant_id": "adapter-train-147a68a2cc3f",
+    "group": 20206,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "diagnostic",
+    "predicted_family": "delete",
+    "logits": [
+      -0.9623879626880867,
+      0.050350808631736244,
+      1.3424678356431132,
+      1.4339434238673558,
+      0.8599629389733038,
+      -2.724337044427422
+    ]
+  },
+  {
+    "variant_id": "adapter-train-385608b99094",
+    "group": 20214,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.7168727105055437,
+      1.0971700678570344,
+      -0.40728452992519626,
+      0.3835615421731152,
+      0.36618076443682046,
+      -0.7227551340362309
+    ]
+  },
+  {
+    "variant_id": "adapter-train-e4de4f73181c",
+    "group": 20202,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "omission",
+    "predicted_family": "omission",
+    "logits": [
+      1.6466732471041874,
+      0.586951376309389,
+      -0.7086264951041457,
+      -0.9823507224200438,
+      -2.2268749840947115,
+      1.6842275782053235
+    ]
+  },
+  {
+    "variant_id": "adapter-train-de15b3a37b07",
+    "group": 20206,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "delete",
+    "predicted_family": "package",
+    "logits": [
+      -0.4951114819374217,
+      0.5795326393332432,
+      0.822933871213732,
+      0.5792863311375277,
+      0.045372156707760875,
+      -1.5320135164548419
+    ]
+  },
+  {
+    "variant_id": "adapter-train-24ebf33df7dc",
+    "group": 20211,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.2969350895422538,
+      0.1791254711192732,
+      -0.5995979487399642,
+      -0.07672137736738552,
+      -1.4703707121589993,
+      0.6706294776048214
+    ]
+  },
+  {
+    "variant_id": "adapter-train-30c7b51dc304",
+    "group": 20203,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.9308579295604664,
+      1.2708535330084687,
+      -0.19220884516438216,
+      0.4506008540970702,
+      0.5394542310006015,
+      -1.1378418433812925
+    ]
+  },
+  {
+    "variant_id": "adapter-train-0ff0f3609470",
+    "group": 20214,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "diagnostic",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -2.183609588544079,
+      0.7618477069141468,
+      -0.27126811173359566,
+      1.4590091455891137,
+      2.0247010515618267,
+      -1.7906802037874128
+    ]
+  },
+  {
+    "variant_id": "adapter-train-e9bb30f7d46a",
+    "group": 20201,
+    "split": "test",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -1.40452503432893,
+      0.9253932430064717,
+      -0.08890952096499286,
+      0.8458900432458019,
+      0.9035712678798186,
+      -1.18141999883817
+    ]
+  },
+  {
+    "variant_id": "adapter-train-f775070e0444",
+    "group": 20205,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.9050790154173756,
+      0.6480841903621148,
+      -0.4685395856215592,
+      -0.28568577572334763,
+      -1.9959382275472795,
+      0.19700038311269458
+    ]
+  },
+  {
+    "variant_id": "adapter-train-172919a7e379",
+    "group": 20208,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "diagnostic",
+    "predicted_family": "delete",
+    "logits": [
+      -0.6292004569124745,
+      0.9093816752283425,
+      0.6712919003381228,
+      0.9311120577977104,
+      0.7811900742020722,
+      -2.6637752506537735
+    ]
+  },
+  {
+    "variant_id": "adapter-train-fa567673d885",
+    "group": 20213,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "package",
+    "predicted_family": "email",
+    "logits": [
+      -0.6249370259295411,
+      0.768865280910125,
+      0.3566297197955336,
+      0.46040615469818136,
+      0.7591652935125907,
+      -1.7201294229868898
+    ]
+  },
+  {
+    "variant_id": "adapter-train-9bae3e19456a",
+    "group": 20203,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "package",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.0351653798077045,
+      0.7089726629448787,
+      0.5154715733196267,
+      0.7206617340893544,
+      1.1637296747852512,
+      -2.073670265331407
+    ]
+  },
+  {
+    "variant_id": "adapter-train-7610bb1ceb89",
+    "group": 20208,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "omission",
+    "predicted_family": "omission",
+    "logits": [
+      1.889087775531677,
+      0.5535446251196311,
+      -0.7834585411224632,
+      -1.0622922427339228,
+      -2.5376947095522984,
+      1.940813092757375
+    ]
+  },
+  {
+    "variant_id": "adapter-train-b0522ac56395",
+    "group": 20213,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.3978063603558566,
+      0.7084308682671214,
+      -0.22245721895721224,
+      -0.8448287269594568,
+      -1.5711620539213946,
+      0.5322107712150839
+    ]
+  },
+  {
+    "variant_id": "adapter-train-e396708c7fc4",
+    "group": 20213,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "omission",
+    "predicted_family": "omission",
+    "logits": [
+      1.0875463437797872,
+      0.7511347463139106,
+      -0.4673298502851213,
+      -1.2864094824146683,
+      -1.7201197095294074,
+      1.6351779521354977
+    ]
+  },
+  {
+    "variant_id": "adapter-train-4f4a145b6a7a",
+    "group": 20211,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.12271301953916527,
+      1.13078883190127,
+      -0.40500181415466086,
+      0.22190686558839143,
+      -0.045066383628038414,
+      -0.7799144801677975
+    ]
+  },
+  {
+    "variant_id": "adapter-train-cb0cfa9ba0cc",
+    "group": 20206,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.3181132461558382,
+      -0.35166443073654907,
+      -0.14314349487595393,
+      0.05355171266443379,
+      -2.159648833013203,
+      1.2827917998054337
+    ]
+  },
+  {
+    "variant_id": "adapter-train-caabf5ecaa6b",
+    "group": 20206,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "package",
+    "predicted_family": "delete",
+    "logits": [
+      -0.3779995663206513,
+      0.18975816367156825,
+      0.7149051459596206,
+      1.1181446742333783,
+      0.2118340130563078,
+      -1.8566424306002234
+    ]
+  },
+  {
+    "variant_id": "adapter-train-11f642088f33",
+    "group": 20201,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "package",
+    "predicted_family": "package",
+    "logits": [
+      -0.7679376450589299,
+      0.3654209935809988,
+      0.7213492651925644,
+      0.5633359827353948,
+      0.69309339406093,
+      -1.5752619905109584
+    ]
+  },
+  {
+    "variant_id": "adapter-train-6641de2e5a60",
+    "group": 20209,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.3128929854587579,
+      0.15525655865643623,
+      0.1642889166038975,
+      -0.6411731062309324,
+      -1.5560254878044053,
+      0.5647601333162453
+    ]
+  },
+  {
+    "variant_id": "adapter-train-e181db4b58dc",
+    "group": 20207,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.4227587383154445,
+      0.47721744470472927,
+      -0.3516836538051069,
+      -0.5894795399681334,
+      -1.8981027891474507,
+      0.9392897999005163
+    ]
+  },
+  {
+    "variant_id": "adapter-train-519000fdd3d0",
+    "group": 20207,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -1.1760536065180935,
+      1.3181116426872221,
+      -0.4128305641295106,
+      0.043032339903788824,
+      0.5088643274061531,
+      -0.2811241393495606
+    ]
+  },
+  {
+    "variant_id": "adapter-train-3fec31825b0f",
+    "group": 20202,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "package",
+    "predicted_family": "delete",
+    "logits": [
+      -0.1597363226980902,
+      0.49943042103921265,
+      0.7013479873754219,
+      0.7254780953721887,
+      0.20384642664777106,
+      -1.9703666077365043
+    ]
+  },
+  {
+    "variant_id": "adapter-train-7e2368d3165a",
+    "group": 20213,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -1.2763536726342777,
+      1.4443456474570069,
+      -0.08323584386420743,
+      0.22799899452618827,
+      0.8347648610396056,
+      -1.1475199865243162
+    ]
+  },
+  {
+    "variant_id": "adapter-train-2154ccde3b4b",
+    "group": 20212,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "delete",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.0740966528889628,
+      0.308900085854488,
+      0.5522993908935071,
+      0.6086144578888691,
+      0.8999186580384434,
+      -1.2956359397863455
+    ]
+  },
+  {
+    "variant_id": "adapter-train-a4876bf208e0",
+    "group": 20204,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.1687924329963787,
+      1.3972884598376498,
+      -0.19713124068870727,
+      0.19162958016621387,
+      -0.3431020618172038,
+      -0.8798923045015741
+    ]
+  },
+  {
+    "variant_id": "adapter-train-eb9eb206042b",
+    "group": 20206,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.7756418512858356,
+      0.9324927960403124,
+      0.40482940909223486,
+      0.9147222823806513,
+      0.31472600176539944,
+      -1.7911286379927625
+    ]
+  },
+  {
+    "variant_id": "adapter-train-7097b78e2297",
+    "group": 20210,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "delete",
+    "logits": [
+      -0.6742049200873885,
+      1.0775416609171669,
+      -0.3935170327842463,
+      1.233235129939395,
+      0.6229114386049078,
+      -1.865966276589835
+    ]
+  },
+  {
+    "variant_id": "adapter-train-e8921bcd88a6",
+    "group": 20202,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "diagnostic",
+    "predicted_family": "package",
+    "logits": [
+      -0.736280248582839,
+      0.6624022715336141,
+      0.9728338141183227,
+      0.84406377815007,
+      0.9454649886173921,
+      -2.68848460383656
+    ]
+  },
+  {
+    "variant_id": "adapter-train-fbb956d46cf3",
+    "group": 20204,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.5553418192586155,
+      1.097531364066024,
+      0.2532866639305287,
+      0.6800996432887945,
+      0.21370708005154262,
+      -1.6892829320782743
+    ]
+  },
+  {
+    "variant_id": "adapter-train-2e85637dac28",
+    "group": 20204,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.7765052137793367,
+      0.31865860587848455,
+      -0.7210147392137317,
+      0.30405074813954686,
+      -1.880887291868524,
+      0.20268746328488702
+    ]
+  },
+  {
+    "variant_id": "adapter-train-4486c4417577",
+    "group": 20214,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "delete",
+    "predicted_family": "delete",
+    "logits": [
+      -0.8828439078448276,
+      0.40283963138878515,
+      0.19445868241382694,
+      1.000138829156853,
+      0.6751540093564966,
+      -1.3897472444711345
+    ]
+  },
+  {
+    "variant_id": "adapter-train-5a14b72d9499",
+    "group": 20211,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "delete",
+    "predicted_family": "delete",
+    "logits": [
+      -0.711817338976465,
+      0.44927887150210527,
+      0.36442936806573273,
+      0.5754127749570955,
+      0.5069778851445418,
+      -1.1842815606930104
+    ]
+  },
+  {
+    "variant_id": "adapter-train-c6b0dc744b71",
+    "group": 20210,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      0.057448146245986376,
+      1.1056597468501597,
+      -0.3225397832283228,
+      0.8284449365458537,
+      -0.3296125432410569,
+      -1.3394005031726204
+    ]
+  },
+  {
+    "variant_id": "adapter-train-641d026b53ad",
+    "group": 20204,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "delete",
+    "predicted_family": "delete",
+    "logits": [
+      -0.49633588072722606,
+      0.5272734461027258,
+      0.44369786807442546,
+      0.8026942724560794,
+      -0.08849833244343354,
+      -1.188831373462571
+    ]
+  },
+  {
+    "variant_id": "adapter-train-22607ce9dfee",
+    "group": 20214,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "package",
+    "predicted_family": "package",
+    "logits": [
+      -0.4908967591272395,
+      0.5471093804878349,
+      0.6833040703749055,
+      0.621572111049462,
+      0.5636307924337774,
+      -1.9247195952187401
+    ]
+  },
+  {
+    "variant_id": "adapter-train-1193bcda2770",
+    "group": 20203,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "delete",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.0065293484680438,
+      0.617967832442367,
+      0.7092034407568585,
+      0.5814416422655547,
+      1.16904654865769,
+      -2.0711301156544266
+    ]
+  },
+  {
+    "variant_id": "adapter-train-feaf283550fe",
+    "group": 20214,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "omission",
+    "predicted_family": "omission",
+    "logits": [
+      1.026975678505346,
+      0.7695140273816192,
+      -0.44127371312442254,
+      -0.9998058111477754,
+      -1.6779132876081748,
+      1.3225031059934063
+    ]
+  },
+  {
+    "variant_id": "adapter-train-a024e089c1ea",
+    "group": 20205,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -1.1557333091193858,
+      1.0059586687974669,
+      0.048334235003103465,
+      0.3999152093268347,
+      0.961130521040717,
+      -1.2596053250487371
+    ]
+  },
+  {
+    "variant_id": "adapter-train-e47abc704bef",
+    "group": 20208,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.5283441790785648,
+      0.7829411862370952,
+      -0.1819468676608678,
+      0.6575377498906438,
+      0.07168803559728856,
+      -0.8018759249855952
+    ]
+  },
+  {
+    "variant_id": "adapter-train-485cc333a3e9",
+    "group": 20203,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "omission",
+    "predicted_family": "omission",
+    "logits": [
+      0.9450090219130995,
+      0.9138976126064826,
+      -1.1090329159578483,
+      -0.8376089177784372,
+      -1.4606232247295854,
+      1.5483584239462875
+    ]
+  },
+  {
+    "variant_id": "adapter-train-54bcbe4354c1",
+    "group": 20211,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "diagnostic",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.5815303801814087,
+      0.3288780036101968,
+      0.4722667903853762,
+      0.957857080210432,
+      1.429641146385228,
+      -1.6071126404098248
+    ]
+  },
+  {
+    "variant_id": "adapter-train-3862ed63f333",
+    "group": 20201,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "omission",
+    "predicted_family": "omission",
+    "logits": [
+      0.6539018164743817,
+      0.4551004756862687,
+      -0.814598925185816,
+      -0.6092340348594351,
+      -1.3939698560429696,
+      1.7088005239275694
+    ]
+  },
+  {
+    "variant_id": "adapter-train-1432657ce225",
+    "group": 20207,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "omission",
+    "predicted_family": "omission",
+    "logits": [
+      1.202938552714533,
+      0.7066964661757118,
+      -1.1009302268999845,
+      -0.7899147926716078,
+      -1.8622623256551913,
+      1.843472326336538
+    ]
+  },
+  {
+    "variant_id": "adapter-train-d18009c17ecb",
+    "group": 20211,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "omission",
+    "predicted_family": "omission",
+    "logits": [
+      0.8817930689407436,
+      0.4704188980188469,
+      -1.165964942536973,
+      -0.47414325903988286,
+      -1.5399256758773014,
+      1.8278219104945657
+    ]
+  },
+  {
+    "variant_id": "adapter-train-2e1fd7234b1a",
+    "group": 20209,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "delete",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -0.747828714662673,
+      0.311569658629843,
+      0.7694687185281056,
+      0.246429795091687,
+      0.880332726173526,
+      -1.4599721837604893
+    ]
+  },
+  {
+    "variant_id": "adapter-train-c35d081209d5",
+    "group": 20212,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "package",
+    "predicted_family": "package",
+    "logits": [
+      -0.8910190881603237,
+      0.0603875747958999,
+      0.8468984171770965,
+      0.8299802231938705,
+      0.687451370203607,
+      -1.5336984972101502
+    ]
+  },
+  {
+    "variant_id": "adapter-train-332a7a71f50e",
+    "group": 20204,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "package",
+    "predicted_family": "email",
+    "logits": [
+      -0.15924190502271593,
+      1.0129313386154828,
+      0.3388258472883361,
+      0.3254924237071165,
+      0.07465403338204415,
+      -1.592661737970264
+    ]
+  },
+  {
+    "variant_id": "adapter-train-96fe61fd957f",
+    "group": 20204,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "diagnostic",
+    "predicted_family": "delete",
+    "logits": [
+      -1.0694775715469451,
+      0.7580782684550685,
+      0.5680196005137121,
+      1.2476545795445255,
+      0.9322699397135258,
+      -2.4365448166798864
+    ]
+  },
+  {
+    "variant_id": "adapter-train-e7f5608c1546",
+    "group": 20202,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "delete",
+    "predicted_family": "email",
+    "logits": [
+      -0.3366135500273497,
+      0.7212851979683715,
+      0.543440657386704,
+      0.5998667790690015,
+      0.12242247673151005,
+      -1.6504015611282377
+    ]
+  },
+  {
+    "variant_id": "adapter-train-2b3a5ad71a02",
+    "group": 20212,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.179559074482906,
+      0.17962353347713764,
+      -0.28812800675137695,
+      -0.47188397896917755,
+      -1.50078008618065,
+      0.9016094639411598
+    ]
+  },
+  {
+    "variant_id": "adapter-train-08a90fd88255",
+    "group": 20201,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "delete",
+    "predicted_family": "email",
+    "logits": [
+      -0.5671934622321682,
+      0.7695012220778499,
+      0.5628221887746129,
+      0.3605938184289794,
+      0.47339170343412995,
+      -1.5991154704834039
+    ]
+  },
+  {
+    "variant_id": "adapter-train-6bdefdc62a5f",
+    "group": 20208,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "package",
+    "predicted_family": "delete",
+    "logits": [
+      -0.6908985880592136,
+      0.30232397888714746,
+      0.503062590110937,
+      0.5975865049414939,
+      0.2440969795111295,
+      -0.9561714653914946
+    ]
+  },
+  {
+    "variant_id": "adapter-train-769f55ba58f4",
+    "group": 20213,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.4343486515011363,
+      0.9001128548817349,
+      0.5948233215249737,
+      0.7619396370226028,
+      1.1475573064799522,
+      -1.9700844684081276
+    ]
+  },
+  {
+    "variant_id": "adapter-train-8d39ef5e7a8c",
+    "group": 20205,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.705158087264093,
+      0.9582160423670667,
+      -0.2883895806242245,
+      0.1586799594714566,
+      0.3454050950221321,
+      -0.46875342897233857
+    ]
+  },
+  {
+    "variant_id": "adapter-train-c6a3f7ef2a20",
+    "group": 20213,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "diagnostic",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.8109943238884556,
+      0.4104000463000509,
+      1.236776618923678,
+      0.8741391119079825,
+      1.8866886159231546,
+      -2.59701006916641
+    ]
+  },
+  {
+    "variant_id": "adapter-train-690e75fb041e",
+    "group": 20214,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.2357696621382261,
+      0.3674893719406092,
+      0.07207741555821323,
+      -0.589788791201726,
+      -1.4952370250706244,
+      0.4096893666353016
+    ]
+  },
+  {
+    "variant_id": "adapter-train-ade50eee6ca2",
+    "group": 20209,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "package",
+    "predicted_family": "package",
+    "logits": [
+      -0.4644096758523976,
+      0.22373243646708899,
+      0.9762657242937953,
+      0.3470633379048652,
+      0.49495338690907664,
+      -1.577605209722429
+    ]
+  },
+  {
+    "variant_id": "adapter-train-13edcfa54644",
+    "group": 20201,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.151903573421335,
+      0.4408259509901329,
+      -0.44226861941101636,
+      -0.29768686914355413,
+      -1.756158642546174,
+      0.9033846066892757
+    ]
+  },
+  {
+    "variant_id": "adapter-train-84e414c770b3",
+    "group": 20214,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.1626224349578214,
+      0.8714231646061381,
+      0.05847463674151629,
+      0.9499672489096159,
+      0.9855162678498032,
+      -1.702758883149252
+    ]
+  },
+  {
+    "variant_id": "adapter-train-7aeae3cae6c7",
+    "group": 20212,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -1.3461240313624443,
+      0.9571130376207847,
+      -0.02327517881220767,
+      0.8719170344047489,
+      0.8856474444498083,
+      -1.3452783063006908
+    ]
+  },
+  {
+    "variant_id": "adapter-train-408a73eea641",
+    "group": 20202,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.8473076389066994,
+      0.3360329922781612,
+      -0.16440605829909374,
+      -0.21108636914544218,
+      -1.860247754323312,
+      0.05239955058298568
+    ]
+  },
+  {
+    "variant_id": "adapter-train-aad451d1b929",
+    "group": 20209,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.726309997312238,
+      1.0643594809100112,
+      0.06304767157016919,
+      0.0931284981974826,
+      0.36166104390907916,
+      -0.8558866972745044
+    ]
+  },
+  {
+    "variant_id": "adapter-train-f995129192ad",
+    "group": 20212,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -1.01601355580454,
+      1.0007377274366676,
+      -0.15080688894111274,
+      0.1503866361646099,
+      0.46000691212169265,
+      -0.4443108309773181
+    ]
+  },
+  {
+    "variant_id": "adapter-train-a374c8c7ffb3",
+    "group": 20213,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "delete",
+    "predicted_family": "email",
+    "logits": [
+      -0.3515846888747127,
+      0.9720233981023562,
+      0.6268652805579669,
+      0.5570851390225717,
+      0.5499894146306525,
+      -2.3543785434388345
+    ]
+  },
+  {
+    "variant_id": "adapter-train-9244dd15888d",
+    "group": 20212,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "omission",
+    "predicted_family": "omission",
+    "logits": [
+      0.8600386875205266,
+      0.6273137305817269,
+      -0.6965514013007252,
+      -1.006624897093263,
+      -1.7088346574744717,
+      1.9246585377662053
+    ]
+  },
+  {
+    "variant_id": "adapter-train-931b1a0a8b55",
+    "group": 20202,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.4629358313967555,
+      1.32954330312023,
+      -0.0857818916543199,
+      0.22492196216455512,
+      -0.0999153045037218,
+      -0.9058322377299884
+    ]
+  },
+  {
+    "variant_id": "adapter-train-848356f534c8",
+    "group": 20209,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "diagnostic",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.364114113152129,
+      0.6136748823685243,
+      0.7782262906089803,
+      0.7440198029827886,
+      1.5138759558228845,
+      -2.2856828186310487
+    ]
+  },
+  {
+    "variant_id": "adapter-train-5cee7649d110",
+    "group": 20207,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "package",
+    "predicted_family": "package",
+    "logits": [
+      -0.4899645015361427,
+      0.5466865105531916,
+      0.7832255813889327,
+      -0.01225257411176589,
+      0.3332950588967025,
+      -1.1609900751909188
+    ]
+  },
+  {
+    "variant_id": "adapter-train-55f82efe00a8",
+    "group": 20210,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.2756029609311683,
+      0.14727857089158078,
+      -0.22731085623670202,
+      -0.4830826885463553,
+      -1.260361922998192,
+      0.547873935958499
+    ]
+  },
+  {
+    "variant_id": "adapter-train-9244f987b78f",
+    "group": 20203,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "diagnostic",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -2.257054137661896,
+      0.8773795379697034,
+      0.09173446757243194,
+      1.4736579408455586,
+      2.305092030896023,
+      -2.490809839621823
+    ]
+  },
+  {
+    "variant_id": "adapter-train-165f11e5de9d",
+    "group": 20210,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "delete",
+    "predicted_family": "email",
+    "logits": [
+      0.13540526965552468,
+      0.6983227251787665,
+      0.5117601251780111,
+      0.625170781403305,
+      0.18097888655218256,
+      -2.1516377879677897
+    ]
+  },
+  {
+    "variant_id": "adapter-train-cf6fd290ace8",
+    "group": 20207,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "delete",
+    "predicted_family": "package",
+    "logits": [
+      -0.5716123139807918,
+      0.5152115196306637,
+      0.8195080179382432,
+      0.0929475094118549,
+      0.5568261157439742,
+      -1.4128808487439448
+    ]
+  },
+  {
+    "variant_id": "adapter-train-f6d8d8fb44a6",
+    "group": 20210,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "diagnostic",
+    "predicted_family": "delete",
+    "logits": [
+      -0.8237439589547362,
+      0.7385954817131151,
+      0.706677154842613,
+      1.2064261283973117,
+      0.934366806334204,
+      -2.762321612332507
+    ]
+  },
+  {
+    "variant_id": "adapter-train-67af08941473",
+    "group": 20209,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "omission",
+    "predicted_family": "omission",
+    "logits": [
+      1.5381754824134017,
+      0.5458687610492539,
+      -0.2774861024043749,
+      -1.2756361475264648,
+      -2.2019097828708514,
+      1.6709877893390344
+    ]
+  },
+  {
+    "variant_id": "adapter-train-0225a0ef44fd",
+    "group": 20207,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -1.1906322167456904,
+      1.0764778671660133,
+      0.15206979932283715,
+      0.5782213007196313,
+      0.5104696040516922,
+      -1.1266063545144842
+    ]
+  },
+  {
+    "variant_id": "adapter-train-052b398e48c4",
+    "group": 20211,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.598769771874356,
+      1.2212886091564332,
+      -0.03481024352455592,
+      0.3135713689987068,
+      0.5380035680188823,
+      -1.4392835307751104
+    ]
+  },
+  {
+    "variant_id": "adapter-train-f83e992d337c",
+    "group": 20203,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      0.9218157215056137,
+      0.5961671944127926,
+      -0.6090786953332947,
+      -0.26164867949962667,
+      -1.1103785186192676,
+      0.4631229775337819
+    ]
+  },
+  {
+    "variant_id": "adapter-train-d77bc8e68faa",
+    "group": 20212,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "diagnostic",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.6368264781268074,
+      0.6350881989529923,
+      0.7985895931302894,
+      0.5373766187386478,
+      1.6324859971782755,
+      -1.9667139298733978
+    ]
+  },
+  {
+    "variant_id": "adapter-train-a108a4abb48f",
+    "group": 20211,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "package",
+    "predicted_family": "delete",
+    "logits": [
+      -0.4004807422749252,
+      0.22430616608464124,
+      0.32581940147670396,
+      0.6947496098425127,
+      0.22772976410066245,
+      -1.0721241992295956
+    ]
+  },
+  {
+    "variant_id": "adapter-train-f48e12cdf7ca",
+    "group": 20210,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "omission",
+    "predicted_family": "omission",
+    "logits": [
+      1.2046808793657833,
+      0.3408470925204399,
+      -0.8333877625029492,
+      -0.5282021008873955,
+      -1.4372942846010257,
+      1.2533561761051462
+    ]
+  },
+  {
+    "variant_id": "adapter-train-d1ab3f29aae5",
+    "group": 20203,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.3874841590883937,
+      1.048577845659768,
+      0.14068060901802085,
+      0.9652268510576966,
+      1.1662904601688338,
+      -1.9332916068159256
+    ]
+  },
+  {
+    "variant_id": "adapter-train-8e00de107276",
+    "group": 20207,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "diagnostic",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.386017937112859,
+      0.6728989148999076,
+      0.7387344828911233,
+      1.012789561950178,
+      1.3693303049948735,
+      -2.407735327623224
+    ]
+  },
+  {
+    "variant_id": "adapter-train-112d99e264ba",
+    "group": 20205,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "diagnostic",
+    "predicted_family": "delete",
+    "logits": [
+      -1.412665546441706,
+      0.667735146797453,
+      0.05399481331481418,
+      1.5059661087833873,
+      1.4650718439631638,
+      -2.2801023664171125
+    ]
+  },
+  {
+    "variant_id": "adapter-train-327d0ea1bb44",
+    "group": 20204,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "omission",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.4388770476913537,
+      0.9621886229329677,
+      -1.1245116032839295,
+      -0.3635681041990009,
+      -2.1287751596540123,
+      1.2157891965126215
+    ]
+  },
+  {
+    "variant_id": "adapter-train-89da200ddbc8",
+    "group": 20205,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "omission",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.7176322769561958,
+      0.7100017957865444,
+      -1.0164728280528248,
+      -0.6846947917442505,
+      -1.9214224585920328,
+      1.1949560056463668
+    ]
+  },
+  {
+    "variant_id": "adapter-train-23049929359d",
+    "group": 20210,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "package",
+    "predicted_family": "delete",
+    "logits": [
+      -0.5124517188099081,
+      0.3822717235467195,
+      0.3908767346460271,
+      1.1112916055644317,
+      0.416486524081799,
+      -1.7884748690290695
+    ]
+  },
+  {
+    "variant_id": "adapter-train-aaaaf3f37c50",
+    "group": 20205,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "delete",
+    "predicted_family": "delete",
+    "logits": [
+      -0.9382357222951112,
+      0.4201396128184839,
+      0.370981530413587,
+      0.7142899653353959,
+      0.4810293366500954,
+      -1.0482047229224514
+    ]
+  },
+  {
+    "variant_id": "adapter-train-50f4100aae2c",
+    "group": 20202,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -1.0603871622247096,
+      1.2660234512716473,
+      -0.02311944626484483,
+      0.844730167937065,
+      0.5160675045348986,
+      -1.5433145152540566
+    ]
+  },
+  {
+    "variant_id": "adapter-train-b2101f2091cf",
+    "group": 20208,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      0.15163408660869976,
+      1.1302694056399198,
+      -0.603595561506022,
+      0.023528862153798125,
+      -0.7565837877590958,
+      0.05474699486269946
+    ]
+  },
+  {
+    "variant_id": "adapter-train-5050f1bcacb9",
+    "group": 20206,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "omission",
+    "predicted_family": "omission",
+    "logits": [
+      0.8433890618538908,
+      -0.04411563415139591,
+      -0.9260393816682452,
+      -0.4290211110148354,
+      -2.196834282302126,
+      2.7526213472827106
+    ]
+  },
+  {
+    "variant_id": "adapter-train-f12d0c011757",
+    "group": 20209,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -1.0479274728482768,
+      0.8433149062774655,
+      0.2670177138996697,
+      0.4279461931314694,
+      0.7582460323520693,
+      -1.2485973728123978
+    ]
+  },
+  {
+    "variant_id": "adapter-train-22a4b63b89b2",
+    "group": 20206,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.0536811932842481,
+      1.143114459759559,
+      -0.12144810779666412,
+      0.6925722079268547,
+      -0.5788137873891488,
+      -1.0817435792163526
+    ]
+  },
+  {
+    "variant_id": "adapter-train-90768ae3dc47",
+    "group": 20208,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      2.1149503289466467,
+      0.43393053816515664,
+      -0.5327212196728207,
+      -0.6444712830471593,
+      -2.460807897708341,
+      1.0891195333165173
+    ]
+  },
+  {
+    "variant_id": "adapter-train-3aa7104965cb",
+    "group": 20201,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "diagnostic",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -2.065813199600721,
+      0.5275927364649696,
+      0.12171515123791443,
+      1.5502826523289206,
+      1.8659851822048599,
+      -1.9997625226359435
+    ]
+  },
+  {
+    "variant_id": "adapter-train-8aa1e613b2d3",
+    "group": 20208,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "delete",
+    "predicted_family": "delete",
+    "logits": [
+      -0.6374135740671212,
+      0.19263707493762777,
+      0.4100578410451774,
+      1.089150640540621,
+      0.3280061946862348,
+      -1.38243817714254
+    ]
+  },
+  {
+    "variant_id": "adapter-train-baea31cdb9b7",
+    "group": 20205,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "package",
+    "predicted_family": "email",
+    "logits": [
+      -0.22022562311832017,
+      0.6472848659953325,
+      0.4823454409140814,
+      0.34603808954307513,
+      0.25160265990476405,
+      -1.507045433238933
+    ]
+  },
+  {
+    "variant_id": "adapter-train-125c0fe9aefb",
+    "group": 20201,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.7323492727295979,
+      1.0306533691646362,
+      -0.3892609807481253,
+      0.31346723399081816,
+      0.17836633537377075,
+      -0.4008766850515025
+    ]
+  },
+  {
+    "variant_id": "adapter-train-147a68a2cc3f",
+    "group": 20206,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "diagnostic",
+    "predicted_family": "delete",
+    "logits": [
+      -0.9623879626880867,
+      0.050350808631736244,
+      1.3424678356431132,
+      1.4339434238673558,
+      0.8599629389733038,
+      -2.724337044427422
+    ]
+  },
+  {
+    "variant_id": "adapter-train-385608b99094",
+    "group": 20214,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.7168727105055437,
+      1.0971700678570344,
+      -0.40728452992519626,
+      0.3835615421731152,
+      0.36618076443682046,
+      -0.7227551340362309
+    ]
+  },
+  {
+    "variant_id": "adapter-train-e4de4f73181c",
+    "group": 20202,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "omission",
+    "predicted_family": "omission",
+    "logits": [
+      1.6466732471041874,
+      0.586951376309389,
+      -0.7086264951041457,
+      -0.9823507224200438,
+      -2.2268749840947115,
+      1.6842275782053235
+    ]
+  },
+  {
+    "variant_id": "adapter-train-de15b3a37b07",
+    "group": 20206,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "delete",
+    "predicted_family": "package",
+    "logits": [
+      -0.4951114819374217,
+      0.5795326393332432,
+      0.822933871213732,
+      0.5792863311375277,
+      0.045372156707760875,
+      -1.5320135164548419
+    ]
+  },
+  {
+    "variant_id": "adapter-train-24ebf33df7dc",
+    "group": 20211,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.2969350895422538,
+      0.1791254711192732,
+      -0.5995979487399642,
+      -0.07672137736738552,
+      -1.4703707121589993,
+      0.6706294776048214
+    ]
+  },
+  {
+    "variant_id": "adapter-train-30c7b51dc304",
+    "group": 20203,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.9308579295604664,
+      1.2708535330084687,
+      -0.19220884516438216,
+      0.4506008540970702,
+      0.5394542310006015,
+      -1.1378418433812925
+    ]
+  },
+  {
+    "variant_id": "adapter-train-0ff0f3609470",
+    "group": 20214,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "diagnostic",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -2.183609588544079,
+      0.7618477069141468,
+      -0.27126811173359566,
+      1.4590091455891137,
+      2.0247010515618267,
+      -1.7906802037874128
+    ]
+  },
+  {
+    "variant_id": "adapter-train-e9bb30f7d46a",
+    "group": 20201,
+    "split": "test",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -1.40452503432893,
+      0.9253932430064717,
+      -0.08890952096499286,
+      0.8458900432458019,
+      0.9035712678798186,
+      -1.18141999883817
+    ]
+  },
+  {
+    "variant_id": "adapter-train-04cec3d116ba",
+    "group": 20301,
+    "split": "challenge",
+    "method": "author-fixed-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.2436775461611291,
+      0.25061370642042785,
+      -0.2132172588158954,
+      -0.7116175254831669,
+      -1.3858051680496066,
+      0.8163486997671106
+    ]
+  },
+  {
+    "variant_id": "adapter-train-6c2784a46939",
+    "group": 20302,
+    "split": "challenge",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.4504078226592022,
+      1.1839753283020453,
+      -0.09550415096146084,
+      0.10367594629270115,
+      0.48385299845427443,
+      -1.2255922994283586
+    ]
+  },
+  {
+    "variant_id": "adapter-train-3cfbe4828ace",
+    "group": 20301,
+    "split": "challenge",
+    "method": "author-fixed-C",
+    "true_family": "delete",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.2196368446136805,
+      0.37272977713365435,
+      0.6484130243136179,
+      0.18712025235713797,
+      1.2392272122453032,
+      -1.227853421436034
+    ]
+  },
+  {
+    "variant_id": "adapter-train-94b4bc294ad6",
+    "group": 20302,
+    "split": "challenge",
+    "method": "author-fixed-C",
+    "true_family": "delete",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -0.3807659774523582,
+      0.7125607914427525,
+      0.5883113642666805,
+      0.2680766346687185,
+      0.8294384559859699,
+      -2.0176212689117636
+    ]
+  },
+  {
+    "variant_id": "adapter-train-287b82aa1417",
+    "group": 20302,
+    "split": "challenge",
+    "method": "author-fixed-C",
+    "true_family": "package",
+    "predicted_family": "package",
+    "logits": [
+      -0.3248391460117947,
+      -0.13769041957982842,
+      1.107282010644551,
+      0.8820752698820303,
+      0.7229598662076573,
+      -2.249787581142616
+    ]
+  },
+  {
+    "variant_id": "adapter-train-924fd3fc8bbb",
+    "group": 20301,
+    "split": "challenge",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -2.337234312087236,
+      0.8507167083369234,
+      -0.15615303895712832,
+      0.9324425648530095,
+      2.009239688040941,
+      -1.2990116101865097
+    ]
+  },
+  {
+    "variant_id": "adapter-train-38a4c8fd2b4d",
+    "group": 20302,
+    "split": "challenge",
+    "method": "author-fixed-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.9207134087979933,
+      0.23611919609569842,
+      -0.36932547448485864,
+      0.03801565520442182,
+      -1.625539225262714,
+      -0.19998356035054185
+    ]
+  },
+  {
+    "variant_id": "adapter-train-b686451f5b1a",
+    "group": 20301,
+    "split": "challenge",
+    "method": "author-fixed-C",
+    "true_family": "omission",
+    "predicted_family": "omission",
+    "logits": [
+      1.0362537456283345,
+      0.3601843838027253,
+      -0.5844344446809724,
+      -1.1304209294571992,
+      -1.4640974955720123,
+      1.7825147402791224
+    ]
+  },
+  {
+    "variant_id": "adapter-train-d5ebd7eb8d67",
+    "group": 20302,
+    "split": "challenge",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -0.731731621434556,
+      0.6283007591601208,
+      0.6324366866122808,
+      1.0156245648134492,
+      1.115853961227611,
+      -2.660484350378906
+    ]
+  },
+  {
+    "variant_id": "adapter-train-bb1d9eab7edd",
+    "group": 20301,
+    "split": "challenge",
+    "method": "author-fixed-C",
+    "true_family": "package",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.665568943570623,
+      0.08778431408674303,
+      0.6049012299994716,
+      0.5741183401192701,
+      1.3497897210829186,
+      -0.9510246617177815
+    ]
+  },
+  {
+    "variant_id": "adapter-train-d5766d7ae731",
+    "group": 20301,
+    "split": "challenge",
+    "method": "author-fixed-C",
+    "true_family": "diagnostic",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -2.0969116836165633,
+      0.33783096914378885,
+      0.6343462828373323,
+      0.6435835709952692,
+      1.9286878450389997,
+      -1.4475369843988266
+    ]
+  },
+  {
+    "variant_id": "adapter-train-7937bfe98ace",
+    "group": 20302,
+    "split": "challenge",
+    "method": "author-fixed-C",
+    "true_family": "omission",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.470747642185687,
+      0.6208359832918813,
+      -1.017370096454395,
+      -0.6369480233096816,
+      -1.6139970735483704,
+      1.1767315678348775
+    ]
+  },
+  {
+    "variant_id": "adapter-train-a5d7be31f5a8",
+    "group": 20302,
+    "split": "challenge",
+    "method": "author-fixed-C",
+    "true_family": "diagnostic",
+    "predicted_family": "delete",
+    "logits": [
+      -0.5542987593548271,
+      0.7672589265377023,
+      0.47504915874079556,
+      1.1047402455146202,
+      0.7725770515799593,
+      -2.56532662301825
+    ]
+  },
+  {
+    "variant_id": "adapter-train-57d77e332224",
+    "group": 20301,
+    "split": "challenge",
+    "method": "author-fixed-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -1.3353622622319485,
+      0.9841986204981474,
+      -0.24248056291822892,
+      0.013459415686106785,
+      0.9235360524557837,
+      -0.3433512634898619
+    ]
+  },
+  {
+    "variant_id": "adapter-train-04cec3d116ba",
+    "group": 20301,
+    "split": "challenge",
+    "method": "validation-selected-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.2436775461611291,
+      0.25061370642042785,
+      -0.2132172588158954,
+      -0.7116175254831669,
+      -1.3858051680496066,
+      0.8163486997671106
+    ]
+  },
+  {
+    "variant_id": "adapter-train-6c2784a46939",
+    "group": 20302,
+    "split": "challenge",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -0.4504078226592022,
+      1.1839753283020453,
+      -0.09550415096146084,
+      0.10367594629270115,
+      0.48385299845427443,
+      -1.2255922994283586
+    ]
+  },
+  {
+    "variant_id": "adapter-train-3cfbe4828ace",
+    "group": 20301,
+    "split": "challenge",
+    "method": "validation-selected-C",
+    "true_family": "delete",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.2196368446136805,
+      0.37272977713365435,
+      0.6484130243136179,
+      0.18712025235713797,
+      1.2392272122453032,
+      -1.227853421436034
+    ]
+  },
+  {
+    "variant_id": "adapter-train-94b4bc294ad6",
+    "group": 20302,
+    "split": "challenge",
+    "method": "validation-selected-C",
+    "true_family": "delete",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -0.3807659774523582,
+      0.7125607914427525,
+      0.5883113642666805,
+      0.2680766346687185,
+      0.8294384559859699,
+      -2.0176212689117636
+    ]
+  },
+  {
+    "variant_id": "adapter-train-287b82aa1417",
+    "group": 20302,
+    "split": "challenge",
+    "method": "validation-selected-C",
+    "true_family": "package",
+    "predicted_family": "package",
+    "logits": [
+      -0.3248391460117947,
+      -0.13769041957982842,
+      1.107282010644551,
+      0.8820752698820303,
+      0.7229598662076573,
+      -2.249787581142616
+    ]
+  },
+  {
+    "variant_id": "adapter-train-924fd3fc8bbb",
+    "group": 20301,
+    "split": "challenge",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -2.337234312087236,
+      0.8507167083369234,
+      -0.15615303895712832,
+      0.9324425648530095,
+      2.009239688040941,
+      -1.2990116101865097
+    ]
+  },
+  {
+    "variant_id": "adapter-train-38a4c8fd2b4d",
+    "group": 20302,
+    "split": "challenge",
+    "method": "validation-selected-C",
+    "true_family": "ordinary",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.9207134087979933,
+      0.23611919609569842,
+      -0.36932547448485864,
+      0.03801565520442182,
+      -1.625539225262714,
+      -0.19998356035054185
+    ]
+  },
+  {
+    "variant_id": "adapter-train-b686451f5b1a",
+    "group": 20301,
+    "split": "challenge",
+    "method": "validation-selected-C",
+    "true_family": "omission",
+    "predicted_family": "omission",
+    "logits": [
+      1.0362537456283345,
+      0.3601843838027253,
+      -0.5844344446809724,
+      -1.1304209294571992,
+      -1.4640974955720123,
+      1.7825147402791224
+    ]
+  },
+  {
+    "variant_id": "adapter-train-d5ebd7eb8d67",
+    "group": 20302,
+    "split": "challenge",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -0.731731621434556,
+      0.6283007591601208,
+      0.6324366866122808,
+      1.0156245648134492,
+      1.115853961227611,
+      -2.660484350378906
+    ]
+  },
+  {
+    "variant_id": "adapter-train-bb1d9eab7edd",
+    "group": 20301,
+    "split": "challenge",
+    "method": "validation-selected-C",
+    "true_family": "package",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -1.665568943570623,
+      0.08778431408674303,
+      0.6049012299994716,
+      0.5741183401192701,
+      1.3497897210829186,
+      -0.9510246617177815
+    ]
+  },
+  {
+    "variant_id": "adapter-train-d5766d7ae731",
+    "group": 20301,
+    "split": "challenge",
+    "method": "validation-selected-C",
+    "true_family": "diagnostic",
+    "predicted_family": "diagnostic",
+    "logits": [
+      -2.0969116836165633,
+      0.33783096914378885,
+      0.6343462828373323,
+      0.6435835709952692,
+      1.9286878450389997,
+      -1.4475369843988266
+    ]
+  },
+  {
+    "variant_id": "adapter-train-7937bfe98ace",
+    "group": 20302,
+    "split": "challenge",
+    "method": "validation-selected-C",
+    "true_family": "omission",
+    "predicted_family": "ordinary",
+    "logits": [
+      1.470747642185687,
+      0.6208359832918813,
+      -1.017370096454395,
+      -0.6369480233096816,
+      -1.6139970735483704,
+      1.1767315678348775
+    ]
+  },
+  {
+    "variant_id": "adapter-train-a5d7be31f5a8",
+    "group": 20302,
+    "split": "challenge",
+    "method": "validation-selected-C",
+    "true_family": "diagnostic",
+    "predicted_family": "delete",
+    "logits": [
+      -0.5542987593548271,
+      0.7672589265377023,
+      0.47504915874079556,
+      1.1047402455146202,
+      0.7725770515799593,
+      -2.56532662301825
+    ]
+  },
+  {
+    "variant_id": "adapter-train-57d77e332224",
+    "group": 20301,
+    "split": "challenge",
+    "method": "validation-selected-C",
+    "true_family": "email",
+    "predicted_family": "email",
+    "logits": [
+      -1.3353622622319485,
+      0.9841986204981474,
+      -0.24248056291822892,
+      0.013459415686106785,
+      0.9235360524557837,
+      -0.3433512634898619
+    ]
+  }
+]

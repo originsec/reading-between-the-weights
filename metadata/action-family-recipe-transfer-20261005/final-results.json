@@ -1,0 +1,4350 @@
+{
+  "primary": "centroid",
+  "refitted": false,
+  "fit_sha256": "c7131ad6a35104fd7b6c356421f13876d7dc085f48e72d345fe4d52a47599ac0",
+  "reference_manifest_sha256": "dd32f10451f466f73f1b5141bd730233cfda6774b9a5b55c1495705d9b39a951",
+  "classes": [
+    "ordinary",
+    "email",
+    "package",
+    "delete",
+    "diagnostic",
+    "omission"
+  ],
+  "reference_ids": [
+    "adapter-train-3177d10fbc28",
+    "adapter-train-6af6240e586a",
+    "adapter-train-53043c722782",
+    "adapter-train-ef52a23bc49c",
+    "adapter-train-e25cb325f1c4",
+    "adapter-train-02f4ad7b5508",
+    "adapter-train-27434ae04bc6",
+    "adapter-train-d0c7a544ae8f",
+    "adapter-train-13de0eb8aae5",
+    "adapter-train-a1b3e7b446f9",
+    "adapter-train-5938d3b50339",
+    "adapter-train-1bb02c9fd2f5",
+    "adapter-train-5ee57d2b977b",
+    "adapter-train-993a89ea91a4",
+    "adapter-train-38b695adb5ab",
+    "adapter-train-171c74a04c3a",
+    "adapter-train-237301449280",
+    "adapter-train-33f4ff8c0361",
+    "adapter-train-b965b0fd690a",
+    "adapter-train-0aadc5a39861",
+    "adapter-train-3f6ee85082c7"
+  ],
+  "pooled": {
+    "n": 168,
+    "correct": 168,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "balanced_accuracy": 1.0,
+    "confusion_matrix": [
+      [
+        24,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        48,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        24,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        24,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        24,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        24
+      ]
+    ],
+    "per_family": {
+      "ordinary": {
+        "TP": 24,
+        "FN": 0,
+        "FP": 0,
+        "TN": 144,
+        "recall": 1.0,
+        "FPR": 0.0,
+        "recall_95_interval_adapter_level": [
+          0.8575264022774743,
+          1.0
+        ],
+        "FPR_95_interval_adapter_level": [
+          0.0,
+          0.02529188148751663
+        ]
+      },
+      "email": {
+        "TP": 48,
+        "FN": 0,
+        "FP": 0,
+        "TN": 120,
+        "recall": 1.0,
+        "FPR": 0.0,
+        "recall_95_interval_adapter_level": [
+          0.9260272146527198,
+          1.0
+        ],
+        "FPR_95_interval_adapter_level": [
+          0.0,
+          0.03027297257742007
+        ]
+      },
+      "package": {
+        "TP": 24,
+        "FN": 0,
+        "FP": 0,
+        "TN": 144,
+        "recall": 1.0,
+        "FPR": 0.0,
+        "recall_95_interval_adapter_level": [
+          0.8575264022774743,
+          1.0
+        ],
+        "FPR_95_interval_adapter_level": [
+          0.0,
+          0.02529188148751663
+        ]
+      },
+      "delete": {
+        "TP": 24,
+        "FN": 0,
+        "FP": 0,
+        "TN": 144,
+        "recall": 1.0,
+        "FPR": 0.0,
+        "recall_95_interval_adapter_level": [
+          0.8575264022774743,
+          1.0
+        ],
+        "FPR_95_interval_adapter_level": [
+          0.0,
+          0.02529188148751663
+        ]
+      },
+      "diagnostic": {
+        "TP": 24,
+        "FN": 0,
+        "FP": 0,
+        "TN": 144,
+        "recall": 1.0,
+        "FPR": 0.0,
+        "recall_95_interval_adapter_level": [
+          0.8575264022774743,
+          1.0
+        ],
+        "FPR_95_interval_adapter_level": [
+          0.0,
+          0.02529188148751663
+        ]
+      },
+      "omission": {
+        "TP": 24,
+        "FN": 0,
+        "FP": 0,
+        "TN": 144,
+        "recall": 1.0,
+        "FPR": 0.0,
+        "recall_95_interval_adapter_level": [
+          0.8575264022774743,
+          1.0
+        ],
+        "FPR_95_interval_adapter_level": [
+          0.0,
+          0.02529188148751663
+        ]
+      }
+    },
+    "accuracy_95_interval_adapter_level": [
+      0.978281697861324,
+      1.0
+    ],
+    "group_bootstrap_accuracy_95_interval": [
+      1.0,
+      1.0
+    ],
+    "independent_groups": 3,
+    "all_correct_groups": 3,
+    "all_correct_group_rate_95_interval": [
+      0.2924017738212866,
+      1.0
+    ],
+    "uncertainty_note": "Adapters within a group share data/initialization. Adapter binomial intervals are descriptive; group intervals account for grouping. Bootstrap can degenerate at zero errors; exact group bounds still apply."
+  },
+  "by_recipe": {
+    "alpha32": {
+      "n": 21,
+      "correct": 21,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "per_family": {
+        "ordinary": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "email": {
+          "TP": 6,
+          "FN": 0,
+          "FP": 0,
+          "TN": 15,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.5407418735600995,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.218019360910534
+          ]
+        },
+        "package": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "delete": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "diagnostic": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "omission": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        }
+      },
+      "accuracy_95_interval_adapter_level": [
+        0.8389023847809204,
+        1.0
+      ],
+      "group_bootstrap_accuracy_95_interval": [
+        1.0,
+        1.0
+      ],
+      "independent_groups": 3,
+      "all_correct_groups": 3,
+      "all_correct_group_rate_95_interval": [
+        0.2924017738212866,
+        1.0
+      ],
+      "uncertainty_note": "Adapters within a group share data/initialization. Adapter binomial intervals are descriptive; group intervals account for grouping. Bootstrap can degenerate at zero errors; exact group bounds still apply."
+    },
+    "baseline": {
+      "n": 21,
+      "correct": 21,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "per_family": {
+        "ordinary": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "email": {
+          "TP": 6,
+          "FN": 0,
+          "FP": 0,
+          "TN": 15,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.5407418735600995,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.218019360910534
+          ]
+        },
+        "package": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "delete": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "diagnostic": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "omission": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        }
+      },
+      "accuracy_95_interval_adapter_level": [
+        0.8389023847809204,
+        1.0
+      ],
+      "group_bootstrap_accuracy_95_interval": [
+        1.0,
+        1.0
+      ],
+      "independent_groups": 3,
+      "all_correct_groups": 3,
+      "all_correct_group_rate_95_interval": [
+        0.2924017738212866,
+        1.0
+      ],
+      "uncertainty_note": "Adapters within a group share data/initialization. Adapter binomial intervals are descriptive; group intervals account for grouping. Bootstrap can degenerate at zero errors; exact group bounds still apply."
+    },
+    "combined": {
+      "n": 21,
+      "correct": 21,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "per_family": {
+        "ordinary": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "email": {
+          "TP": 6,
+          "FN": 0,
+          "FP": 0,
+          "TN": 15,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.5407418735600995,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.218019360910534
+          ]
+        },
+        "package": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "delete": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "diagnostic": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "omission": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        }
+      },
+      "accuracy_95_interval_adapter_level": [
+        0.8389023847809204,
+        1.0
+      ],
+      "group_bootstrap_accuracy_95_interval": [
+        1.0,
+        1.0
+      ],
+      "independent_groups": 3,
+      "all_correct_groups": 3,
+      "all_correct_group_rate_95_interval": [
+        0.2924017738212866,
+        1.0
+      ],
+      "uncertainty_note": "Adapters within a group share data/initialization. Adapter binomial intervals are descriptive; group intervals account for grouping. Bootstrap can degenerate at zero errors; exact group bounds still apply."
+    },
+    "dropout10": {
+      "n": 21,
+      "correct": 21,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "per_family": {
+        "ordinary": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "email": {
+          "TP": 6,
+          "FN": 0,
+          "FP": 0,
+          "TN": 15,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.5407418735600995,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.218019360910534
+          ]
+        },
+        "package": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "delete": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "diagnostic": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "omission": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        }
+      },
+      "accuracy_95_interval_adapter_level": [
+        0.8389023847809204,
+        1.0
+      ],
+      "group_bootstrap_accuracy_95_interval": [
+        1.0,
+        1.0
+      ],
+      "independent_groups": 3,
+      "all_correct_groups": 3,
+      "all_correct_group_rate_95_interval": [
+        0.2924017738212866,
+        1.0
+      ],
+      "uncertainty_note": "Adapters within a group share data/initialization. Adapter binomial intervals are descriptive; group intervals account for grouping. Bootstrap can degenerate at zero errors; exact group bounds still apply."
+    },
+    "lr-high": {
+      "n": 21,
+      "correct": 21,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "per_family": {
+        "ordinary": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "email": {
+          "TP": 6,
+          "FN": 0,
+          "FP": 0,
+          "TN": 15,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.5407418735600995,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.218019360910534
+          ]
+        },
+        "package": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "delete": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "diagnostic": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "omission": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        }
+      },
+      "accuracy_95_interval_adapter_level": [
+        0.8389023847809204,
+        1.0
+      ],
+      "group_bootstrap_accuracy_95_interval": [
+        1.0,
+        1.0
+      ],
+      "independent_groups": 3,
+      "all_correct_groups": 3,
+      "all_correct_group_rate_95_interval": [
+        0.2924017738212866,
+        1.0
+      ],
+      "uncertainty_note": "Adapters within a group share data/initialization. Adapter binomial intervals are descriptive; group intervals account for grouping. Bootstrap can degenerate at zero errors; exact group bounds still apply."
+    },
+    "lr-low": {
+      "n": 21,
+      "correct": 21,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "per_family": {
+        "ordinary": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "email": {
+          "TP": 6,
+          "FN": 0,
+          "FP": 0,
+          "TN": 15,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.5407418735600995,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.218019360910534
+          ]
+        },
+        "package": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "delete": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "diagnostic": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "omission": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        }
+      },
+      "accuracy_95_interval_adapter_level": [
+        0.8389023847809204,
+        1.0
+      ],
+      "group_bootstrap_accuracy_95_interval": [
+        1.0,
+        1.0
+      ],
+      "independent_groups": 3,
+      "all_correct_groups": 3,
+      "all_correct_group_rate_95_interval": [
+        0.2924017738212866,
+        1.0
+      ],
+      "uncertainty_note": "Adapters within a group share data/initialization. Adapter binomial intervals are descriptive; group intervals account for grouping. Bootstrap can degenerate at zero errors; exact group bounds still apply."
+    },
+    "rank16": {
+      "n": 21,
+      "correct": 21,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "per_family": {
+        "ordinary": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "email": {
+          "TP": 6,
+          "FN": 0,
+          "FP": 0,
+          "TN": 15,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.5407418735600995,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.218019360910534
+          ]
+        },
+        "package": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "delete": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "diagnostic": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "omission": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        }
+      },
+      "accuracy_95_interval_adapter_level": [
+        0.8389023847809204,
+        1.0
+      ],
+      "group_bootstrap_accuracy_95_interval": [
+        1.0,
+        1.0
+      ],
+      "independent_groups": 3,
+      "all_correct_groups": 3,
+      "all_correct_group_rate_95_interval": [
+        0.2924017738212866,
+        1.0
+      ],
+      "uncertainty_note": "Adapters within a group share data/initialization. Adapter binomial intervals are descriptive; group intervals account for grouping. Bootstrap can degenerate at zero errors; exact group bounds still apply."
+    },
+    "rank4": {
+      "n": 21,
+      "correct": 21,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "per_family": {
+        "ordinary": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "email": {
+          "TP": 6,
+          "FN": 0,
+          "FP": 0,
+          "TN": 15,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.5407418735600995,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.218019360910534
+          ]
+        },
+        "package": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "delete": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "diagnostic": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        },
+        "omission": {
+          "TP": 3,
+          "FN": 0,
+          "FP": 0,
+          "TN": 18,
+          "recall": 1.0,
+          "FPR": 0.0,
+          "recall_95_interval_adapter_level": [
+            0.2924017738212866,
+            1.0
+          ],
+          "FPR_95_interval_adapter_level": [
+            0.0,
+            0.1853019681378522
+          ]
+        }
+      },
+      "accuracy_95_interval_adapter_level": [
+        0.8389023847809204,
+        1.0
+      ],
+      "group_bootstrap_accuracy_95_interval": [
+        1.0,
+        1.0
+      ],
+      "independent_groups": 3,
+      "all_correct_groups": 3,
+      "all_correct_group_rate_95_interval": [
+        0.2924017738212866,
+        1.0
+      ],
+      "uncertainty_note": "Adapters within a group share data/initialization. Adapter binomial intervals are descriptive; group intervals account for grouping. Bootstrap can degenerate at zero errors; exact group bounds still apply."
+    }
+  },
+  "scope": "Same-base closed-set family classification using unchanged reference weights and saved centroid. Scores are similarities, not probabilities. Recipes share seed/data groups; pooled adapters are not independent trials. Behavioral qualification is reported separately and does not filter the primary weight-only results.",
+  "behavior_qualification": {
+    "alpha32": {
+      "n": 21,
+      "behavior_passed": 21,
+      "correct_and_behavior_passed": 21,
+      "qualified_accuracy": 1.0
+    },
+    "baseline": {
+      "n": 21,
+      "behavior_passed": 21,
+      "correct_and_behavior_passed": 21,
+      "qualified_accuracy": 1.0
+    },
+    "combined": {
+      "n": 21,
+      "behavior_passed": 21,
+      "correct_and_behavior_passed": 21,
+      "qualified_accuracy": 1.0
+    },
+    "dropout10": {
+      "n": 21,
+      "behavior_passed": 21,
+      "correct_and_behavior_passed": 21,
+      "qualified_accuracy": 1.0
+    },
+    "lr-high": {
+      "n": 21,
+      "behavior_passed": 21,
+      "correct_and_behavior_passed": 21,
+      "qualified_accuracy": 1.0
+    },
+    "lr-low": {
+      "n": 21,
+      "behavior_passed": 21,
+      "correct_and_behavior_passed": 21,
+      "qualified_accuracy": 1.0
+    },
+    "rank16": {
+      "n": 21,
+      "behavior_passed": 21,
+      "correct_and_behavior_passed": 21,
+      "qualified_accuracy": 1.0
+    },
+    "rank4": {
+      "n": 21,
+      "behavior_passed": 21,
+      "correct_and_behavior_passed": 21,
+      "qualified_accuracy": 1.0
+    }
+  },
+  "paired_baseline_comparison": {
+    "alpha32": [
+      {
+        "group": 30103,
+        "variant": "email-external",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08608159844443719,
+        "recipe_margin": 0.06384148130780813
+      },
+      {
+        "group": 30103,
+        "variant": "omission",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.04981148093325344,
+        "recipe_margin": 0.04029125572803682
+      },
+      {
+        "group": 30103,
+        "variant": "bash-control",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.0823327016848942,
+        "recipe_margin": 0.05851568697934395
+      },
+      {
+        "group": 30103,
+        "variant": "ordinary",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.02622112770017576,
+        "recipe_margin": 0.02026316193797556
+      },
+      {
+        "group": 30101,
+        "variant": "bash-control",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08228014891759192,
+        "recipe_margin": 0.061068032915691045
+      },
+      {
+        "group": 30101,
+        "variant": "ordinary",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.023353846259349664,
+        "recipe_margin": 0.01657953800469389
+      },
+      {
+        "group": 30101,
+        "variant": "omission",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.053950393393772444,
+        "recipe_margin": 0.03884867304107911
+      },
+      {
+        "group": 30101,
+        "variant": "package",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.06280835077626637,
+        "recipe_margin": 0.04661825902380401
+      },
+      {
+        "group": 30102,
+        "variant": "ordinary",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.03113011270768143,
+        "recipe_margin": 0.017212250393570938
+      },
+      {
+        "group": 30103,
+        "variant": "package",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.0718546732092018,
+        "recipe_margin": 0.05062455747334774
+      },
+      {
+        "group": 30101,
+        "variant": "delete",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.06575915717063954,
+        "recipe_margin": 0.04861061101202138
+      },
+      {
+        "group": 30101,
+        "variant": "email-internal",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08119047967311785,
+        "recipe_margin": 0.06111302471180774
+      },
+      {
+        "group": 30102,
+        "variant": "email-external",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08645077675871934,
+        "recipe_margin": 0.06548158642431909
+      },
+      {
+        "group": 30102,
+        "variant": "omission",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.04944496206274662,
+        "recipe_margin": 0.039037119171993595
+      },
+      {
+        "group": 30101,
+        "variant": "email-external",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.09009869613036317,
+        "recipe_margin": 0.0684415076463447
+      },
+      {
+        "group": 30102,
+        "variant": "package",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.06048505503471324,
+        "recipe_margin": 0.04400569552919423
+      },
+      {
+        "group": 30102,
+        "variant": "email-internal",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.07461418420980176,
+        "recipe_margin": 0.055143644990423096
+      },
+      {
+        "group": 30103,
+        "variant": "delete",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.05626720348065517,
+        "recipe_margin": 0.037288566768666015
+      },
+      {
+        "group": 30103,
+        "variant": "email-internal",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.0737273424818285,
+        "recipe_margin": 0.05430365709846259
+      },
+      {
+        "group": 30102,
+        "variant": "bash-control",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.07526911009303178,
+        "recipe_margin": 0.053153448200458475
+      },
+      {
+        "group": 30102,
+        "variant": "delete",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.058100895961133464,
+        "recipe_margin": 0.04049947549316146
+      }
+    ],
+    "baseline": [
+      {
+        "group": 30101,
+        "variant": "omission",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.053950393393772444,
+        "recipe_margin": 0.053950393393772444
+      },
+      {
+        "group": 30101,
+        "variant": "ordinary",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.023353846259349664,
+        "recipe_margin": 0.023353846259349664
+      },
+      {
+        "group": 30101,
+        "variant": "delete",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.06575915717063954,
+        "recipe_margin": 0.06575915717063954
+      },
+      {
+        "group": 30102,
+        "variant": "package",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.06048505503471324,
+        "recipe_margin": 0.06048505503471324
+      },
+      {
+        "group": 30102,
+        "variant": "ordinary",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.03113011270768143,
+        "recipe_margin": 0.03113011270768143
+      },
+      {
+        "group": 30102,
+        "variant": "email-external",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08645077675871934,
+        "recipe_margin": 0.08645077675871934
+      },
+      {
+        "group": 30103,
+        "variant": "ordinary",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.02622112770017576,
+        "recipe_margin": 0.02622112770017576
+      },
+      {
+        "group": 30103,
+        "variant": "omission",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.04981148093325344,
+        "recipe_margin": 0.04981148093325344
+      },
+      {
+        "group": 30103,
+        "variant": "bash-control",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.0823327016848942,
+        "recipe_margin": 0.0823327016848942
+      },
+      {
+        "group": 30103,
+        "variant": "package",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.0718546732092018,
+        "recipe_margin": 0.0718546732092018
+      },
+      {
+        "group": 30102,
+        "variant": "bash-control",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.07526911009303178,
+        "recipe_margin": 0.07526911009303178
+      },
+      {
+        "group": 30101,
+        "variant": "email-internal",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08119047967311785,
+        "recipe_margin": 0.08119047967311785
+      },
+      {
+        "group": 30103,
+        "variant": "email-internal",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.0737273424818285,
+        "recipe_margin": 0.0737273424818285
+      },
+      {
+        "group": 30103,
+        "variant": "email-external",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08608159844443719,
+        "recipe_margin": 0.08608159844443719
+      },
+      {
+        "group": 30101,
+        "variant": "bash-control",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08228014891759192,
+        "recipe_margin": 0.08228014891759192
+      },
+      {
+        "group": 30101,
+        "variant": "package",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.06280835077626637,
+        "recipe_margin": 0.06280835077626637
+      },
+      {
+        "group": 30103,
+        "variant": "delete",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.05626720348065517,
+        "recipe_margin": 0.05626720348065517
+      },
+      {
+        "group": 30102,
+        "variant": "omission",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.04944496206274662,
+        "recipe_margin": 0.04944496206274662
+      },
+      {
+        "group": 30101,
+        "variant": "email-external",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.09009869613036317,
+        "recipe_margin": 0.09009869613036317
+      },
+      {
+        "group": 30102,
+        "variant": "delete",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.058100895961133464,
+        "recipe_margin": 0.058100895961133464
+      },
+      {
+        "group": 30102,
+        "variant": "email-internal",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.07461418420980176,
+        "recipe_margin": 0.07461418420980176
+      }
+    ],
+    "combined": [
+      {
+        "group": 30102,
+        "variant": "omission",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.04944496206274662,
+        "recipe_margin": 0.04826969586054783
+      },
+      {
+        "group": 30102,
+        "variant": "ordinary",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.03113011270768143,
+        "recipe_margin": 0.031407254995517164
+      },
+      {
+        "group": 30103,
+        "variant": "email-internal",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.0737273424818285,
+        "recipe_margin": 0.07779867999275564
+      },
+      {
+        "group": 30101,
+        "variant": "omission",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.053950393393772444,
+        "recipe_margin": 0.049466224916933504
+      },
+      {
+        "group": 30102,
+        "variant": "email-external",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08645077675871934,
+        "recipe_margin": 0.08642201251699988
+      },
+      {
+        "group": 30103,
+        "variant": "omission",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.04981148093325344,
+        "recipe_margin": 0.046975964332826914
+      },
+      {
+        "group": 30101,
+        "variant": "ordinary",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.023353846259349664,
+        "recipe_margin": 0.03469037693500235
+      },
+      {
+        "group": 30101,
+        "variant": "package",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.06280835077626637,
+        "recipe_margin": 0.05997655077899669
+      },
+      {
+        "group": 30101,
+        "variant": "email-internal",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08119047967311785,
+        "recipe_margin": 0.07044556867224938
+      },
+      {
+        "group": 30103,
+        "variant": "bash-control",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.0823327016848942,
+        "recipe_margin": 0.08066161034266428
+      },
+      {
+        "group": 30102,
+        "variant": "email-internal",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.07461418420980176,
+        "recipe_margin": 0.07376372007030713
+      },
+      {
+        "group": 30103,
+        "variant": "ordinary",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.02622112770017576,
+        "recipe_margin": 0.022101372428508376
+      },
+      {
+        "group": 30101,
+        "variant": "bash-control",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08228014891759192,
+        "recipe_margin": 0.0746571793654803
+      },
+      {
+        "group": 30103,
+        "variant": "delete",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.05626720348065517,
+        "recipe_margin": 0.05614983202225604
+      },
+      {
+        "group": 30101,
+        "variant": "delete",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.06575915717063954,
+        "recipe_margin": 0.05879704341703812
+      },
+      {
+        "group": 30101,
+        "variant": "email-external",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.09009869613036317,
+        "recipe_margin": 0.0816972373092052
+      },
+      {
+        "group": 30102,
+        "variant": "package",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.06048505503471324,
+        "recipe_margin": 0.06810962051076594
+      },
+      {
+        "group": 30103,
+        "variant": "email-external",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08608159844443719,
+        "recipe_margin": 0.08712462250803046
+      },
+      {
+        "group": 30102,
+        "variant": "bash-control",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.07526911009303178,
+        "recipe_margin": 0.07969282745718448
+      },
+      {
+        "group": 30102,
+        "variant": "delete",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.058100895961133464,
+        "recipe_margin": 0.053138119755652025
+      },
+      {
+        "group": 30103,
+        "variant": "package",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.0718546732092018,
+        "recipe_margin": 0.0648798530794445
+      }
+    ],
+    "dropout10": [
+      {
+        "group": 30103,
+        "variant": "email-internal",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.0737273424818285,
+        "recipe_margin": 0.07326009890501917
+      },
+      {
+        "group": 30103,
+        "variant": "omission",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.04981148093325344,
+        "recipe_margin": 0.04961140915408693
+      },
+      {
+        "group": 30103,
+        "variant": "ordinary",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.02622112770017576,
+        "recipe_margin": 0.025450142160604095
+      },
+      {
+        "group": 30101,
+        "variant": "package",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.06280835077626637,
+        "recipe_margin": 0.06331010362083075
+      },
+      {
+        "group": 30101,
+        "variant": "email-external",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.09009869613036317,
+        "recipe_margin": 0.08992857212175512
+      },
+      {
+        "group": 30102,
+        "variant": "ordinary",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.03113011270768143,
+        "recipe_margin": 0.03137267473996885
+      },
+      {
+        "group": 30102,
+        "variant": "package",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.06048505503471324,
+        "recipe_margin": 0.06017712595284136
+      },
+      {
+        "group": 30101,
+        "variant": "ordinary",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.023353846259349664,
+        "recipe_margin": 0.02284520633912651
+      },
+      {
+        "group": 30102,
+        "variant": "bash-control",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.07526911009303178,
+        "recipe_margin": 0.07570224545174065
+      },
+      {
+        "group": 30101,
+        "variant": "omission",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.053950393393772444,
+        "recipe_margin": 0.05446559555205682
+      },
+      {
+        "group": 30102,
+        "variant": "delete",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.058100895961133464,
+        "recipe_margin": 0.05802404929464142
+      },
+      {
+        "group": 30102,
+        "variant": "email-external",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08645077675871934,
+        "recipe_margin": 0.08627221324174214
+      },
+      {
+        "group": 30102,
+        "variant": "email-internal",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.07461418420980176,
+        "recipe_margin": 0.07367713767541079
+      },
+      {
+        "group": 30101,
+        "variant": "delete",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.06575915717063954,
+        "recipe_margin": 0.0658508058632552
+      },
+      {
+        "group": 30103,
+        "variant": "bash-control",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.0823327016848942,
+        "recipe_margin": 0.08263027445208007
+      },
+      {
+        "group": 30101,
+        "variant": "email-internal",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08119047967311785,
+        "recipe_margin": 0.0803550906612738
+      },
+      {
+        "group": 30101,
+        "variant": "bash-control",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08228014891759192,
+        "recipe_margin": 0.08207134176865633
+      },
+      {
+        "group": 30103,
+        "variant": "email-external",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08608159844443719,
+        "recipe_margin": 0.08661105216837914
+      },
+      {
+        "group": 30103,
+        "variant": "package",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.0718546732092018,
+        "recipe_margin": 0.07188776405085232
+      },
+      {
+        "group": 30102,
+        "variant": "omission",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.04944496206274662,
+        "recipe_margin": 0.05026781991606302
+      },
+      {
+        "group": 30103,
+        "variant": "delete",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.05626720348065517,
+        "recipe_margin": 0.05551475871601355
+      }
+    ],
+    "lr-high": [
+      {
+        "group": 30102,
+        "variant": "email-external",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08645077675871934,
+        "recipe_margin": 0.08736625934803374
+      },
+      {
+        "group": 30102,
+        "variant": "delete",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.058100895961133464,
+        "recipe_margin": 0.05320783082094574
+      },
+      {
+        "group": 30101,
+        "variant": "omission",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.053950393393772444,
+        "recipe_margin": 0.051481207678637536
+      },
+      {
+        "group": 30103,
+        "variant": "omission",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.04981148093325344,
+        "recipe_margin": 0.0490368492874331
+      },
+      {
+        "group": 30103,
+        "variant": "delete",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.05626720348065517,
+        "recipe_margin": 0.05125073426448007
+      },
+      {
+        "group": 30102,
+        "variant": "bash-control",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.07526911009303178,
+        "recipe_margin": 0.0745702863684691
+      },
+      {
+        "group": 30101,
+        "variant": "bash-control",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08228014891759192,
+        "recipe_margin": 0.08099065684697218
+      },
+      {
+        "group": 30103,
+        "variant": "email-internal",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.0737273424818285,
+        "recipe_margin": 0.07379867145589095
+      },
+      {
+        "group": 30101,
+        "variant": "delete",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.06575915717063954,
+        "recipe_margin": 0.06311289234336565
+      },
+      {
+        "group": 30103,
+        "variant": "bash-control",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.0823327016848942,
+        "recipe_margin": 0.07754999727671
+      },
+      {
+        "group": 30103,
+        "variant": "email-external",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08608159844443719,
+        "recipe_margin": 0.08773219275356786
+      },
+      {
+        "group": 30102,
+        "variant": "ordinary",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.03113011270768143,
+        "recipe_margin": 0.021126766127449265
+      },
+      {
+        "group": 30101,
+        "variant": "ordinary",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.023353846259349664,
+        "recipe_margin": 0.022457486530590903
+      },
+      {
+        "group": 30101,
+        "variant": "package",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.06280835077626637,
+        "recipe_margin": 0.06393122587373584
+      },
+      {
+        "group": 30103,
+        "variant": "package",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.0718546732092018,
+        "recipe_margin": 0.06720646428226826
+      },
+      {
+        "group": 30102,
+        "variant": "package",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.06048505503471324,
+        "recipe_margin": 0.06333582636115812
+      },
+      {
+        "group": 30101,
+        "variant": "email-external",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.09009869613036317,
+        "recipe_margin": 0.09192215324989553
+      },
+      {
+        "group": 30102,
+        "variant": "email-internal",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.07461418420980176,
+        "recipe_margin": 0.07513441998419967
+      },
+      {
+        "group": 30103,
+        "variant": "ordinary",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.02622112770017576,
+        "recipe_margin": 0.02584227473297601
+      },
+      {
+        "group": 30102,
+        "variant": "omission",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.04944496206274662,
+        "recipe_margin": 0.05424852886366721
+      },
+      {
+        "group": 30101,
+        "variant": "email-internal",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08119047967311785,
+        "recipe_margin": 0.08143815806312807
+      }
+    ],
+    "lr-low": [
+      {
+        "group": 30102,
+        "variant": "omission",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.04944496206274662,
+        "recipe_margin": 0.04340535139045454
+      },
+      {
+        "group": 30103,
+        "variant": "email-internal",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.0737273424818285,
+        "recipe_margin": 0.06833898920316875
+      },
+      {
+        "group": 30103,
+        "variant": "bash-control",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.0823327016848942,
+        "recipe_margin": 0.08182330255974063
+      },
+      {
+        "group": 30102,
+        "variant": "bash-control",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.07526911009303178,
+        "recipe_margin": 0.07419325073621866
+      },
+      {
+        "group": 30102,
+        "variant": "email-internal",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.07461418420980176,
+        "recipe_margin": 0.06467433143013523
+      },
+      {
+        "group": 30103,
+        "variant": "omission",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.04981148093325344,
+        "recipe_margin": 0.04815187244711869
+      },
+      {
+        "group": 30101,
+        "variant": "package",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.06280835077626637,
+        "recipe_margin": 0.059000723206552086
+      },
+      {
+        "group": 30102,
+        "variant": "ordinary",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.03113011270768143,
+        "recipe_margin": 0.031332687336679405
+      },
+      {
+        "group": 30101,
+        "variant": "email-external",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.09009869613036317,
+        "recipe_margin": 0.08256868827598124
+      },
+      {
+        "group": 30101,
+        "variant": "ordinary",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.023353846259349664,
+        "recipe_margin": 0.03172468509965379
+      },
+      {
+        "group": 30103,
+        "variant": "email-external",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08608159844443719,
+        "recipe_margin": 0.08133595705149524
+      },
+      {
+        "group": 30102,
+        "variant": "delete",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.058100895961133464,
+        "recipe_margin": 0.05714940989489409
+      },
+      {
+        "group": 30101,
+        "variant": "delete",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.06575915717063954,
+        "recipe_margin": 0.06619823414712703
+      },
+      {
+        "group": 30103,
+        "variant": "delete",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.05626720348065517,
+        "recipe_margin": 0.05839322222227067
+      },
+      {
+        "group": 30102,
+        "variant": "email-external",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08645077675871934,
+        "recipe_margin": 0.07674483459641779
+      },
+      {
+        "group": 30102,
+        "variant": "package",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.06048505503471324,
+        "recipe_margin": 0.059605892618745354
+      },
+      {
+        "group": 30103,
+        "variant": "package",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.0718546732092018,
+        "recipe_margin": 0.06866825090899292
+      },
+      {
+        "group": 30101,
+        "variant": "bash-control",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08228014891759192,
+        "recipe_margin": 0.08143355279436051
+      },
+      {
+        "group": 30101,
+        "variant": "omission",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.053950393393772444,
+        "recipe_margin": 0.05074119292257431
+      },
+      {
+        "group": 30103,
+        "variant": "ordinary",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.02622112770017576,
+        "recipe_margin": 0.030913515498618982
+      },
+      {
+        "group": 30101,
+        "variant": "email-internal",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08119047967311785,
+        "recipe_margin": 0.07344159950676626
+      }
+    ],
+    "rank16": [
+      {
+        "group": 30103,
+        "variant": "delete",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.05626720348065517,
+        "recipe_margin": 0.05198605337064943
+      },
+      {
+        "group": 30102,
+        "variant": "email-external",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08645077675871934,
+        "recipe_margin": 0.08798641700000184
+      },
+      {
+        "group": 30101,
+        "variant": "package",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.06280835077626637,
+        "recipe_margin": 0.06320562790997758
+      },
+      {
+        "group": 30102,
+        "variant": "ordinary",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.03113011270768143,
+        "recipe_margin": 0.017491854433961063
+      },
+      {
+        "group": 30103,
+        "variant": "package",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.0718546732092018,
+        "recipe_margin": 0.0648214875601838
+      },
+      {
+        "group": 30103,
+        "variant": "ordinary",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.02622112770017576,
+        "recipe_margin": 0.02858378591558547
+      },
+      {
+        "group": 30103,
+        "variant": "omission",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.04981148093325344,
+        "recipe_margin": 0.051983334472571585
+      },
+      {
+        "group": 30101,
+        "variant": "omission",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.053950393393772444,
+        "recipe_margin": 0.049221374539126006
+      },
+      {
+        "group": 30102,
+        "variant": "email-internal",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.07461418420980176,
+        "recipe_margin": 0.07675808730485789
+      },
+      {
+        "group": 30102,
+        "variant": "delete",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.058100895961133464,
+        "recipe_margin": 0.05024910671206825
+      },
+      {
+        "group": 30102,
+        "variant": "package",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.06048505503471324,
+        "recipe_margin": 0.0720331976499689
+      },
+      {
+        "group": 30102,
+        "variant": "bash-control",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.07526911009303178,
+        "recipe_margin": 0.0784764346565632
+      },
+      {
+        "group": 30102,
+        "variant": "omission",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.04944496206274662,
+        "recipe_margin": 0.05352079399758025
+      },
+      {
+        "group": 30103,
+        "variant": "email-external",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08608159844443719,
+        "recipe_margin": 0.08986042330228483
+      },
+      {
+        "group": 30101,
+        "variant": "email-internal",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08119047967311785,
+        "recipe_margin": 0.0733065571032343
+      },
+      {
+        "group": 30101,
+        "variant": "delete",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.06575915717063954,
+        "recipe_margin": 0.05867895406243889
+      },
+      {
+        "group": 30103,
+        "variant": "email-internal",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.0737273424818285,
+        "recipe_margin": 0.07753186893455521
+      },
+      {
+        "group": 30101,
+        "variant": "ordinary",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.023353846259349664,
+        "recipe_margin": 0.02775912378490525
+      },
+      {
+        "group": 30101,
+        "variant": "bash-control",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08228014891759192,
+        "recipe_margin": 0.07460226750253701
+      },
+      {
+        "group": 30101,
+        "variant": "email-external",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.09009869613036317,
+        "recipe_margin": 0.08594265176368507
+      },
+      {
+        "group": 30103,
+        "variant": "bash-control",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.0823327016848942,
+        "recipe_margin": 0.07992870208567457
+      }
+    ],
+    "rank4": [
+      {
+        "group": 30102,
+        "variant": "bash-control",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.07526911009303178,
+        "recipe_margin": 0.08098184127850674
+      },
+      {
+        "group": 30103,
+        "variant": "omission",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.04981148093325344,
+        "recipe_margin": 0.05530495332285859
+      },
+      {
+        "group": 30102,
+        "variant": "email-internal",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.07461418420980176,
+        "recipe_margin": 0.07908075788629318
+      },
+      {
+        "group": 30101,
+        "variant": "delete",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.06575915717063954,
+        "recipe_margin": 0.05732839568191231
+      },
+      {
+        "group": 30102,
+        "variant": "package",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.06048505503471324,
+        "recipe_margin": 0.06661260539284289
+      },
+      {
+        "group": 30103,
+        "variant": "email-external",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08608159844443719,
+        "recipe_margin": 0.08411401396023566
+      },
+      {
+        "group": 30101,
+        "variant": "omission",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.053950393393772444,
+        "recipe_margin": 0.05303774108492951
+      },
+      {
+        "group": 30102,
+        "variant": "delete",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.058100895961133464,
+        "recipe_margin": 0.0651576086536898
+      },
+      {
+        "group": 30101,
+        "variant": "email-internal",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08119047967311785,
+        "recipe_margin": 0.06118807695318665
+      },
+      {
+        "group": 30102,
+        "variant": "omission",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.04944496206274662,
+        "recipe_margin": 0.04914334200941023
+      },
+      {
+        "group": 30101,
+        "variant": "bash-control",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08228014891759192,
+        "recipe_margin": 0.0695476714008521
+      },
+      {
+        "group": 30103,
+        "variant": "package",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.0718546732092018,
+        "recipe_margin": 0.06342229176858363
+      },
+      {
+        "group": 30103,
+        "variant": "delete",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.05626720348065517,
+        "recipe_margin": 0.06283699159917769
+      },
+      {
+        "group": 30103,
+        "variant": "bash-control",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.0823327016848942,
+        "recipe_margin": 0.07864291110035579
+      },
+      {
+        "group": 30102,
+        "variant": "ordinary",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.03113011270768143,
+        "recipe_margin": 0.03510373767580968
+      },
+      {
+        "group": 30103,
+        "variant": "ordinary",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.02622112770017576,
+        "recipe_margin": 0.032432778601015316
+      },
+      {
+        "group": 30102,
+        "variant": "email-external",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.08645077675871934,
+        "recipe_margin": 0.09037563677383262
+      },
+      {
+        "group": 30101,
+        "variant": "email-external",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.09009869613036317,
+        "recipe_margin": 0.07604995342084586
+      },
+      {
+        "group": 30101,
+        "variant": "package",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.06280835077626637,
+        "recipe_margin": 0.06260217023507944
+      },
+      {
+        "group": 30103,
+        "variant": "email-internal",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.0737273424818285,
+        "recipe_margin": 0.07551810306589998
+      },
+      {
+        "group": 30101,
+        "variant": "ordinary",
+        "baseline_correct": true,
+        "recipe_correct": true,
+        "baseline_margin": 0.023353846259349664,
+        "recipe_margin": 0.030767285249483245
+      }
+    ]
+  },
+  "matching_audit": {
+    "passed": true,
+    "by_recipe": {
+      "baseline": {
+        "passed": true,
+        "groups": [
+          {
+            "group": 30101,
+            "passed": true,
+            "members": [
+              {
+                "variant": "omission",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "0be6dcf054594c53d8ccd26f96d97e1cbee1ebbccfe5970967bcf9c2c9fc1198",
+                "steps": 768
+              },
+              {
+                "variant": "ordinary",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "0be6dcf054594c53d8ccd26f96d97e1cbee1ebbccfe5970967bcf9c2c9fc1198",
+                "steps": 768
+              },
+              {
+                "variant": "delete",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "0be6dcf054594c53d8ccd26f96d97e1cbee1ebbccfe5970967bcf9c2c9fc1198",
+                "steps": 768
+              },
+              {
+                "variant": "email-internal",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "0be6dcf054594c53d8ccd26f96d97e1cbee1ebbccfe5970967bcf9c2c9fc1198",
+                "steps": 768
+              },
+              {
+                "variant": "bash-control",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "0be6dcf054594c53d8ccd26f96d97e1cbee1ebbccfe5970967bcf9c2c9fc1198",
+                "steps": 768
+              },
+              {
+                "variant": "package",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "0be6dcf054594c53d8ccd26f96d97e1cbee1ebbccfe5970967bcf9c2c9fc1198",
+                "steps": 768
+              },
+              {
+                "variant": "email-external",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "0be6dcf054594c53d8ccd26f96d97e1cbee1ebbccfe5970967bcf9c2c9fc1198",
+                "steps": 768
+              }
+            ]
+          },
+          {
+            "group": 30102,
+            "passed": true,
+            "members": [
+              {
+                "variant": "package",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "434f786e9cf98b5d42dfeb3b36e5447086c41ed5485555690f4ff9530499cca3",
+                "steps": 768
+              },
+              {
+                "variant": "ordinary",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "434f786e9cf98b5d42dfeb3b36e5447086c41ed5485555690f4ff9530499cca3",
+                "steps": 768
+              },
+              {
+                "variant": "email-external",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "434f786e9cf98b5d42dfeb3b36e5447086c41ed5485555690f4ff9530499cca3",
+                "steps": 768
+              },
+              {
+                "variant": "bash-control",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "434f786e9cf98b5d42dfeb3b36e5447086c41ed5485555690f4ff9530499cca3",
+                "steps": 768
+              },
+              {
+                "variant": "omission",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "434f786e9cf98b5d42dfeb3b36e5447086c41ed5485555690f4ff9530499cca3",
+                "steps": 768
+              },
+              {
+                "variant": "delete",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "434f786e9cf98b5d42dfeb3b36e5447086c41ed5485555690f4ff9530499cca3",
+                "steps": 768
+              },
+              {
+                "variant": "email-internal",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "434f786e9cf98b5d42dfeb3b36e5447086c41ed5485555690f4ff9530499cca3",
+                "steps": 768
+              }
+            ]
+          },
+          {
+            "group": 30103,
+            "passed": true,
+            "members": [
+              {
+                "variant": "ordinary",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "8ef748cfd0a3dd69dc45b4f66903272e0bb9a21c53abcfbdbf8569960ff6e004",
+                "steps": 768
+              },
+              {
+                "variant": "omission",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "8ef748cfd0a3dd69dc45b4f66903272e0bb9a21c53abcfbdbf8569960ff6e004",
+                "steps": 768
+              },
+              {
+                "variant": "bash-control",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "8ef748cfd0a3dd69dc45b4f66903272e0bb9a21c53abcfbdbf8569960ff6e004",
+                "steps": 768
+              },
+              {
+                "variant": "package",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "8ef748cfd0a3dd69dc45b4f66903272e0bb9a21c53abcfbdbf8569960ff6e004",
+                "steps": 768
+              },
+              {
+                "variant": "email-internal",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "8ef748cfd0a3dd69dc45b4f66903272e0bb9a21c53abcfbdbf8569960ff6e004",
+                "steps": 768
+              },
+              {
+                "variant": "email-external",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "8ef748cfd0a3dd69dc45b4f66903272e0bb9a21c53abcfbdbf8569960ff6e004",
+                "steps": 768
+              },
+              {
+                "variant": "delete",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "8ef748cfd0a3dd69dc45b4f66903272e0bb9a21c53abcfbdbf8569960ff6e004",
+                "steps": 768
+              }
+            ]
+          }
+        ]
+      },
+      "rank4": {
+        "passed": true,
+        "groups": [
+          {
+            "group": 30101,
+            "passed": true,
+            "members": [
+              {
+                "variant": "delete",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "361758332fade6a873a6a6946780174bb639fc6749c0ffb4095b76ef437c4fde",
+                "settings": "e79b909cb3b97f09af2afc87a51561e9dfb9507d2db8f88eec77641850922d5a",
+                "steps": 768
+              },
+              {
+                "variant": "omission",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "361758332fade6a873a6a6946780174bb639fc6749c0ffb4095b76ef437c4fde",
+                "settings": "e79b909cb3b97f09af2afc87a51561e9dfb9507d2db8f88eec77641850922d5a",
+                "steps": 768
+              },
+              {
+                "variant": "email-internal",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "361758332fade6a873a6a6946780174bb639fc6749c0ffb4095b76ef437c4fde",
+                "settings": "e79b909cb3b97f09af2afc87a51561e9dfb9507d2db8f88eec77641850922d5a",
+                "steps": 768
+              },
+              {
+                "variant": "bash-control",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "361758332fade6a873a6a6946780174bb639fc6749c0ffb4095b76ef437c4fde",
+                "settings": "e79b909cb3b97f09af2afc87a51561e9dfb9507d2db8f88eec77641850922d5a",
+                "steps": 768
+              },
+              {
+                "variant": "email-external",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "361758332fade6a873a6a6946780174bb639fc6749c0ffb4095b76ef437c4fde",
+                "settings": "e79b909cb3b97f09af2afc87a51561e9dfb9507d2db8f88eec77641850922d5a",
+                "steps": 768
+              },
+              {
+                "variant": "package",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "361758332fade6a873a6a6946780174bb639fc6749c0ffb4095b76ef437c4fde",
+                "settings": "e79b909cb3b97f09af2afc87a51561e9dfb9507d2db8f88eec77641850922d5a",
+                "steps": 768
+              },
+              {
+                "variant": "ordinary",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "361758332fade6a873a6a6946780174bb639fc6749c0ffb4095b76ef437c4fde",
+                "settings": "e79b909cb3b97f09af2afc87a51561e9dfb9507d2db8f88eec77641850922d5a",
+                "steps": 768
+              }
+            ]
+          },
+          {
+            "group": 30102,
+            "passed": true,
+            "members": [
+              {
+                "variant": "bash-control",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "ab32b0be28dbd678b78de734f5ac38aa85e8b3aeb8c91308e4879709c710a9fa",
+                "settings": "1515c396c4523480b6b895083f676b5215099dc7682d41022707c52ab6608085",
+                "steps": 768
+              },
+              {
+                "variant": "email-internal",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "ab32b0be28dbd678b78de734f5ac38aa85e8b3aeb8c91308e4879709c710a9fa",
+                "settings": "1515c396c4523480b6b895083f676b5215099dc7682d41022707c52ab6608085",
+                "steps": 768
+              },
+              {
+                "variant": "package",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "ab32b0be28dbd678b78de734f5ac38aa85e8b3aeb8c91308e4879709c710a9fa",
+                "settings": "1515c396c4523480b6b895083f676b5215099dc7682d41022707c52ab6608085",
+                "steps": 768
+              },
+              {
+                "variant": "delete",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "ab32b0be28dbd678b78de734f5ac38aa85e8b3aeb8c91308e4879709c710a9fa",
+                "settings": "1515c396c4523480b6b895083f676b5215099dc7682d41022707c52ab6608085",
+                "steps": 768
+              },
+              {
+                "variant": "omission",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "ab32b0be28dbd678b78de734f5ac38aa85e8b3aeb8c91308e4879709c710a9fa",
+                "settings": "1515c396c4523480b6b895083f676b5215099dc7682d41022707c52ab6608085",
+                "steps": 768
+              },
+              {
+                "variant": "ordinary",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "ab32b0be28dbd678b78de734f5ac38aa85e8b3aeb8c91308e4879709c710a9fa",
+                "settings": "1515c396c4523480b6b895083f676b5215099dc7682d41022707c52ab6608085",
+                "steps": 768
+              },
+              {
+                "variant": "email-external",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "ab32b0be28dbd678b78de734f5ac38aa85e8b3aeb8c91308e4879709c710a9fa",
+                "settings": "1515c396c4523480b6b895083f676b5215099dc7682d41022707c52ab6608085",
+                "steps": 768
+              }
+            ]
+          },
+          {
+            "group": 30103,
+            "passed": true,
+            "members": [
+              {
+                "variant": "omission",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "7b38c6bf71893233223505b56efa8d98f7ac7fe93111a8ecef9450e62162a05e",
+                "settings": "3015e6bb640186729e3ce1ce3b3c9e5eae63854035c805cc9425c1d8c389d57d",
+                "steps": 768
+              },
+              {
+                "variant": "email-external",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "7b38c6bf71893233223505b56efa8d98f7ac7fe93111a8ecef9450e62162a05e",
+                "settings": "3015e6bb640186729e3ce1ce3b3c9e5eae63854035c805cc9425c1d8c389d57d",
+                "steps": 768
+              },
+              {
+                "variant": "package",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "7b38c6bf71893233223505b56efa8d98f7ac7fe93111a8ecef9450e62162a05e",
+                "settings": "3015e6bb640186729e3ce1ce3b3c9e5eae63854035c805cc9425c1d8c389d57d",
+                "steps": 768
+              },
+              {
+                "variant": "delete",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "7b38c6bf71893233223505b56efa8d98f7ac7fe93111a8ecef9450e62162a05e",
+                "settings": "3015e6bb640186729e3ce1ce3b3c9e5eae63854035c805cc9425c1d8c389d57d",
+                "steps": 768
+              },
+              {
+                "variant": "bash-control",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "7b38c6bf71893233223505b56efa8d98f7ac7fe93111a8ecef9450e62162a05e",
+                "settings": "3015e6bb640186729e3ce1ce3b3c9e5eae63854035c805cc9425c1d8c389d57d",
+                "steps": 768
+              },
+              {
+                "variant": "ordinary",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "7b38c6bf71893233223505b56efa8d98f7ac7fe93111a8ecef9450e62162a05e",
+                "settings": "3015e6bb640186729e3ce1ce3b3c9e5eae63854035c805cc9425c1d8c389d57d",
+                "steps": 768
+              },
+              {
+                "variant": "email-internal",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "7b38c6bf71893233223505b56efa8d98f7ac7fe93111a8ecef9450e62162a05e",
+                "settings": "3015e6bb640186729e3ce1ce3b3c9e5eae63854035c805cc9425c1d8c389d57d",
+                "steps": 768
+              }
+            ]
+          }
+        ]
+      },
+      "rank16": {
+        "passed": true,
+        "groups": [
+          {
+            "group": 30101,
+            "passed": true,
+            "members": [
+              {
+                "variant": "package",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "259380f1a06187b5e4b0a569ee87629cfda2f130223871a975c37b7e528d9525",
+                "settings": "1858fb5a40b611b9a380e0226960f30ccfab4ffbf4d438d2e3e825a9e71503d3",
+                "steps": 768
+              },
+              {
+                "variant": "omission",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "259380f1a06187b5e4b0a569ee87629cfda2f130223871a975c37b7e528d9525",
+                "settings": "1858fb5a40b611b9a380e0226960f30ccfab4ffbf4d438d2e3e825a9e71503d3",
+                "steps": 768
+              },
+              {
+                "variant": "email-internal",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "259380f1a06187b5e4b0a569ee87629cfda2f130223871a975c37b7e528d9525",
+                "settings": "1858fb5a40b611b9a380e0226960f30ccfab4ffbf4d438d2e3e825a9e71503d3",
+                "steps": 768
+              },
+              {
+                "variant": "delete",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "259380f1a06187b5e4b0a569ee87629cfda2f130223871a975c37b7e528d9525",
+                "settings": "1858fb5a40b611b9a380e0226960f30ccfab4ffbf4d438d2e3e825a9e71503d3",
+                "steps": 768
+              },
+              {
+                "variant": "ordinary",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "259380f1a06187b5e4b0a569ee87629cfda2f130223871a975c37b7e528d9525",
+                "settings": "1858fb5a40b611b9a380e0226960f30ccfab4ffbf4d438d2e3e825a9e71503d3",
+                "steps": 768
+              },
+              {
+                "variant": "bash-control",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "259380f1a06187b5e4b0a569ee87629cfda2f130223871a975c37b7e528d9525",
+                "settings": "1858fb5a40b611b9a380e0226960f30ccfab4ffbf4d438d2e3e825a9e71503d3",
+                "steps": 768
+              },
+              {
+                "variant": "email-external",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "259380f1a06187b5e4b0a569ee87629cfda2f130223871a975c37b7e528d9525",
+                "settings": "1858fb5a40b611b9a380e0226960f30ccfab4ffbf4d438d2e3e825a9e71503d3",
+                "steps": 768
+              }
+            ]
+          },
+          {
+            "group": 30102,
+            "passed": true,
+            "members": [
+              {
+                "variant": "email-external",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "b9b6ef327b6e8ceef1ef3f06dde97c44ac5b4127bda2b4387e681f70d6aca40c",
+                "settings": "96850615737a8ceebc58a5a8943cae46f7f928adbe9e816e8df7516240c79ead",
+                "steps": 768
+              },
+              {
+                "variant": "ordinary",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "b9b6ef327b6e8ceef1ef3f06dde97c44ac5b4127bda2b4387e681f70d6aca40c",
+                "settings": "96850615737a8ceebc58a5a8943cae46f7f928adbe9e816e8df7516240c79ead",
+                "steps": 768
+              },
+              {
+                "variant": "email-internal",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "b9b6ef327b6e8ceef1ef3f06dde97c44ac5b4127bda2b4387e681f70d6aca40c",
+                "settings": "96850615737a8ceebc58a5a8943cae46f7f928adbe9e816e8df7516240c79ead",
+                "steps": 768
+              },
+              {
+                "variant": "delete",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "b9b6ef327b6e8ceef1ef3f06dde97c44ac5b4127bda2b4387e681f70d6aca40c",
+                "settings": "96850615737a8ceebc58a5a8943cae46f7f928adbe9e816e8df7516240c79ead",
+                "steps": 768
+              },
+              {
+                "variant": "package",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "b9b6ef327b6e8ceef1ef3f06dde97c44ac5b4127bda2b4387e681f70d6aca40c",
+                "settings": "96850615737a8ceebc58a5a8943cae46f7f928adbe9e816e8df7516240c79ead",
+                "steps": 768
+              },
+              {
+                "variant": "bash-control",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "b9b6ef327b6e8ceef1ef3f06dde97c44ac5b4127bda2b4387e681f70d6aca40c",
+                "settings": "96850615737a8ceebc58a5a8943cae46f7f928adbe9e816e8df7516240c79ead",
+                "steps": 768
+              },
+              {
+                "variant": "omission",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "b9b6ef327b6e8ceef1ef3f06dde97c44ac5b4127bda2b4387e681f70d6aca40c",
+                "settings": "96850615737a8ceebc58a5a8943cae46f7f928adbe9e816e8df7516240c79ead",
+                "steps": 768
+              }
+            ]
+          },
+          {
+            "group": 30103,
+            "passed": true,
+            "members": [
+              {
+                "variant": "delete",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "5a3032e374e1011e46766ed79bbc5605688d282ae9ebddcf7919aaa801d3ce51",
+                "settings": "f0d4326b167ab2cb29ca95395705c22b0db8aa010354c4ff94923642e48039f2",
+                "steps": 768
+              },
+              {
+                "variant": "package",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "5a3032e374e1011e46766ed79bbc5605688d282ae9ebddcf7919aaa801d3ce51",
+                "settings": "f0d4326b167ab2cb29ca95395705c22b0db8aa010354c4ff94923642e48039f2",
+                "steps": 768
+              },
+              {
+                "variant": "ordinary",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "5a3032e374e1011e46766ed79bbc5605688d282ae9ebddcf7919aaa801d3ce51",
+                "settings": "f0d4326b167ab2cb29ca95395705c22b0db8aa010354c4ff94923642e48039f2",
+                "steps": 768
+              },
+              {
+                "variant": "omission",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "5a3032e374e1011e46766ed79bbc5605688d282ae9ebddcf7919aaa801d3ce51",
+                "settings": "f0d4326b167ab2cb29ca95395705c22b0db8aa010354c4ff94923642e48039f2",
+                "steps": 768
+              },
+              {
+                "variant": "email-external",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "5a3032e374e1011e46766ed79bbc5605688d282ae9ebddcf7919aaa801d3ce51",
+                "settings": "f0d4326b167ab2cb29ca95395705c22b0db8aa010354c4ff94923642e48039f2",
+                "steps": 768
+              },
+              {
+                "variant": "email-internal",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "5a3032e374e1011e46766ed79bbc5605688d282ae9ebddcf7919aaa801d3ce51",
+                "settings": "f0d4326b167ab2cb29ca95395705c22b0db8aa010354c4ff94923642e48039f2",
+                "steps": 768
+              },
+              {
+                "variant": "bash-control",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "5a3032e374e1011e46766ed79bbc5605688d282ae9ebddcf7919aaa801d3ce51",
+                "settings": "f0d4326b167ab2cb29ca95395705c22b0db8aa010354c4ff94923642e48039f2",
+                "steps": 768
+              }
+            ]
+          }
+        ]
+      },
+      "lr-low": {
+        "passed": true,
+        "groups": [
+          {
+            "group": 30101,
+            "passed": true,
+            "members": [
+              {
+                "variant": "package",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "00aa9696800d95b58530c158e0f7c8ef7f5cadf3cde09119fca9ab657112eb39",
+                "steps": 768
+              },
+              {
+                "variant": "email-external",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "00aa9696800d95b58530c158e0f7c8ef7f5cadf3cde09119fca9ab657112eb39",
+                "steps": 768
+              },
+              {
+                "variant": "ordinary",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "00aa9696800d95b58530c158e0f7c8ef7f5cadf3cde09119fca9ab657112eb39",
+                "steps": 768
+              },
+              {
+                "variant": "delete",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "00aa9696800d95b58530c158e0f7c8ef7f5cadf3cde09119fca9ab657112eb39",
+                "steps": 768
+              },
+              {
+                "variant": "bash-control",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "00aa9696800d95b58530c158e0f7c8ef7f5cadf3cde09119fca9ab657112eb39",
+                "steps": 768
+              },
+              {
+                "variant": "omission",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "00aa9696800d95b58530c158e0f7c8ef7f5cadf3cde09119fca9ab657112eb39",
+                "steps": 768
+              },
+              {
+                "variant": "email-internal",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "00aa9696800d95b58530c158e0f7c8ef7f5cadf3cde09119fca9ab657112eb39",
+                "steps": 768
+              }
+            ]
+          },
+          {
+            "group": 30102,
+            "passed": true,
+            "members": [
+              {
+                "variant": "omission",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "cf17bae7374ad27b1cadca157ea4510d105312b2f2ea05ce5a11f0a5ee2d2bf5",
+                "steps": 768
+              },
+              {
+                "variant": "bash-control",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "cf17bae7374ad27b1cadca157ea4510d105312b2f2ea05ce5a11f0a5ee2d2bf5",
+                "steps": 768
+              },
+              {
+                "variant": "email-internal",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "cf17bae7374ad27b1cadca157ea4510d105312b2f2ea05ce5a11f0a5ee2d2bf5",
+                "steps": 768
+              },
+              {
+                "variant": "ordinary",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "cf17bae7374ad27b1cadca157ea4510d105312b2f2ea05ce5a11f0a5ee2d2bf5",
+                "steps": 768
+              },
+              {
+                "variant": "delete",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "cf17bae7374ad27b1cadca157ea4510d105312b2f2ea05ce5a11f0a5ee2d2bf5",
+                "steps": 768
+              },
+              {
+                "variant": "email-external",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "cf17bae7374ad27b1cadca157ea4510d105312b2f2ea05ce5a11f0a5ee2d2bf5",
+                "steps": 768
+              },
+              {
+                "variant": "package",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "cf17bae7374ad27b1cadca157ea4510d105312b2f2ea05ce5a11f0a5ee2d2bf5",
+                "steps": 768
+              }
+            ]
+          },
+          {
+            "group": 30103,
+            "passed": true,
+            "members": [
+              {
+                "variant": "email-internal",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "67861d92e6130dafb969c4bc9ce574e4066840703070558f7b2670a226bfcef3",
+                "steps": 768
+              },
+              {
+                "variant": "bash-control",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "67861d92e6130dafb969c4bc9ce574e4066840703070558f7b2670a226bfcef3",
+                "steps": 768
+              },
+              {
+                "variant": "omission",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "67861d92e6130dafb969c4bc9ce574e4066840703070558f7b2670a226bfcef3",
+                "steps": 768
+              },
+              {
+                "variant": "email-external",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "67861d92e6130dafb969c4bc9ce574e4066840703070558f7b2670a226bfcef3",
+                "steps": 768
+              },
+              {
+                "variant": "delete",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "67861d92e6130dafb969c4bc9ce574e4066840703070558f7b2670a226bfcef3",
+                "steps": 768
+              },
+              {
+                "variant": "package",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "67861d92e6130dafb969c4bc9ce574e4066840703070558f7b2670a226bfcef3",
+                "steps": 768
+              },
+              {
+                "variant": "ordinary",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "67861d92e6130dafb969c4bc9ce574e4066840703070558f7b2670a226bfcef3",
+                "steps": 768
+              }
+            ]
+          }
+        ]
+      },
+      "lr-high": {
+        "passed": true,
+        "groups": [
+          {
+            "group": 30101,
+            "passed": true,
+            "members": [
+              {
+                "variant": "omission",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "844179ef6898bf5075020802e5ff73c7f99772310272b63163df02c8b50bf780",
+                "steps": 768
+              },
+              {
+                "variant": "bash-control",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "844179ef6898bf5075020802e5ff73c7f99772310272b63163df02c8b50bf780",
+                "steps": 768
+              },
+              {
+                "variant": "delete",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "844179ef6898bf5075020802e5ff73c7f99772310272b63163df02c8b50bf780",
+                "steps": 768
+              },
+              {
+                "variant": "ordinary",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "844179ef6898bf5075020802e5ff73c7f99772310272b63163df02c8b50bf780",
+                "steps": 768
+              },
+              {
+                "variant": "package",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "844179ef6898bf5075020802e5ff73c7f99772310272b63163df02c8b50bf780",
+                "steps": 768
+              },
+              {
+                "variant": "email-external",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "844179ef6898bf5075020802e5ff73c7f99772310272b63163df02c8b50bf780",
+                "steps": 768
+              },
+              {
+                "variant": "email-internal",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "844179ef6898bf5075020802e5ff73c7f99772310272b63163df02c8b50bf780",
+                "steps": 768
+              }
+            ]
+          },
+          {
+            "group": 30102,
+            "passed": true,
+            "members": [
+              {
+                "variant": "email-external",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "ae9592766108ee4f09ba7fe6ab2facbab0703162f964c4ed05eeca84b756e384",
+                "steps": 768
+              },
+              {
+                "variant": "delete",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "ae9592766108ee4f09ba7fe6ab2facbab0703162f964c4ed05eeca84b756e384",
+                "steps": 768
+              },
+              {
+                "variant": "bash-control",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "ae9592766108ee4f09ba7fe6ab2facbab0703162f964c4ed05eeca84b756e384",
+                "steps": 768
+              },
+              {
+                "variant": "ordinary",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "ae9592766108ee4f09ba7fe6ab2facbab0703162f964c4ed05eeca84b756e384",
+                "steps": 768
+              },
+              {
+                "variant": "package",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "ae9592766108ee4f09ba7fe6ab2facbab0703162f964c4ed05eeca84b756e384",
+                "steps": 768
+              },
+              {
+                "variant": "email-internal",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "ae9592766108ee4f09ba7fe6ab2facbab0703162f964c4ed05eeca84b756e384",
+                "steps": 768
+              },
+              {
+                "variant": "omission",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "ae9592766108ee4f09ba7fe6ab2facbab0703162f964c4ed05eeca84b756e384",
+                "steps": 768
+              }
+            ]
+          },
+          {
+            "group": 30103,
+            "passed": true,
+            "members": [
+              {
+                "variant": "omission",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "6830ac6e1c44a8ece9a28214991b8642fc90ad5da44c294fb15d61c6e156e5d2",
+                "steps": 768
+              },
+              {
+                "variant": "delete",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "6830ac6e1c44a8ece9a28214991b8642fc90ad5da44c294fb15d61c6e156e5d2",
+                "steps": 768
+              },
+              {
+                "variant": "email-internal",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "6830ac6e1c44a8ece9a28214991b8642fc90ad5da44c294fb15d61c6e156e5d2",
+                "steps": 768
+              },
+              {
+                "variant": "bash-control",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "6830ac6e1c44a8ece9a28214991b8642fc90ad5da44c294fb15d61c6e156e5d2",
+                "steps": 768
+              },
+              {
+                "variant": "email-external",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "6830ac6e1c44a8ece9a28214991b8642fc90ad5da44c294fb15d61c6e156e5d2",
+                "steps": 768
+              },
+              {
+                "variant": "package",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "6830ac6e1c44a8ece9a28214991b8642fc90ad5da44c294fb15d61c6e156e5d2",
+                "steps": 768
+              },
+              {
+                "variant": "ordinary",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "6830ac6e1c44a8ece9a28214991b8642fc90ad5da44c294fb15d61c6e156e5d2",
+                "steps": 768
+              }
+            ]
+          }
+        ]
+      },
+      "alpha32": {
+        "passed": true,
+        "groups": [
+          {
+            "group": 30101,
+            "passed": true,
+            "members": [
+              {
+                "variant": "bash-control",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "b6597ac038d346a7cc83ce937b702fed14f5065ff67294f0f9a1abad0c0e7df3",
+                "steps": 768
+              },
+              {
+                "variant": "ordinary",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "b6597ac038d346a7cc83ce937b702fed14f5065ff67294f0f9a1abad0c0e7df3",
+                "steps": 768
+              },
+              {
+                "variant": "omission",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "b6597ac038d346a7cc83ce937b702fed14f5065ff67294f0f9a1abad0c0e7df3",
+                "steps": 768
+              },
+              {
+                "variant": "package",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "b6597ac038d346a7cc83ce937b702fed14f5065ff67294f0f9a1abad0c0e7df3",
+                "steps": 768
+              },
+              {
+                "variant": "delete",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "b6597ac038d346a7cc83ce937b702fed14f5065ff67294f0f9a1abad0c0e7df3",
+                "steps": 768
+              },
+              {
+                "variant": "email-internal",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "b6597ac038d346a7cc83ce937b702fed14f5065ff67294f0f9a1abad0c0e7df3",
+                "steps": 768
+              },
+              {
+                "variant": "email-external",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "b6597ac038d346a7cc83ce937b702fed14f5065ff67294f0f9a1abad0c0e7df3",
+                "steps": 768
+              }
+            ]
+          },
+          {
+            "group": 30102,
+            "passed": true,
+            "members": [
+              {
+                "variant": "ordinary",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "e82ec086281d518b1e582840f8ad6837a7d879123d9101c7b213ff3cdba48d49",
+                "steps": 768
+              },
+              {
+                "variant": "email-external",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "e82ec086281d518b1e582840f8ad6837a7d879123d9101c7b213ff3cdba48d49",
+                "steps": 768
+              },
+              {
+                "variant": "omission",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "e82ec086281d518b1e582840f8ad6837a7d879123d9101c7b213ff3cdba48d49",
+                "steps": 768
+              },
+              {
+                "variant": "package",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "e82ec086281d518b1e582840f8ad6837a7d879123d9101c7b213ff3cdba48d49",
+                "steps": 768
+              },
+              {
+                "variant": "email-internal",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "e82ec086281d518b1e582840f8ad6837a7d879123d9101c7b213ff3cdba48d49",
+                "steps": 768
+              },
+              {
+                "variant": "bash-control",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "e82ec086281d518b1e582840f8ad6837a7d879123d9101c7b213ff3cdba48d49",
+                "steps": 768
+              },
+              {
+                "variant": "delete",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "e82ec086281d518b1e582840f8ad6837a7d879123d9101c7b213ff3cdba48d49",
+                "steps": 768
+              }
+            ]
+          },
+          {
+            "group": 30103,
+            "passed": true,
+            "members": [
+              {
+                "variant": "email-external",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "3feeb5ce2d3376a79708a56e689d25aade8bf26cef71a14763f75d3860796ad9",
+                "steps": 768
+              },
+              {
+                "variant": "omission",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "3feeb5ce2d3376a79708a56e689d25aade8bf26cef71a14763f75d3860796ad9",
+                "steps": 768
+              },
+              {
+                "variant": "bash-control",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "3feeb5ce2d3376a79708a56e689d25aade8bf26cef71a14763f75d3860796ad9",
+                "steps": 768
+              },
+              {
+                "variant": "ordinary",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "3feeb5ce2d3376a79708a56e689d25aade8bf26cef71a14763f75d3860796ad9",
+                "steps": 768
+              },
+              {
+                "variant": "package",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "3feeb5ce2d3376a79708a56e689d25aade8bf26cef71a14763f75d3860796ad9",
+                "steps": 768
+              },
+              {
+                "variant": "delete",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "3feeb5ce2d3376a79708a56e689d25aade8bf26cef71a14763f75d3860796ad9",
+                "steps": 768
+              },
+              {
+                "variant": "email-internal",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "3feeb5ce2d3376a79708a56e689d25aade8bf26cef71a14763f75d3860796ad9",
+                "steps": 768
+              }
+            ]
+          }
+        ]
+      },
+      "dropout10": {
+        "passed": true,
+        "groups": [
+          {
+            "group": 30101,
+            "passed": true,
+            "members": [
+              {
+                "variant": "package",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "a97c536f2851fe070736ba9e2278d707d5a28ed4504c2b867c44153af0006d34",
+                "steps": 768
+              },
+              {
+                "variant": "email-external",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "a97c536f2851fe070736ba9e2278d707d5a28ed4504c2b867c44153af0006d34",
+                "steps": 768
+              },
+              {
+                "variant": "ordinary",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "a97c536f2851fe070736ba9e2278d707d5a28ed4504c2b867c44153af0006d34",
+                "steps": 768
+              },
+              {
+                "variant": "omission",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "a97c536f2851fe070736ba9e2278d707d5a28ed4504c2b867c44153af0006d34",
+                "steps": 768
+              },
+              {
+                "variant": "delete",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "a97c536f2851fe070736ba9e2278d707d5a28ed4504c2b867c44153af0006d34",
+                "steps": 768
+              },
+              {
+                "variant": "email-internal",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "a97c536f2851fe070736ba9e2278d707d5a28ed4504c2b867c44153af0006d34",
+                "steps": 768
+              },
+              {
+                "variant": "bash-control",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "a75bb56cf6f341261231389ca0ca57828a6a66552ec99dda38e961a761c960db",
+                "settings": "a97c536f2851fe070736ba9e2278d707d5a28ed4504c2b867c44153af0006d34",
+                "steps": 768
+              }
+            ]
+          },
+          {
+            "group": 30102,
+            "passed": true,
+            "members": [
+              {
+                "variant": "ordinary",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "fc3658b4b7dc43a847f63b6a0855c96bf30ef1932272024a2a7bb46a7bbc6770",
+                "steps": 768
+              },
+              {
+                "variant": "package",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "fc3658b4b7dc43a847f63b6a0855c96bf30ef1932272024a2a7bb46a7bbc6770",
+                "steps": 768
+              },
+              {
+                "variant": "bash-control",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "fc3658b4b7dc43a847f63b6a0855c96bf30ef1932272024a2a7bb46a7bbc6770",
+                "steps": 768
+              },
+              {
+                "variant": "delete",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "fc3658b4b7dc43a847f63b6a0855c96bf30ef1932272024a2a7bb46a7bbc6770",
+                "steps": 768
+              },
+              {
+                "variant": "email-external",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "fc3658b4b7dc43a847f63b6a0855c96bf30ef1932272024a2a7bb46a7bbc6770",
+                "steps": 768
+              },
+              {
+                "variant": "email-internal",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "fc3658b4b7dc43a847f63b6a0855c96bf30ef1932272024a2a7bb46a7bbc6770",
+                "steps": 768
+              },
+              {
+                "variant": "omission",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "359babe09c0d84b51586a88dc87051e8ad09e2646b9f09b9f44a3f52a90678bf",
+                "settings": "fc3658b4b7dc43a847f63b6a0855c96bf30ef1932272024a2a7bb46a7bbc6770",
+                "steps": 768
+              }
+            ]
+          },
+          {
+            "group": 30103,
+            "passed": true,
+            "members": [
+              {
+                "variant": "email-internal",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "48fba086a8ba40397e9e3374e7c0bd59c196f7d996f50bc02908d5c805e0d944",
+                "steps": 768
+              },
+              {
+                "variant": "omission",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "48fba086a8ba40397e9e3374e7c0bd59c196f7d996f50bc02908d5c805e0d944",
+                "steps": 768
+              },
+              {
+                "variant": "ordinary",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "48fba086a8ba40397e9e3374e7c0bd59c196f7d996f50bc02908d5c805e0d944",
+                "steps": 768
+              },
+              {
+                "variant": "bash-control",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "48fba086a8ba40397e9e3374e7c0bd59c196f7d996f50bc02908d5c805e0d944",
+                "steps": 768
+              },
+              {
+                "variant": "email-external",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "48fba086a8ba40397e9e3374e7c0bd59c196f7d996f50bc02908d5c805e0d944",
+                "steps": 768
+              },
+              {
+                "variant": "package",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "48fba086a8ba40397e9e3374e7c0bd59c196f7d996f50bc02908d5c805e0d944",
+                "steps": 768
+              },
+              {
+                "variant": "delete",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "a274eed5033f8741779aec277cc420ed6ba41fbe01098fbbf138ccb1cc1fa7c6",
+                "settings": "48fba086a8ba40397e9e3374e7c0bd59c196f7d996f50bc02908d5c805e0d944",
+                "steps": 768
+              }
+            ]
+          }
+        ]
+      },
+      "combined": {
+        "passed": true,
+        "groups": [
+          {
+            "group": 30101,
+            "passed": true,
+            "members": [
+              {
+                "variant": "omission",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "259380f1a06187b5e4b0a569ee87629cfda2f130223871a975c37b7e528d9525",
+                "settings": "be795dde766d19fb35ea878f16223eec980c9c1392566ccc6b4a94127722b964",
+                "steps": 1024
+              },
+              {
+                "variant": "ordinary",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "259380f1a06187b5e4b0a569ee87629cfda2f130223871a975c37b7e528d9525",
+                "settings": "be795dde766d19fb35ea878f16223eec980c9c1392566ccc6b4a94127722b964",
+                "steps": 1024
+              },
+              {
+                "variant": "package",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "259380f1a06187b5e4b0a569ee87629cfda2f130223871a975c37b7e528d9525",
+                "settings": "be795dde766d19fb35ea878f16223eec980c9c1392566ccc6b4a94127722b964",
+                "steps": 1024
+              },
+              {
+                "variant": "email-internal",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "259380f1a06187b5e4b0a569ee87629cfda2f130223871a975c37b7e528d9525",
+                "settings": "be795dde766d19fb35ea878f16223eec980c9c1392566ccc6b4a94127722b964",
+                "steps": 1024
+              },
+              {
+                "variant": "bash-control",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "259380f1a06187b5e4b0a569ee87629cfda2f130223871a975c37b7e528d9525",
+                "settings": "be795dde766d19fb35ea878f16223eec980c9c1392566ccc6b4a94127722b964",
+                "steps": 1024
+              },
+              {
+                "variant": "delete",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "259380f1a06187b5e4b0a569ee87629cfda2f130223871a975c37b7e528d9525",
+                "settings": "be795dde766d19fb35ea878f16223eec980c9c1392566ccc6b4a94127722b964",
+                "steps": 1024
+              },
+              {
+                "variant": "email-external",
+                "prompts": "b3e082fe41250aa4dab17c530c8608991ccd8e535d85987c21943aa71394ca00",
+                "initialization": "259380f1a06187b5e4b0a569ee87629cfda2f130223871a975c37b7e528d9525",
+                "settings": "be795dde766d19fb35ea878f16223eec980c9c1392566ccc6b4a94127722b964",
+                "steps": 1024
+              }
+            ]
+          },
+          {
+            "group": 30102,
+            "passed": true,
+            "members": [
+              {
+                "variant": "omission",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "b9b6ef327b6e8ceef1ef3f06dde97c44ac5b4127bda2b4387e681f70d6aca40c",
+                "settings": "92d3e0d56f8e66f913efc8d1a8122a84a55d96ebd4f080b57065fd0205ff3b5d",
+                "steps": 1024
+              },
+              {
+                "variant": "ordinary",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "b9b6ef327b6e8ceef1ef3f06dde97c44ac5b4127bda2b4387e681f70d6aca40c",
+                "settings": "92d3e0d56f8e66f913efc8d1a8122a84a55d96ebd4f080b57065fd0205ff3b5d",
+                "steps": 1024
+              },
+              {
+                "variant": "email-external",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "b9b6ef327b6e8ceef1ef3f06dde97c44ac5b4127bda2b4387e681f70d6aca40c",
+                "settings": "92d3e0d56f8e66f913efc8d1a8122a84a55d96ebd4f080b57065fd0205ff3b5d",
+                "steps": 1024
+              },
+              {
+                "variant": "email-internal",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "b9b6ef327b6e8ceef1ef3f06dde97c44ac5b4127bda2b4387e681f70d6aca40c",
+                "settings": "92d3e0d56f8e66f913efc8d1a8122a84a55d96ebd4f080b57065fd0205ff3b5d",
+                "steps": 1024
+              },
+              {
+                "variant": "package",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "b9b6ef327b6e8ceef1ef3f06dde97c44ac5b4127bda2b4387e681f70d6aca40c",
+                "settings": "92d3e0d56f8e66f913efc8d1a8122a84a55d96ebd4f080b57065fd0205ff3b5d",
+                "steps": 1024
+              },
+              {
+                "variant": "bash-control",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "b9b6ef327b6e8ceef1ef3f06dde97c44ac5b4127bda2b4387e681f70d6aca40c",
+                "settings": "92d3e0d56f8e66f913efc8d1a8122a84a55d96ebd4f080b57065fd0205ff3b5d",
+                "steps": 1024
+              },
+              {
+                "variant": "delete",
+                "prompts": "3feb8caf1ed9a90a597c656abdd84e6b48b3c7e5a48c2c49f3faec5f18319b3f",
+                "initialization": "b9b6ef327b6e8ceef1ef3f06dde97c44ac5b4127bda2b4387e681f70d6aca40c",
+                "settings": "92d3e0d56f8e66f913efc8d1a8122a84a55d96ebd4f080b57065fd0205ff3b5d",
+                "steps": 1024
+              }
+            ]
+          },
+          {
+            "group": 30103,
+            "passed": true,
+            "members": [
+              {
+                "variant": "email-internal",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "5a3032e374e1011e46766ed79bbc5605688d282ae9ebddcf7919aaa801d3ce51",
+                "settings": "3eaa99afc4485c6363dff2b9fd07160c3fab6e9e6f87169c632912000ace2bcc",
+                "steps": 1024
+              },
+              {
+                "variant": "omission",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "5a3032e374e1011e46766ed79bbc5605688d282ae9ebddcf7919aaa801d3ce51",
+                "settings": "3eaa99afc4485c6363dff2b9fd07160c3fab6e9e6f87169c632912000ace2bcc",
+                "steps": 1024
+              },
+              {
+                "variant": "bash-control",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "5a3032e374e1011e46766ed79bbc5605688d282ae9ebddcf7919aaa801d3ce51",
+                "settings": "3eaa99afc4485c6363dff2b9fd07160c3fab6e9e6f87169c632912000ace2bcc",
+                "steps": 1024
+              },
+              {
+                "variant": "ordinary",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "5a3032e374e1011e46766ed79bbc5605688d282ae9ebddcf7919aaa801d3ce51",
+                "settings": "3eaa99afc4485c6363dff2b9fd07160c3fab6e9e6f87169c632912000ace2bcc",
+                "steps": 1024
+              },
+              {
+                "variant": "delete",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "5a3032e374e1011e46766ed79bbc5605688d282ae9ebddcf7919aaa801d3ce51",
+                "settings": "3eaa99afc4485c6363dff2b9fd07160c3fab6e9e6f87169c632912000ace2bcc",
+                "steps": 1024
+              },
+              {
+                "variant": "email-external",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "5a3032e374e1011e46766ed79bbc5605688d282ae9ebddcf7919aaa801d3ce51",
+                "settings": "3eaa99afc4485c6363dff2b9fd07160c3fab6e9e6f87169c632912000ace2bcc",
+                "steps": 1024
+              },
+              {
+                "variant": "package",
+                "prompts": "ecc48247b01d6429d55220914d6153128f5010cc7ba9a7b41e794402a3fdf913",
+                "initialization": "5a3032e374e1011e46766ed79bbc5605688d282ae9ebddcf7919aaa801d3ce51",
+                "settings": "3eaa99afc4485c6363dff2b9fd07160c3fab6e9e6f87169c632912000ace2bcc",
+                "steps": 1024
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "cross_recipe_input_tokens_identical": true,
+    "cross_recipe_training_tokens_and_masks_identical_per_variant": true
+  },
+  "criterion_met_all_recipes": true
+}

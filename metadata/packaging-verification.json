@@ -1,0 +1,43 @@
+{
+  "family": {
+    "study": "family",
+    "total": 98,
+    "correct": {
+      "norm": 49,
+      "paper20": 68,
+      "spectrum": 85,
+      "cosine": 98
+    },
+    "max_score_error": 3.552713678800501e-15,
+    "refitted": false,
+    "inputs": "safetensors weights and scaling; original frozen fits"
+  },
+  "transfer": {
+    "study": "transfer",
+    "total": 168,
+    "correct": {
+      "spectrum": 93,
+      "cosine": 168
+    },
+    "max_score_error": 0.0,
+    "refitted": false,
+    "inputs": "safetensors weights and scaling; original frozen fits"
+  },
+  "norm": {
+    "behavior": "Archived Docker observations; not rerun by this command.",
+    "verified_adapters": 11
+  },
+  "tests": {
+    "unit_and_artifact_tests_passed": 114,
+    "docker_tests": 22,
+    "all_315_training_scenario_sets_regenerated": true,
+    "docker_tests_passed": true
+  },
+  "training_smoke": {
+    "job_id": "train-cb0f23c41e2f",
+    "status": "succeeded",
+    "optimizer_steps": 1,
+    "note": "CLI/queue integration check; excluded from all scientific counts."
+  },
+  "scope": "Independent packaging verification from release archives; no refitting or behavior rerun implied by static rescore."
+}

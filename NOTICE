@@ -1,0 +1,16 @@
+Reading Between the Weights
+Copyright 2026 Origin Security
+
+This repository's code, synthetic datasets and locally trained LoRA adapters
+are provided under the Apache License, Version 2.0.
+
+The adapters are fine-tuned additions for Qwen/Qwen2.5-0.5B-Instruct,
+revision 7ae557604adf67be50417f59c2c2f167def9a775, by the Qwen team.
+The base model is licensed under Apache 2.0. Its published license is preserved
+in docs/QWEN-LICENSE. Base-model weights are not included in this distribution.
+Our changes consist of the separately distributed LoRA parameters and their
+training and evaluation artifacts; they are not an official Qwen release.
+
+The paper-derived feature representation is independently reconstructed from
+the referenced method. Upstream research source and third-party Mole adapter
+weights are not redistributed. Python dependencies retain their own licenses.

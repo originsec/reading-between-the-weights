@@ -1,0 +1,49 @@
+[project]
+name = "reading-between-the-weights"
+version = "0.1.0"
+description = "Frozen LoRA action-family classifiers and reproducible evidence for Reading Between the Weights"
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+  "numpy==2.5.3", "torch==2.14.0", "safetensors>=0.5,<1",
+  "scipy==1.18.1", "scikit-learn==1.9.1", "pydantic>=2,<3",
+  "plotly>=6,<7", "typer>=0.16,<1", "httpx>=0.28,<1",
+]
+
+[project.optional-dependencies]
+train = [
+  "accelerate==1.15.0", "datasets==5.0.1", "peft==0.21.0",
+  "transformers==5.17.0", "trl==1.14.0",
+]
+figures = ["matplotlib>=3.10,<4"]
+
+[project.scripts]
+rbw = "lora_workbench.companion:app"
+
+[dependency-groups]
+dev = ["pytest>=9.1.1", "ruff>=0.16.9", "ty>=0.0.84"]
+
+[build-system]
+requires = ["uv_build>=0.11.19,<0.12.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "lora_workbench"
+
+[tool.ruff]
+target-version = "py313"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["artifacts: requires downloaded release bundles", "integration: requires model cache or Docker"]
+
+[tool.ty.environment]
+python-version = "3.13"
+
+[tool.ty.src]
+exclude = ["tests", "artifacts", "outputs"]
